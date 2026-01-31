@@ -85,10 +85,65 @@
             gap: 0.5rem;
         }
 
-        .trend-up {
-            color: #10b981;
-            font-weight: 500;
+        /* Economic Indicators Styles */
+        .indicator-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 0 0;
         }
+
+        .indicator-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        .indicator-item:last-child {
+            border-bottom: none;
+        }
+
+        .indicator-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .indicator-label {
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-primary);
+        }
+
+        .indicator-date {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .indicator-value {
+            font-size: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .status-positive { color: #10b981; }
+        .status-negative { color: #ef4444; }
+        .status-neutral { color: #64748b; }
+
+        .trend-up::before { content: "↑"; }
+        .trend-down::before { content: "↓"; }
+
+        .trend-up, .trend-down {
+            font-weight: 600;
+        }
+
+        .trend-up { color: #10b981; }
+        .trend-down { color: #ef4444; }
+
+        .trend-up-bad { color: #ef4444; } /* For jobless claims up */
+        .trend-down-good { color: #10b981; } /* For jobless claims down */
 
         .loader {
             width: 20px;
@@ -127,6 +182,52 @@
             </div>
         </div>
         
+        <!-- Economic Indicators Card -->
+        <div class="card" id="economic-indicators-card">
+            <div class="card-header">
+                <span class="card-title">US Economic Health</span>
+                <span class="indicator-date" id="econ-last-update">Jan 2026</span>
+            </div>
+            <ul class="indicator-list">
+                <li class="indicator-item">
+                    <div class="indicator-info">
+                        <span class="indicator-label">Consumer Sentiment</span>
+                        <span class="indicator-date">U. Michigan</span>
+                    </div>
+                    <div class="indicator-value status-positive">
+                        56.4 <span class="trend-up"></span>
+                    </div>
+                </li>
+                <li class="indicator-item">
+                    <div class="indicator-info">
+                        <span class="indicator-label">Initial Jobless Claims</span>
+                        <span class="indicator-date">Weekly</span>
+                    </div>
+                    <div class="indicator-value status-positive">
+                        209K <span class="trend-down-good"></span>
+                    </div>
+                </li>
+                <li class="indicator-item">
+                    <div class="indicator-info">
+                        <span class="indicator-label">Manufacturing PMI</span>
+                        <span class="indicator-date">Expansion (>50)</span>
+                    </div>
+                    <div class="indicator-value status-positive">
+                        51.9 <span class="trend-up"></span>
+                    </div>
+                </li>
+                <li class="indicator-item">
+                    <div class="indicator-info">
+                        <span class="indicator-label">Producer Price Index (PPI)</span>
+                        <span class="indicator-date">YoY Change</span>
+                    </div>
+                    <div class="indicator-value status-neutral">
+                        3.0% <span>—</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <!-- Placeholder for future information -->
         <div class="card" style="display: flex; align-items: center; justify-content: center; border: 2px dashed #e2e8f0; background: transparent; box-shadow: none;">
             <span style="color: var(--text-secondary); font-weight: 500;">+ Add Component</span>
