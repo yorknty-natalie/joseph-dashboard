@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --accent-color: #3b82f6;
+            --border-radius: 16px;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .dashboard {
+            width: 100%;
+            max-width: 1000px;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: var(--border-radius);
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .card-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .card-value {
+            font-size: 2.25rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .card-footer {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .trend-up {
+            color: #10b981;
+            font-weight: 500;
+        }
+
+        .loader {
+            width: 20px;
+            height: 20px;
+            border: 2px solid #e2e8f0;
+            border-top: 2px solid var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard">
+        <!-- Exchange Rate Card -->
+        <div class="card" id="exchange-rate-card">
+            <div class="card-header">
+                <span class="card-title">USD to TWD Rate</span>
+                <div id="loader" class="loader hidden"></div>
+            </div>
+            <div class="card-value" id="rate-value">--.--</div>
+            <div class="card-footer">
+                <span id="update-status">Fetching live data...</span>
+            </div>
+        </div>
+        
+        <!-- Placeholder for future information -->
+        <div class="card" style="display: flex; align-items: center; justify-content: center; border: 2px dashed #e2e8f0; background: transparent; box-shadow: none;">
+            <span style="color: var(--text-secondary); font-weight: 500;">+ Add Component</span>
+        </div>
+    </div>
+
+    <script>
+        async function fetchExchangeRate() {
+            const rateElement = document.getElementById('rate-value');
+            const statusElement = document.getElementById('update-status');
+            const loader = document.getElementById('loader');
+
+            loader.classList.remove('hidden');
+            
+            try {
+                // Using a public API (ExchangeRate-API)
+                const response = await fetch('https://open.er-api.com/v6/latest/USD');
+                const data = await response.json();
+                
+                if (data.result === 'success') {
+                    const twdRate = data.rates.TWD.toFixed(2);
+                    rateElement.textContent = `NT$ ${twdRate}`;
+                    statusElement.textContent = `Last updated: ${new Date().toLocaleTimeString()}`;
+                } else {
+                    throw new Error('API request failed');
+                }
+            } catch (error) {
+                console.error('Error fetching rate:', error);
+                rateElement.textContent = 'Error';
+                statusElement.textContent = 'Could not load data';
+            } finally {
+                loader.classList.add('hidden');
+            }
+        }
+
+        // Fetch immediately on load
+        fetchExchangeRate();
+
+        // Refresh every 5 minutes
+        setInterval(fetchExchangeRate, 300000);
+    </script>
+</body>
+</html>
