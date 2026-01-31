@@ -97,94 +97,33 @@
             flex-direction: column;
             padding: 1rem 0;
             border-bottom: 1px solid #f1f5f9;
-        }
-
-        .indicator-main {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
-        }
-
-        .indicator-details {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.75rem;
-            margin-top: 0.75rem;
-            padding: 0.75rem;
-            background-color: #f8fafc;
-            border-radius: 8px;
-            font-size: 0.75rem;
-        }
-
-        .detail-block {
-            display: flex;
-            flex-direction: column;
-            gap: 0.25rem;
-        }
-
-        .detail-label {
-            color: var(--text-secondary);
-            font-weight: 500;
-        }
-
-        .detail-value {
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-
-        .history-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 0.2rem;
-        }
-
-        .status-dot {
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            display: inline-block;
-            margin-right: 4px;
-        }
-
-        .dot-green { background-color: #10b981; }
-        .dot-red { background-color: #ef4444; }
-        .dot-gray { background-color: #94a3b8; }
-
-        .indicator-info {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 0.5rem;
+            gap: 0.4rem;
         }
 
         .indicator-label {
             font-size: 0.875rem;
-            font-weight: 500;
+            font-weight: 600;
             color: var(--text-primary);
-            white-space: nowrap;
         }
 
-        .next-release-tag {
-            font-size: 0.7rem;
-            background-color: #eff6ff;
-            color: #2563eb;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-weight: 600;
-            white-space: nowrap;
+        .indicator-row {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .indicator-date {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            min-width: 50px;
         }
 
         .indicator-value {
-            font-size: 1rem;
+            font-size: 0.9rem;
             font-weight: 700;
             display: flex;
             align-items: center;
             gap: 0.25rem;
-            white-space: nowrap;
         }
 
         .expected-value {
@@ -192,6 +131,32 @@
             font-weight: 400;
             font-size: 0.875rem;
         }
+
+        .next-release-text {
+            font-size: 0.7rem;
+            color: #2563eb;
+            font-weight: 600;
+        }
+
+        .indicator-history {
+            margin-top: 0.4rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+            padding-top: 0.4rem;
+            border-top: 1px dashed #e2e8f0;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+
+        .dot-green { background-color: #10b981; }
+        .dot-red { background-color: #ef4444; }
+        .dot-gray { background-color: #94a3b8; }
 
         .status-positive { color: #10b981; }
         .status-negative { color: #ef4444; }
@@ -256,66 +221,78 @@
             <div class="indicator-list">
                 <!-- Consumer Sentiment -->
                 <div class="indicator-item">
-                    <div class="indicator-main">
-                        <div class="indicator-info">
-                            <span class="indicator-label">Consumer Sentiment</span>
-                            <span class="next-release-tag">Next: Feb 13</span>
-                        </div>
+                    <div class="indicator-label">Consumer Sentiment</div>
+                    <div class="indicator-row">
+                        <span class="indicator-date">Jan 31</span>
                         <div class="indicator-value status-positive">
                             <span class="status-dot dot-green"></span> 56.4 <span class="expected-value">/ 54.0</span>
                         </div>
                     </div>
-                    <div class="indicator-details">
-                        <div class="detail-block">
-                            <span class="detail-label">Previous 2</span>
-                            <ul class="history-list">
-                                <li>52.9 (Dec 31)</li>
-                                <li>51.5 (Nov 30)</li>
-                            </ul>
+                    <div class="next-release-text">Next: Feb 13</div>
+                    <div class="indicator-history">
+                        <div class="indicator-row">
+                            <span class="indicator-date">Dec 31</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 52.9 <span class="expected-value">/ 52.0</span>
+                            </div>
+                        </div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Nov 30</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 51.5 <span class="expected-value">/ 51.0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Initial Jobless Claims -->
                 <div class="indicator-item">
-                    <div class="indicator-main">
-                        <div class="indicator-info">
-                            <span class="indicator-label">Initial Jobless Claims</span>
-                            <span class="next-release-tag">Next: Feb 05</span>
-                        </div>
+                    <div class="indicator-label">Initial Jobless Claims</div>
+                    <div class="indicator-row">
+                        <span class="indicator-date">Jan 24</span>
                         <div class="indicator-value status-negative">
                             <span class="status-dot dot-red"></span> 209K <span class="expected-value">/ 205K</span>
                         </div>
                     </div>
-                    <div class="indicator-details">
-                        <div class="detail-block">
-                            <span class="detail-label">Previous 2</span>
-                            <ul class="history-list">
-                                <li>210K (Jan 22)</li>
-                                <li>208K (Jan 15)</li>
-                            </ul>
+                    <div class="next-release-text">Next: Feb 05</div>
+                    <div class="indicator-history">
+                        <div class="indicator-row">
+                            <span class="indicator-date">Jan 22</span>
+                            <div class="indicator-value status-negative">
+                                <span class="status-dot dot-red"></span> 210K <span class="expected-value">/ 208K</span>
+                            </div>
+                        </div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Jan 15</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 208K <span class="expected-value">/ 210K</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Manufacturing PMI -->
                 <div class="indicator-item">
-                    <div class="indicator-main">
-                        <div class="indicator-info">
-                            <span class="indicator-label">Manufacturing PMI</span>
-                            <span class="next-release-tag">Next: Feb 02</span>
-                        </div>
+                    <div class="indicator-label">Manufacturing PMI</div>
+                    <div class="indicator-row">
+                        <span class="indicator-date">Jan 26</span>
                         <div class="indicator-value status-positive">
                             <span class="status-dot dot-green"></span> 51.9 <span class="expected-value">/ 51.0</span>
                         </div>
                     </div>
-                    <div class="indicator-details">
-                        <div class="detail-block">
-                            <span class="detail-label">Previous 2</span>
-                            <ul class="history-list">
-                                <li>50.8 (Dec 01)</li>
-                                <li>50.2 (Nov 03)</li>
-                            </ul>
+                    <div class="next-release-text">Next: Feb 02</div>
+                    <div class="indicator-history">
+                        <div class="indicator-row">
+                            <span class="indicator-date">Dec 01</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 50.8 <span class="expected-value">/ 50.5</span>
+                            </div>
+                        </div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Nov 03</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 50.2 <span class="expected-value">/ 50.0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -331,66 +308,78 @@
             <div class="indicator-list">
                 <!-- Redbook Index -->
                 <div class="indicator-item">
-                    <div class="indicator-main">
-                        <div class="indicator-info">
-                            <span class="indicator-label">Redbook Index (YoY)</span>
-                            <span class="next-release-tag">Next: Feb 03</span>
-                        </div>
+                    <div class="indicator-label">Redbook Index (YoY)</div>
+                    <div class="indicator-row">
+                        <span class="indicator-date">Jan 24</span>
                         <div class="indicator-value status-positive">
                             <span class="status-dot dot-green"></span> 7.1% <span class="expected-value">/ 6.5%</span>
                         </div>
                     </div>
-                    <div class="indicator-details">
-                        <div class="detail-block">
-                            <span class="detail-label">Previous 2</span>
-                            <ul class="history-list">
-                                <li>5.5% (Jan 20)</li>
-                                <li>5.2% (Jan 13)</li>
-                            </ul>
+                    <div class="next-release-text">Next: Feb 03</div>
+                    <div class="indicator-history">
+                        <div class="indicator-row">
+                            <span class="indicator-date">Jan 20</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 5.5% <span class="expected-value">/ 5.0%</span>
+                            </div>
+                        </div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Jan 13</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 5.2% <span class="expected-value">/ 5.0%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Retail Sales -->
                 <div class="indicator-item">
-                    <div class="indicator-main">
-                        <div class="indicator-info">
-                            <span class="indicator-label">Retail Sales (MoM)</span>
-                            <span class="next-release-tag">Next: Feb 13</span>
-                        </div>
+                    <div class="indicator-label">Retail Sales (MoM)</div>
+                    <div class="indicator-row">
+                        <span class="indicator-date">Nov 15</span>
                         <div class="indicator-value status-positive">
                             <span class="status-dot dot-green"></span> 0.6% <span class="expected-value">/ 0.4%</span>
                         </div>
                     </div>
-                    <div class="indicator-details">
-                        <div class="detail-block">
-                            <span class="detail-label">Previous 2</span>
-                            <ul class="history-list">
-                                <li>-0.1% (Dec 16)</li>
-                                <li>0.5% (Nov 15)</li>
-                            </ul>
+                    <div class="next-release-text">Next: Feb 13</div>
+                    <div class="indicator-history">
+                        <div class="indicator-row">
+                            <span class="indicator-date">Dec 16</span>
+                            <div class="indicator-value status-negative">
+                                <span class="status-dot dot-red"></span> -0.1% <span class="expected-value">/ 0.1%</span>
+                            </div>
+                        </div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Nov 15</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 0.5% <span class="expected-value">/ 0.3%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <!-- Producer Price Index -->
                 <div class="indicator-item">
-                    <div class="indicator-main">
-                        <div class="indicator-info">
-                            <span class="indicator-label">Producer Price Index (PPI)</span>
-                            <span class="next-release-tag">Next: Feb 12</span>
-                        </div>
+                    <div class="indicator-label">Producer Price Index (PPI)</div>
+                    <div class="indicator-row">
+                        <span class="indicator-date">Jan 13</span>
                         <div class="indicator-value status-negative">
                             <span class="status-dot dot-red"></span> 3.0% <span class="expected-value">/ 2.7%</span>
                         </div>
                     </div>
-                    <div class="indicator-details">
-                        <div class="detail-block">
-                            <span class="detail-label">Previous 2</span>
-                            <ul class="history-list">
-                                <li>3.0% (Dec 11)</li>
-                                <li>3.2% (Nov 12)</li>
-                            </ul>
+                    <div class="next-release-text">Next: Feb 12</div>
+                    <div class="indicator-history">
+                        <div class="indicator-row">
+                            <span class="indicator-date">Dec 11</span>
+                            <div class="indicator-value status-neutral">
+                                <span class="status-dot dot-gray"></span> 3.0% <span class="expected-value">/ 3.0%</span>
+                            </div>
+                        </div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Nov 12</span>
+                            <div class="indicator-value status-negative">
+                                <span class="status-dot dot-red"></span> 3.2% <span class="expected-value">/ 2.8%</span>
+                            </div>
                         </div>
                     </div>
                 </div>
