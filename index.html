@@ -213,6 +213,16 @@
                 <div id="loader" class="loader hidden"></div>
             </div>
             <div class="card-value" id="rate-value">--.--</div>
+            <div class="card-footer" style="margin-bottom: 1.5rem;">
+                <span id="update-status">Fetching live data...</span>
+            </div>
+
+            <!-- US Dollar Index (DXY) Sub-section -->
+            <div class="card-header" style="border-top: 1px solid #f1f5f9; padding-top: 1.5rem;">
+                <span class="card-title">US Dollar Index (DXY)</span>
+            </div>
+            <div class="card-value" id="dxy-value" style="font-size: 1.5rem;">---.--</div>
+            
             <div class="chart-container">
                 <canvas id="rateChart"></canvas>
             </div>
@@ -418,6 +428,26 @@
                     const twdRate = data.rates.TWD.toFixed(2);
                     rateElement.textContent = `NT$ ${twdRate}`;
                     statusElement.textContent = `Last updated: ${new Date().toLocaleTimeString()}`;
+
+                    // Calculate DXY Approximation (simplified geometric mean of majors)
+                    // DXY = 50.14348112 * EURUSD^-0.576 * USDJPY^0.136 * GBPUSD^-0.119 * USDCAD^0.091 * USDSEK^0.042 * USDCHF^0.036
+                    // Since the API base is USD, we invert the 'USD/XXX' pairs to get 'XXX/USD' where needed.
+                    const eur = 1 / data.rates.EUR;
+                    const jpy = data.rates.JPY;
+                    const gbp = 1 / data.rates.GBP;
+                    const cad = data.rates.CAD;
+                    const sek = data.rates.SEK;
+                    const chf = data.rates.CHF;
+
+                    const dxy = 50.14348112 * 
+                                Math.pow(eur, -0.576) * 
+                                Math.pow(jpy, 0.136) * 
+                                Math.pow(gbp, -0.119) * 
+                                Math.pow(cad, 0.091) * 
+                                Math.pow(sek, 0.042) * 
+                                Math.pow(chf, 0.036);
+                    
+                    document.getElementById('dxy-value').textContent = dxy.toFixed(2);
                 }
 
                 // Fetch historical data for the chart (last year)
