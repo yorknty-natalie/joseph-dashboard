@@ -94,38 +94,86 @@
 
         .indicator-item {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0.75rem 0;
+            flex-direction: column;
+            padding: 1rem 0;
             border-bottom: 1px solid #f1f5f9;
         }
 
-        .indicator-item:last-child {
-            border-bottom: none;
+        .indicator-main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
         }
 
-        .indicator-info {
+        .indicator-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.75rem;
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background-color: #f8fafc;
+            border-radius: 8px;
+            font-size: 0.75rem;
+        }
+
+        .detail-block {
             display: flex;
             flex-direction: column;
+            gap: 0.25rem;
         }
 
-        .indicator-label {
-            font-size: 0.875rem;
-            font-weight: 500;
-            color: var(--text-primary);
-        }
-
-        .indicator-date {
-            font-size: 0.75rem;
+        .detail-label {
             color: var(--text-secondary);
+            font-weight: 500;
         }
+
+        .detail-value {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        .history-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 4px;
+        }
+
+        .dot-green { background-color: #10b981; }
+        .dot-red { background-color: #ef4444; }
+        .dot-gray { background-color: #94a3b8; }
 
         .indicator-value {
-            font-size: 1rem;
-            font-weight: 600;
+            font-size: 1.125rem;
+            font-weight: 700;
             display: flex;
             align-items: center;
-            gap: 0.4rem;
+        }
+
+        .card-header-with-action {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .next-release-tag {
+            font-size: 0.7rem;
+            background-color: #eff6ff;
+            color: #2563eb;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-weight: 600;
         }
 
         .status-positive { color: #10b981; }
@@ -186,92 +234,174 @@
         <div class="card" id="economic-indicators-card">
             <div class="card-header">
                 <span class="card-title">US Economic Health</span>
-                <span class="indicator-date">Jan 2026</span>
+                <span class="indicator-date">Last updated: Jan 31</span>
             </div>
-            <ul class="indicator-list">
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Consumer Sentiment</span>
-                        <span class="indicator-date">U. Michigan</span>
+            <div class="indicator-list">
+                <!-- Consumer Sentiment -->
+                <div class="indicator-item">
+                    <div class="indicator-main">
+                        <div class="indicator-info">
+                            <span class="indicator-label">Consumer Sentiment</span>
+                            <span class="next-release-tag">Next: Feb 13</span>
+                        </div>
+                        <div class="indicator-value status-positive">
+                            <span class="status-dot dot-green"></span> 56.4
+                        </div>
                     </div>
-                    <div class="indicator-value status-positive">
-                        56.4 <span class="trend-up"></span>
+                    <div class="indicator-details">
+                        <div class="detail-block">
+                            <span class="detail-label">Actual vs Expected</span>
+                            <span class="detail-value">56.4 / 54.0</span>
+                        </div>
+                        <div class="detail-block">
+                            <span class="detail-label">Previous 2</span>
+                            <ul class="history-list">
+                                <li>52.9 (Dec 31)</li>
+                                <li>51.5 (Nov 30)</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Initial Jobless Claims</span>
-                        <span class="indicator-date">Weekly</span>
+                </div>
+
+                <!-- Initial Jobless Claims -->
+                <div class="indicator-item">
+                    <div class="indicator-main">
+                        <div class="indicator-info">
+                            <span class="indicator-label">Initial Jobless Claims</span>
+                            <span class="next-release-tag">Next: Feb 05</span>
+                        </div>
+                        <div class="indicator-value status-negative">
+                            <span class="status-dot dot-red"></span> 209K
+                        </div>
                     </div>
-                    <div class="indicator-value status-positive">
-                        209K <span class="trend-down-good"></span>
+                    <div class="indicator-details">
+                        <div class="detail-block">
+                            <span class="detail-label">Actual vs Expected</span>
+                            <span class="detail-value">209K / 205K</span>
+                        </div>
+                        <div class="detail-block">
+                            <span class="detail-label">Previous 2</span>
+                            <ul class="history-list">
+                                <li>210K (Jan 22)</li>
+                                <li>208K (Jan 15)</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Manufacturing PMI</span>
-                        <span class="indicator-date">Expansion (>50)</span>
+                </div>
+
+                <!-- Manufacturing PMI -->
+                <div class="indicator-item">
+                    <div class="indicator-main">
+                        <div class="indicator-info">
+                            <span class="indicator-label">Manufacturing PMI</span>
+                            <span class="next-release-tag">Next: Feb 02</span>
+                        </div>
+                        <div class="indicator-value status-positive">
+                            <span class="status-dot dot-green"></span> 51.9
+                        </div>
                     </div>
-                    <div class="indicator-value status-positive">
-                        51.9 <span class="trend-up"></span>
+                    <div class="indicator-details">
+                        <div class="detail-block">
+                            <span class="detail-label">Actual vs Expected</span>
+                            <span class="detail-value">51.9 / 51.0</span>
+                        </div>
+                        <div class="detail-block">
+                            <span class="detail-label">Previous 2</span>
+                            <ul class="history-list">
+                                <li>50.8 (Dec 01)</li>
+                                <li>50.2 (Nov 03)</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Producer Price Index (PPI)</span>
-                        <span class="indicator-date">YoY Change</span>
-                    </div>
-                    <div class="indicator-value status-neutral">
-                        3.0% <span>—</span>
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
 
         <!-- Retail & Consumer Card -->
         <div class="card" id="retail-indicators-card">
             <div class="card-header">
                 <span class="card-title">Retail Buying Power</span>
-                <span class="indicator-date">Latest</span>
+                <span class="indicator-date">Last updated: Jan 31</span>
             </div>
-            <ul class="indicator-list">
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Redbook Index</span>
-                        <span class="indicator-date">YoY Same-Store Sales</span>
+            <div class="indicator-list">
+                <!-- Redbook Index -->
+                <div class="indicator-item">
+                    <div class="indicator-main">
+                        <div class="indicator-info">
+                            <span class="indicator-label">Redbook Index (YoY)</span>
+                            <span class="next-release-tag">Next: Feb 03</span>
+                        </div>
+                        <div class="indicator-value status-positive">
+                            <span class="status-dot dot-green"></span> 7.1%
+                        </div>
                     </div>
-                    <div class="indicator-value status-positive">
-                        7.1% <span class="trend-up"></span>
+                    <div class="indicator-details">
+                        <div class="detail-block">
+                            <span class="detail-label">Actual vs Expected</span>
+                            <span class="detail-value">7.1% / 6.5%</span>
+                        </div>
+                        <div class="detail-block">
+                            <span class="detail-label">Previous 2</span>
+                            <ul class="history-list">
+                                <li>5.5% (Jan 20)</li>
+                                <li>5.2% (Jan 13)</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Retail Sales (MoM)</span>
-                        <span class="indicator-date">Monthly Change</span>
+                </div>
+
+                <!-- Retail Sales -->
+                <div class="indicator-item">
+                    <div class="indicator-main">
+                        <div class="indicator-info">
+                            <span class="indicator-label">Retail Sales (MoM)</span>
+                            <span class="next-release-tag">Next: Feb 13</span>
+                        </div>
+                        <div class="indicator-value status-positive">
+                            <span class="status-dot dot-green"></span> 0.6%
+                        </div>
                     </div>
-                    <div class="indicator-value status-positive">
-                        0.6% <span class="trend-up"></span>
+                    <div class="indicator-details">
+                        <div class="detail-block">
+                            <span class="detail-label">Actual vs Expected</span>
+                            <span class="detail-value">0.6% / 0.4%</span>
+                        </div>
+                        <div class="detail-block">
+                            <span class="detail-label">Previous 2</span>
+                            <ul class="history-list">
+                                <li>-0.1% (Dec 16)</li>
+                                <li>0.5% (Nov 15)</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Personal Spending</span>
-                        <span class="indicator-date">Consumer Expenditure</span>
+                </div>
+
+                <!-- Producer Price Index -->
+                <div class="indicator-item">
+                    <div class="indicator-main">
+                        <div class="indicator-info">
+                            <span class="indicator-label">Producer Price Index (PPI)</span>
+                            <span class="next-release-tag">Next: Feb 12</span>
+                        </div>
+                        <div class="indicator-value status-negative">
+                            <span class="status-dot dot-red"></span> 3.0%
+                        </div>
                     </div>
-                    <div class="indicator-value status-positive">
-                        0.5% <span class="trend-up"></span>
+                    <div class="indicator-details">
+                        <div class="detail-block">
+                            <span class="detail-label">Actual vs Expected</span>
+                            <span class="detail-value">3.0% / 2.7%</span>
+                        </div>
+                        <div class="detail-block">
+                            <span class="detail-label">Previous 2</span>
+                            <ul class="history-list">
+                                <li>3.0% (Dec 11)</li>
+                                <li>3.2% (Nov 12)</li>
+                            </ul>
+                        </div>
                     </div>
-                </li>
-                <li class="indicator-item">
-                    <div class="indicator-info">
-                        <span class="indicator-label">Holiday Season Trend</span>
-                        <span class="indicator-date">Q4 2025 Analysis</span>
-                    </div>
-                    <div class="indicator-value status-positive" style="font-size: 0.875rem;">
-                        Strong Rebound
-                    </div>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
 
         <!-- Placeholder for future information -->
