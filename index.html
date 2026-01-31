@@ -53,7 +53,11 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-sub-header {
+            margin-bottom: 0.5rem;
         }
 
         .card-title {
@@ -206,29 +210,34 @@
 <body>
 
     <div class="dashboard">
-        <!-- Exchange Rate Card -->
-        <div class="card" id="exchange-rate-card">
+        <!-- Combined US Dollar Overview Card -->
+        <div class="card" id="usd-overview-card">
             <div class="card-header">
-                <span class="card-title">USD to TWD Rate</span>
-                <div id="loader-twd" class="loader hidden"></div>
+                <span class="card-title">US Dollar Overview</span>
+                <div id="loader-usd" class="loader hidden"></div>
+            </div>
+
+            <!-- USD to TWD Section -->
+            <div class="card-sub-header">
+                <span class="indicator-label">USD to TWD Rate</span>
             </div>
             <div class="card-value" id="rate-value">--.--</div>
-            <div class="chart-container">
+            <div class="chart-container" style="height: 150px;">
                 <canvas id="rateChart"></canvas>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" style="margin-bottom: 1.5rem;">
                 <span id="update-status-twd">Fetching live data...</span>
             </div>
-        </div>
 
-        <!-- US Dollar Index (DXY) Card -->
-        <div class="card" id="dxy-card">
-            <div class="card-header">
-                <span class="card-title">US Dollar Index (DXY)</span>
-                <div id="loader-dxy" class="loader hidden"></div>
+            <!-- Divider -->
+            <div style="border-top: 1px solid #f1f5f9; margin: 1.5rem 0;"></div>
+
+            <!-- US Dollar Index (DXY) Section -->
+            <div class="card-sub-header">
+                <span class="indicator-label">US Dollar Index (DXY)</span>
             </div>
             <div class="card-value" id="dxy-value">--.--</div>
-            <div class="chart-container">
+            <div class="chart-container" style="height: 150px;">
                 <canvas id="dxyChart"></canvas>
             </div>
             <div class="card-footer">
@@ -420,13 +429,11 @@
         async function fetchLiveRates() {
             const rateElement = document.getElementById('rate-value');
             const dxyElement = document.getElementById('dxy-value');
-            const loaderTwd = document.getElementById('loader-twd');
-            const loaderDxy = document.getElementById('loader-dxy');
+            const loaderUsd = document.getElementById('loader-usd');
             const statusTwd = document.getElementById('update-status-twd');
             const statusDxy = document.getElementById('update-status-dxy');
 
-            loaderTwd.classList.remove('hidden');
-            loaderDxy.classList.remove('hidden');
+            if (loaderUsd) loaderUsd.classList.remove('hidden');
             
             try {
                 const response = await fetch('https://open.er-api.com/v6/latest/USD');
@@ -465,8 +472,7 @@
                 rateElement.textContent = 'Error';
                 dxyElement.textContent = 'Error';
             } finally {
-                loaderTwd.classList.add('hidden');
-                loaderDxy.classList.add('hidden');
+                if (loaderUsd) loaderUsd.classList.add('hidden');
             }
         }
 
