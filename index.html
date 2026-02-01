@@ -60,28 +60,51 @@
         .date-selector-container {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            justify-content: center;
+            gap: 1.5rem;
             margin-bottom: 1.5rem;
-            padding: 0.5rem 1rem;
+            padding: 0.75rem 1.5rem;
             background: white;
-            border-radius: 12px;
+            border-radius: 14px;
             box-shadow: var(--shadow);
             width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .date-select {
+        .nav-btn {
+            background-color: var(--bg-color);
             border: 1px solid #e2e8f0;
-            padding: 0.4rem 0.8rem;
-            border-radius: 8px;
-            font-size: 0.875rem;
-            font-family: inherit;
             color: var(--text-primary);
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             cursor: pointer;
-            outline: none;
+            font-weight: 700;
+            transition: all 0.2s ease;
+            user-select: none;
         }
 
-        .date-select:focus {
+        .nav-btn:hover:not(.disabled) {
+            background-color: var(--accent-color);
+            color: white;
             border-color: var(--accent-color);
+        }
+
+        .nav-btn.disabled {
+            opacity: 0.3;
+            cursor: not-allowed;
+        }
+
+        .current-date-display {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            min-width: 120px;
+            text-align: center;
         }
 
         .card-sub-header {
@@ -611,10 +634,9 @@
 
         <!-- Intelligence Section Header -->
         <div class="date-selector-container">
-            <span class="detail-label">View Intel for:</span>
-            <select id="intel-date-select" class="date-select" onchange="switchIntelDate()">
-                <!-- Dates will be injected here -->
-            </select>
+            <div id="prev-date-btn" class="nav-btn" onclick="navigateDate(1)">‹</div>
+            <div class="current-date-display" id="intel-current-date">---</div>
+            <div id="next-date-btn" class="nav-btn" onclick="navigateDate(-1)">›</div>
         </div>
 
         <!-- Retail Intelligence Card -->
@@ -776,6 +798,9 @@
             });
         }
 
+        let availableDates = [];
+        let currentDateIndex = 0;
+
         function populateRetailIntelligence(date) {
             if (typeof retailHistory === 'undefined') return;
             
@@ -783,6 +808,7 @@
             if (!data) return;
 
             document.getElementById('retail-update-date').textContent = date;
+            document.getElementById('intel-current-date').textContent = date;
 
             const trendsContainer = document.getElementById('trends-container');
             trendsContainer.innerHTML = data.trends.map(trend => `
@@ -826,23 +852,28 @@
             
             promptDisplay.textContent = imagePrompt;
             window.currentImagePrompt = imagePrompt;
+
+            // Update button states
+            document.getElementById('prev-date-btn').classList.toggle('disabled', currentDateIndex >= availableDates.length - 1);
+            document.getElementById('next-date-btn').classList.toggle('disabled', currentDateIndex <= 0);
         }
 
         function initDateSelector() {
             if (typeof retailHistory === 'undefined') return;
-            const select = document.getElementById('intel-date-select');
-            const dates = Object.keys(retailHistory).sort().reverse();
+            availableDates = Object.keys(retailHistory).sort().reverse();
             
-            select.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
-            
-            if (dates.length > 0) {
-                populateRetailIntelligence(dates[0]);
+            if (availableDates.length > 0) {
+                currentDateIndex = 0;
+                populateRetailIntelligence(availableDates[0]);
             }
         }
 
-        function switchIntelDate() {
-            const date = document.getElementById('intel-date-select').value;
-            populateRetailIntelligence(date);
+        function navigateDate(direction) {
+            const newIndex = currentDateIndex + direction;
+            if (newIndex >= 0 && newIndex < availableDates.length) {
+                currentDateIndex = newIndex;
+                populateRetailIntelligence(availableDates[currentDateIndex]);
+            }
         }
 
         document.getElementById('copy-prompt-btn').onclick = () => {
