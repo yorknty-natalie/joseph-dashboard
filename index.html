@@ -31,11 +31,47 @@
 
         .dashboard {
             width: 100%;
-            max-width: 1000px;
+            max-width: 1200px;
             padding: 2rem;
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            display: flex;
+            flex-direction: column;
             gap: 1.5rem;
+        }
+
+        .tab-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .tab-btn {
+            background-color: white;
+            border: 1px solid #e2e8f0;
+            color: var(--text-secondary);
+            padding: 0.75rem 2rem;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: var(--shadow);
+        }
+
+        .tab-btn.active {
+            background-color: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        .view-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 1.5rem;
+            width: 100%;
+        }
+
+        .hidden {
+            display: none !important;
         }
 
         .card {
@@ -425,206 +461,215 @@
 <body>
 
     <div class="dashboard">
-        <!-- Combined US Dollar Overview Card -->
-        <div class="card" id="usd-overview-card">
-            <div class="card-header">
-                <span class="card-title">US Dollar Overview</span>
-                <div id="loader-usd" class="loader hidden"></div>
-            </div>
-
-            <!-- USD to TWD Section -->
-            <div class="card-sub-header">
-                <span class="indicator-label">USD to TWD Rate</span>
-            </div>
-            <div class="card-value" id="rate-value">--.--</div>
-            <div class="chart-container" style="height: 150px;">
-                <canvas id="rateChart"></canvas>
-            </div>
-            <div class="card-footer" style="margin-bottom: 1.5rem;">
-                <span id="update-status-twd">Fetching live data...</span>
-            </div>
-
-            <!-- Divider -->
-            <div style="border-top: 1px solid #f1f5f9; margin: 1.5rem 0;"></div>
-
-            <!-- US Dollar Index (DXY) Section -->
-            <div class="card-sub-header">
-                <span class="indicator-label">US Dollar Index (DXY)</span>
-            </div>
-            <div class="card-value" id="dxy-value">--.--</div>
-            <div class="chart-container" style="height: 150px;">
-                <canvas id="dxyChart"></canvas>
-            </div>
-            <div class="card-footer">
-                <span id="update-status-dxy">Fetching live data...</span>
-            </div>
-        </div>
-        
-        <!-- Economic Indicators Card -->
-        <div class="card" id="economic-indicators-card">
-            <div class="card-header">
-                <span class="card-title">US Economic Health</span>
-            </div>
-            <div class="indicator-list">
-                <!-- Consumer Sentiment -->
-                <div class="indicator-item">
-                    <div class="indicator-label">Consumer Sentiment</div>
-                    <div class="indicator-row">
-                        <span class="indicator-date">Jan 31</span>
-                        <div class="indicator-value status-positive">
-                            <span class="status-dot dot-green"></span> 56.4 <span class="expected-value">/ 54.0</span>
-                        </div>
-                    </div>
-                    <div class="next-release-text">Next: Feb 13</div>
-                    <div class="indicator-history">
-                        <div class="indicator-row">
-                            <span class="indicator-date">Dec 31</span>
-                            <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 52.9 <span class="expected-value">/ 52.0</span>
-                            </div>
-                        </div>
-                        <div class="indicator-row">
-                            <span class="indicator-date">Nov 30</span>
-                            <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 51.5 <span class="expected-value">/ 51.0</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Initial Jobless Claims -->
-                <div class="indicator-item">
-                    <div class="indicator-label">Initial Jobless Claims</div>
-                    <div class="indicator-row">
-                        <span class="indicator-date">Jan 24</span>
-                        <div class="indicator-value status-negative">
-                            <span class="status-dot dot-red"></span> 209K <span class="expected-value">/ 205K</span>
-                        </div>
-                    </div>
-                    <div class="next-release-text">Next: Feb 05</div>
-                    <div class="indicator-history">
-                        <div class="indicator-row">
-                            <span class="indicator-date">Jan 22</span>
-                            <div class="indicator-value status-negative">
-                                <span class="status-dot dot-red"></span> 210K <span class="expected-value">/ 208K</span>
-                            </div>
-                        </div>
-                        <div class="indicator-row">
-                            <span class="indicator-date">Jan 15</span>
-                            <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 208K <span class="expected-value">/ 210K</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Manufacturing PMI -->
-                <div class="indicator-item">
-                    <div class="indicator-label">Manufacturing PMI</div>
-                    <div class="indicator-row">
-                        <span class="indicator-date">Jan 26</span>
-                        <div class="indicator-value status-positive">
-                            <span class="status-dot dot-green"></span> 51.9 <span class="expected-value">/ 51.0</span>
-                        </div>
-                    </div>
-                    <div class="next-release-text">Next: Feb 02</div>
-                    <div class="indicator-history">
-                        <div class="indicator-row">
-                            <span class="indicator-date">Dec 01</span>
-                            <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 50.8 <span class="expected-value">/ 50.5</span>
-                            </div>
-                        </div>
-                        <div class="indicator-row">
-                            <span class="indicator-date">Nov 03</span>
-                            <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 50.2 <span class="expected-value">/ 50.0</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <!-- Tab Navigation -->
+        <div class="tab-container">
+            <button id="tab-econ" class="tab-btn active" onclick="switchView('econ')">Finance & Economy</button>
+            <button id="tab-intel" class="tab-btn" onclick="switchView('intel')">Market Intelligence</button>
         </div>
 
-        <!-- Retail & Consumer Card -->
-        <div class="card" id="retail-indicators-card">
-            <div class="card-header">
-                <span class="card-title">Retail Buying Power</span>
+        <!-- Economy & Finance View -->
+        <div id="view-econ" class="view-grid">
+            <!-- Combined US Dollar Overview Card -->
+            <div class="card" id="usd-overview-card">
+                <div class="card-header">
+                    <span class="card-title">US Dollar Overview</span>
+                    <div id="loader-usd" class="loader hidden"></div>
+                </div>
+
+                <!-- USD to TWD Section -->
+                <div class="card-sub-header">
+                    <span class="indicator-label">USD to TWD Rate</span>
+                </div>
+                <div class="card-value" id="rate-value">--.--</div>
+                <div class="chart-container" style="height: 150px;">
+                    <canvas id="rateChart"></canvas>
+                </div>
+                <div class="card-footer" style="margin-bottom: 1.5rem;">
+                    <span id="update-status-twd">Fetching live data...</span>
+                </div>
+
+                <!-- Divider -->
+                <div style="border-top: 1px solid #f1f5f9; margin: 1.5rem 0;"></div>
+
+                <!-- US Dollar Index (DXY) Section -->
+                <div class="card-sub-header">
+                    <span class="indicator-label">US Dollar Index (DXY)</span>
+                </div>
+                <div class="card-value" id="dxy-value">--.--</div>
+                <div class="chart-container" style="height: 150px;">
+                    <canvas id="dxyChart"></canvas>
+                </div>
+                <div class="card-footer">
+                    <span id="update-status-dxy">Fetching live data...</span>
+                </div>
             </div>
-            <div class="indicator-list">
-                <!-- Redbook Index -->
-                <div class="indicator-item">
-                    <div class="indicator-label">Redbook Index (YoY)</div>
-                    <div class="indicator-row">
-                        <span class="indicator-date">Jan 24</span>
-                        <div class="indicator-value status-positive">
-                            <span class="status-dot dot-green"></span> 7.1% <span class="expected-value">/ 6.5%</span>
-                        </div>
-                    </div>
-                    <div class="next-release-text">Next: Feb 03</div>
-                    <div class="indicator-history">
+            
+            <!-- Economic Indicators Card -->
+            <div class="card" id="economic-indicators-card">
+                <div class="card-header">
+                    <span class="card-title">US Economic Health</span>
+                </div>
+                <div class="indicator-list">
+                    <!-- Consumer Sentiment -->
+                    <div class="indicator-item">
+                        <div class="indicator-label">Consumer Sentiment</div>
                         <div class="indicator-row">
-                            <span class="indicator-date">Jan 20</span>
+                            <span class="indicator-date">Jan 31</span>
                             <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 5.5% <span class="expected-value">/ 5.0%</span>
+                                <span class="status-dot dot-green"></span> 56.4 <span class="expected-value">/ 54.0</span>
                             </div>
                         </div>
+                        <div class="next-release-text">Next: Feb 13</div>
+                        <div class="indicator-history">
+                            <div class="indicator-row">
+                                <span class="indicator-date">Dec 31</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 52.9 <span class="expected-value">/ 52.0</span>
+                                </div>
+                            </div>
+                            <div class="indicator-row">
+                                <span class="indicator-date">Nov 30</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 51.5 <span class="expected-value">/ 51.0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Initial Jobless Claims -->
+                    <div class="indicator-item">
+                        <div class="indicator-label">Initial Jobless Claims</div>
                         <div class="indicator-row">
-                            <span class="indicator-date">Jan 13</span>
+                            <span class="indicator-date">Jan 24</span>
+                            <div class="indicator-value status-negative">
+                                <span class="status-dot dot-red"></span> 209K <span class="expected-value">/ 205K</span>
+                            </div>
+                        </div>
+                        <div class="next-release-text">Next: Feb 05</div>
+                        <div class="indicator-history">
+                            <div class="indicator-row">
+                                <span class="indicator-date">Jan 22</span>
+                                <div class="indicator-value status-negative">
+                                    <span class="status-dot dot-red"></span> 210K <span class="expected-value">/ 208K</span>
+                                </div>
+                            </div>
+                            <div class="indicator-row">
+                                <span class="indicator-date">Jan 15</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 208K <span class="expected-value">/ 210K</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Manufacturing PMI -->
+                    <div class="indicator-item">
+                        <div class="indicator-label">Manufacturing PMI</div>
+                        <div class="indicator-row">
+                            <span class="indicator-date">Jan 26</span>
                             <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 5.2% <span class="expected-value">/ 5.0%</span>
+                                <span class="status-dot dot-green"></span> 51.9 <span class="expected-value">/ 51.0</span>
+                            </div>
+                        </div>
+                        <div class="next-release-text">Next: Feb 02</div>
+                        <div class="indicator-history">
+                            <div class="indicator-row">
+                                <span class="indicator-date">Dec 01</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 50.8 <span class="expected-value">/ 50.5</span>
+                                </div>
+                            </div>
+                            <div class="indicator-row">
+                                <span class="indicator-date">Nov 03</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 50.2 <span class="expected-value">/ 50.0</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Retail Sales -->
-                <div class="indicator-item">
-                    <div class="indicator-label">Retail Sales (MoM)</div>
-                    <div class="indicator-row">
-                        <span class="indicator-date">Nov 15</span>
-                        <div class="indicator-value status-positive">
-                            <span class="status-dot dot-green"></span> 0.6% <span class="expected-value">/ 0.4%</span>
-                        </div>
-                    </div>
-                    <div class="next-release-text">Next: Feb 13</div>
-                    <div class="indicator-history">
+            <!-- Retail & Consumer Card -->
+            <div class="card" id="retail-indicators-card">
+                <div class="card-header">
+                    <span class="card-title">Retail Buying Power</span>
+                </div>
+                <div class="indicator-list">
+                    <!-- Redbook Index -->
+                    <div class="indicator-item">
+                        <div class="indicator-label">Redbook Index (YoY)</div>
                         <div class="indicator-row">
-                            <span class="indicator-date">Dec 16</span>
-                            <div class="indicator-value status-negative">
-                                <span class="status-dot dot-red"></span> -0.1% <span class="expected-value">/ 0.1%</span>
+                            <span class="indicator-date">Jan 24</span>
+                            <div class="indicator-value status-positive">
+                                <span class="status-dot dot-green"></span> 7.1% <span class="expected-value">/ 6.5%</span>
                             </div>
                         </div>
+                        <div class="next-release-text">Next: Feb 03</div>
+                        <div class="indicator-history">
+                            <div class="indicator-row">
+                                <span class="indicator-date">Jan 20</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 5.5% <span class="expected-value">/ 5.0%</span>
+                                </div>
+                            </div>
+                            <div class="indicator-row">
+                                <span class="indicator-date">Jan 13</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 5.2% <span class="expected-value">/ 5.0%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Retail Sales -->
+                    <div class="indicator-item">
+                        <div class="indicator-label">Retail Sales (MoM)</div>
                         <div class="indicator-row">
                             <span class="indicator-date">Nov 15</span>
                             <div class="indicator-value status-positive">
-                                <span class="status-dot dot-green"></span> 0.5% <span class="expected-value">/ 0.3%</span>
+                                <span class="status-dot dot-green"></span> 0.6% <span class="expected-value">/ 0.4%</span>
+                            </div>
+                        </div>
+                        <div class="next-release-text">Next: Feb 13</div>
+                        <div class="indicator-history">
+                            <div class="indicator-row">
+                                <span class="indicator-date">Dec 16</span>
+                                <div class="indicator-value status-negative">
+                                    <span class="status-dot dot-red"></span> -0.1% <span class="expected-value">/ 0.1%</span>
+                                </div>
+                            </div>
+                            <div class="indicator-row">
+                                <span class="indicator-date">Nov 15</span>
+                                <div class="indicator-value status-positive">
+                                    <span class="status-dot dot-green"></span> 0.5% <span class="expected-value">/ 0.3%</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Producer Price Index -->
-                <div class="indicator-item">
-                    <div class="indicator-label">Producer Price Index (PPI)</div>
-                    <div class="indicator-row">
-                        <span class="indicator-date">Jan 13</span>
-                        <div class="indicator-value status-negative">
-                            <span class="status-dot dot-red"></span> 3.0% <span class="expected-value">/ 2.7%</span>
-                        </div>
-                    </div>
-                    <div class="next-release-text">Next: Feb 12</div>
-                    <div class="indicator-history">
+                    <!-- Producer Price Index -->
+                    <div class="indicator-item">
+                        <div class="indicator-label">Producer Price Index (PPI)</div>
                         <div class="indicator-row">
-                            <span class="indicator-date">Dec 11</span>
-                            <div class="indicator-value status-neutral">
-                                <span class="status-dot dot-gray"></span> 3.0% <span class="expected-value">/ 3.0%</span>
-                            </div>
-                        </div>
-                        <div class="indicator-row">
-                            <span class="indicator-date">Nov 12</span>
+                            <span class="indicator-date">Jan 13</span>
                             <div class="indicator-value status-negative">
-                                <span class="status-dot dot-red"></span> 3.2% <span class="expected-value">/ 2.8%</span>
+                                <span class="status-dot dot-red"></span> 3.0% <span class="expected-value">/ 2.7%</span>
+                            </div>
+                        </div>
+                        <div class="next-release-text">Next: Feb 12</div>
+                        <div class="indicator-history">
+                            <div class="indicator-row">
+                                <span class="indicator-date">Dec 11</span>
+                                <div class="indicator-value status-neutral">
+                                    <span class="status-dot dot-gray"></span> 3.0% <span class="expected-value">/ 3.0%</span>
+                                </div>
+                            </div>
+                            <div class="indicator-row">
+                                <span class="indicator-date">Nov 12</span>
+                                <div class="indicator-value status-negative">
+                                    <span class="status-dot dot-red"></span> 3.2% <span class="expected-value">/ 2.8%</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -632,59 +677,64 @@
             </div>
         </div>
 
-        <!-- Intelligence Section Header -->
-        <div class="date-selector-container">
-            <div id="prev-date-btn" class="nav-btn" onclick="navigateDate(1)">‹</div>
-            <div class="current-date-display" id="intel-current-date">---</div>
-            <div id="next-date-btn" class="nav-btn" onclick="navigateDate(-1)">›</div>
-        </div>
-
-        <!-- Retail Intelligence Card -->
-        <div class="card" id="retail-intelligence-card">
-            <div class="card-header">
-                <span class="card-title">Retail Intelligence</span>
-                <span class="indicator-date" id="retail-update-date">Feb 01</span>
+        <!-- Intel & Trends View -->
+        <div id="view-intel" class="hidden">
+            <!-- Intelligence Section Header -->
+            <div class="date-selector-container">
+                <div id="prev-date-btn" class="nav-btn" onclick="navigateDate(1)">‹</div>
+                <div class="current-date-display" id="intel-current-date">---</div>
+                <div id="next-date-btn" class="nav-btn" onclick="navigateDate(-1)">›</div>
             </div>
-            
-            <div style="margin-top: 1rem;">
-                <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Market Trends Briefing</span>
-                <div id="trends-container" class="trend-container">
-                    <!-- Trends will be injected here -->
+
+            <div class="view-grid">
+                <!-- Retail Intelligence Card -->
+                <div class="card" id="retail-intelligence-card">
+                    <div class="card-header">
+                        <span class="card-title">Retail Intelligence</span>
+                        <span class="indicator-date" id="retail-update-date">Feb 01</span>
+                    </div>
+                    
+                    <div style="margin-top: 1rem;">
+                        <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Market Trends Briefing</span>
+                        <div id="trends-container" class="trend-container">
+                            <!-- Trends will be injected here -->
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 1.5rem;">
+                        <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Daily Retailer Reports</span>
+                        <ul class="news-list" id="news-container">
+                            <!-- News will be injected here -->
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div style="margin-top: 1.5rem;">
-                <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Daily Retailer Reports</span>
-                <ul class="news-list" id="news-container">
-                    <!-- News will be injected here -->
-                </ul>
-            </div>
-        </div>
+                <!-- Social Buzz (X Trends) Card -->
+                <div class="card" id="x-trends-card">
+                    <div class="card-header">
+                        <span class="card-title">Social Buzz (X Trends)</span>
+                        <span class="indicator-date">Last 48h</span>
+                    </div>
+                    <ul class="buzz-list" id="buzz-container">
+                        <!-- X Trends will be injected here -->
+                    </ul>
 
-        <!-- Social Buzz (X Trends) Card -->
-        <div class="card" id="x-trends-card">
-            <div class="card-header">
-                <span class="card-title">Social Buzz (X Trends)</span>
-                <span class="indicator-date">Last 48h</span>
-            </div>
-            <ul class="buzz-list" id="buzz-container">
-                <!-- X Trends will be injected here -->
-            </ul>
-
-            <!-- Image Generation Prompt Section -->
-            <div class="prompt-box">
-                <div class="prompt-header">
-                    <span class="prompt-label">Image Generation Prompt</span>
-                    <button class="copy-btn" id="copy-prompt-btn">Copy Prompt</button>
-                </div>
-                <div class="prompt-text" id="prompt-display">
-                    Generating prompt based on trends...
+                    <!-- Image Generation Prompt Section -->
+                    <div class="prompt-box">
+                        <div class="prompt-header">
+                            <span class="prompt-label">Image Generation Prompt</span>
+                            <button class="copy-btn" id="copy-prompt-btn">Copy Prompt</button>
+                        </div>
+                        <div class="prompt-text" id="prompt-display">
+                            Generating prompt based on trends...
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Placeholder for future information -->
-        <div class="card" style="display: flex; align-items: center; justify-content: center; border: 2px dashed #e2e8f0; background: transparent; box-shadow: none;">
+        <div class="card" style="display: flex; align-items: center; justify-content: center; border: 2px dashed #e2e8f0; background: transparent; box-shadow: none; min-height: 100px;">
             <span style="color: var(--text-secondary); font-weight: 500;">+ Add Component</span>
         </div>
     </div>
@@ -885,6 +935,25 @@
                 setTimeout(() => btn.textContent = originalText, 2000);
             });
         };
+
+        function switchView(viewId) {
+            const econView = document.getElementById('view-econ');
+            const intelView = document.getElementById('view-intel');
+            const econTab = document.getElementById('tab-econ');
+            const intelTab = document.getElementById('tab-intel');
+
+            if (viewId === 'econ') {
+                econView.classList.remove('hidden');
+                intelView.classList.add('hidden');
+                econTab.classList.add('active');
+                intelTab.classList.remove('active');
+            } else {
+                econView.classList.add('hidden');
+                intelView.classList.remove('hidden');
+                econTab.classList.remove('active');
+                intelTab.classList.add('active');
+            }
+        }
 
         fetchLiveRates();
         initDateSelector();
