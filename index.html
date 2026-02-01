@@ -301,6 +301,58 @@
             margin-top: 0.2rem;
         }
 
+        /* Prompt Box Styles */
+        .prompt-box {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+        }
+
+        .prompt-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+        }
+
+        .prompt-label {
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+        }
+
+        .copy-btn {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 4px 12px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .copy-btn:hover {
+            background-color: #2563eb;
+        }
+
+        .prompt-text {
+            font-size: 0.75rem;
+            color: var(--text-primary);
+            line-height: 1.5;
+            background: white;
+            padding: 0.75rem;
+            border-radius: 8px;
+            border: 1px solid #f1f5f9;
+            max-height: 150px;
+            overflow-y: auto;
+            word-break: break-word;
+        }
+
         .loader {
             width: 20px;
             height: 20px;
@@ -561,6 +613,17 @@
             <ul class="buzz-list" id="buzz-container">
                 <!-- X Trends will be injected here -->
             </ul>
+
+            <!-- Image Generation Prompt Section -->
+            <div class="prompt-box">
+                <div class="prompt-header">
+                    <span class="prompt-label">Image Generation Prompt</span>
+                    <button class="copy-btn" id="copy-prompt-btn">Copy Prompt</button>
+                </div>
+                <div class="prompt-text" id="prompt-display">
+                    Generating prompt based on trends...
+                </div>
+            </div>
         </div>
 
         <!-- Placeholder for future information -->
@@ -710,6 +773,22 @@
                     </div>
                 </li>
             `).join('');
+
+            // Set up Image Prompt
+            const promptDisplay = document.getElementById('prompt-display');
+            const imagePrompt = `A single high-quality product photo of ten distinct molded glass Christmas ornaments arranged in two clean rows on a solid white background. Each ornament is a unique custom shape representing one of the top 10 trends: 1) A championship wrestling belt (#RoyalRumble). 2) A medieval castle tower (#questpit). 3) A police cruiser (#OPLive). 4) A high-fashion heel shoe (#DragRace). 5) A vintage microphone (#VERZUZ). 6) A pair of MMA gloves (#UFC325). 7) A sleeping kitten (#Caturday). 8) A futuristic Shanghai tower with a Santa hat (#Santa1stFSinShanghai). 9) A large college-style letter M (#GoBlue). 10) A professional football boot (#LEEARS). All ornaments are made of premium iridescent molded glass, isolated with no background.`;
+            
+            promptDisplay.textContent = imagePrompt;
+
+            // Copy functionality
+            document.getElementById('copy-prompt-btn').onclick = () => {
+                navigator.clipboard.writeText(imagePrompt).then(() => {
+                    const btn = document.getElementById('copy-prompt-btn');
+                    const originalText = btn.textContent;
+                    btn.textContent = 'Copied!';
+                    setTimeout(() => btn.textContent = originalText, 2000);
+                });
+            };
         }
 
         fetchLiveRates();
