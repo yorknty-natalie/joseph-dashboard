@@ -260,6 +260,47 @@
         .trend-up-bad { color: #ef4444; } /* For jobless claims up */
         .trend-down-good { color: #10b981; } /* For jobless claims down */
 
+        /* Social Buzz Styles */
+        .buzz-list {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0 0 0;
+        }
+
+        .buzz-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.75rem;
+            background-color: #f0f9ff;
+            border: 1px solid #e0f2fe;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+        }
+
+        .buzz-name {
+            font-weight: 700;
+            color: #0369a1;
+            font-size: 0.85rem;
+        }
+
+        .buzz-rank {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #7dd3fc;
+            background-color: #0c4a6e;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-right: 0.5rem;
+        }
+
+        .buzz-desc {
+            font-size: 0.75rem;
+            color: #0e7490;
+            display: block;
+            margin-top: 0.2rem;
+        }
+
         .loader {
             width: 20px;
             height: 20px;
@@ -491,24 +532,18 @@
 
         <!-- Retail Intelligence Card -->
         <div class="card" id="retail-intelligence-card">
-            <div class="card-header">
-                <span class="card-title">Retail Intelligence</span>
-                <span class="indicator-date" id="retail-update-date">Feb 01</span>
-            </div>
-            
-            <div style="margin-top: 1rem;">
-                <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Market Trends Briefing</span>
-                <div id="trends-container" class="trend-container">
-                    <!-- Trends will be injected here -->
-                </div>
-            </div>
+            <!-- ... content ... -->
+        </div>
 
-            <div style="margin-top: 1.5rem;">
-                <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Daily Retailer Reports</span>
-                <ul class="news-list" id="news-container">
-                    <!-- News will be injected here -->
-                </ul>
+        <!-- Social Buzz (X Trends) Card -->
+        <div class="card" id="x-trends-card">
+            <div class="card-header">
+                <span class="card-title">Social Buzz (X Trends)</span>
+                <span class="indicator-date">Last 48h</span>
             </div>
+            <ul class="buzz-list" id="buzz-container">
+                <!-- X Trends will be injected here -->
+            </ul>
         </div>
 
         <!-- Placeholder for future information -->
@@ -645,6 +680,17 @@
                     <span class="news-store">${item.store}</span>
                     <span class="news-headline">${item.headline}</span>
                     <span class="news-summary">${item.summary}</span>
+                </li>
+            `).join('');
+
+            const buzzContainer = document.getElementById('buzz-container');
+            buzzContainer.innerHTML = retailData.xTrends.map((trend, index) => `
+                <li class="buzz-item">
+                    <div>
+                        <span class="buzz-rank">${index + 1}</span>
+                        <span class="buzz-name">${trend.name}</span>
+                        <span class="buzz-desc">${trend.desc}</span>
+                    </div>
                 </li>
             `).join('');
         }

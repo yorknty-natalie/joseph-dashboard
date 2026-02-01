@@ -49,5 +49,17 @@ const retailData = {
             "headline": "Inflation-Proof Traffic",
             "summary": "TJ Maxx, Ross, and Burlington are reporting strong foot traffic as middle-income families shift more of their budget to off-price 'treasure hunts'."
         }
+    ],
+    "xTrends": [
+        { "name": "#RoyalRumble", "desc": "Sustained buzz around the major WWE wrestling event." },
+        { "name": "#questpit", "desc": "High volume discussion in the gaming/roleplay community." },
+        { "name": "#OPLive", "desc": "Real-time engagement with the 'On Patrol: Live' broadcast." },
+        { "name": "#DragRace", "desc": "Fan theories and reactions following the latest episode airing." },
+        { "name": "#VERZUZ", "desc": "Renewed interest in the musical battle series announcements." },
+        { "name": "#UFC325", "desc": "Major conversation around the latest fight card and results." },
+        { "name": "#Caturday", "desc": "The massive weekly community trend for cat enthusiasts." },
+        { "name": "#Santa1stFSinShanghai", "desc": "Global discussion around Santa's latest brand tour events." },
+        { "name": "#GoBlue", "desc": "University of Michigan sports fandom remains highly active." },
+        { "name": "#LEEARS", "desc": "Specific engagement around the latest Premier League match results." }
     ]
 };
