@@ -8,7 +8,7 @@
     - Kohl's, Target, Macy's, Dillard's, Belk, Bealls, Walmart, Ross, Burlington, TJ Maxx.
 3.  **Search X Trends** for the top 10 sustained topics over the last 48 hours.
 4.  **Update `Project/Dashboard/RETAIL_HISTORY.md`**: Append a new section for the date with the findings.
-5.  **Update `Project/Dashboard/retail_data.js`**: Update the `retailData` object with the latest trends, news summaries, and the top 10 X trends.
+5.  **Update `Project/Dashboard/retail_data.js`**: Add a new entry to the `retailHistory` object for the current date with the latest trends, news summaries, and the top 10 X trends. (Keep all previous dates in the file).
 6.  **Gemini Image Generation**:
     *   Open Google Gemini in Chrome.
     *   Use the "Pro" model.

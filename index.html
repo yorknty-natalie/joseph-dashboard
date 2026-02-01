@@ -57,6 +57,33 @@
             margin-bottom: 1.5rem;
         }
 
+        .date-selector-container {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            padding: 0.5rem 1rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            width: fit-content;
+        }
+
+        .date-select {
+            border: 1px solid #e2e8f0;
+            padding: 0.4rem 0.8rem;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-family: inherit;
+            color: var(--text-primary);
+            cursor: pointer;
+            outline: none;
+        }
+
+        .date-select:focus {
+            border-color: var(--accent-color);
+        }
+
         .card-sub-header {
             margin-bottom: 0.5rem;
         }
@@ -582,6 +609,14 @@
             </div>
         </div>
 
+        <!-- Intelligence Section Header -->
+        <div class="date-selector-container">
+            <span class="detail-label">View Intel for:</span>
+            <select id="intel-date-select" class="date-select" onchange="switchIntelDate()">
+                <!-- Dates will be injected here -->
+            </select>
+        </div>
+
         <!-- Retail Intelligence Card -->
         <div class="card" id="retail-intelligence-card">
             <div class="card-header">
@@ -741,13 +776,16 @@
             });
         }
 
-        function populateRetailIntelligence() {
-            if (typeof retailData === 'undefined') return;
+        function populateRetailIntelligence(date) {
+            if (typeof retailHistory === 'undefined') return;
+            
+            const data = retailHistory[date];
+            if (!data) return;
 
-            document.getElementById('retail-update-date').textContent = retailData.lastUpdated;
+            document.getElementById('retail-update-date').textContent = date;
 
             const trendsContainer = document.getElementById('trends-container');
-            trendsContainer.innerHTML = retailData.trends.map(trend => `
+            trendsContainer.innerHTML = data.trends.map(trend => `
                 <div class="trend-item">
                     <span class="trend-title">${trend.title}</span>
                     <span class="trend-desc">${trend.description}</span>
@@ -755,7 +793,7 @@
             `).join('');
 
             const newsContainer = document.getElementById('news-container');
-            newsContainer.innerHTML = retailData.news.map(item => `
+            newsContainer.innerHTML = data.news.map(item => `
                 <li class="news-item">
                     <span class="news-store">${item.store}</span>
                     <span class="news-headline">${item.headline}</span>
@@ -764,7 +802,7 @@
             `).join('');
 
             const buzzContainer = document.getElementById('buzz-container');
-            buzzContainer.innerHTML = retailData.xTrends.map((trend, index) => `
+            buzzContainer.innerHTML = data.xTrends.map((trend, index) => `
                 <li class="buzz-item">
                     <div>
                         <span class="buzz-rank">${index + 1}</span>
@@ -774,25 +812,51 @@
                 </li>
             `).join('');
 
-            // Set up Image Prompt
+            // Set up Image Prompt based on selected date's trends
             const promptDisplay = document.getElementById('prompt-display');
-            const imagePrompt = `A single high-quality product photo of ten distinct molded glass Christmas ornaments arranged in two clean rows on a solid white background. Each ornament is a unique custom shape with vibrant colors representing its theme: 1) A gold and black wrestling belt (#RoyalRumble). 2) A stone-gray castle tower (#questpit). 3) A blue and white police cruiser (#OPLive). 4) A vibrant pink high-fashion heel (#DragRace). 5) A silver and chrome vintage microphone (#VERZUZ). 6) A pair of black and red MMA gloves (#UFC325). 7) A warm ginger-colored sleeping kitten (#Caturday). 8) A clear glass Shanghai tower with a bright red Santa hat (#Santa1stFSinShanghai). 9) A large maize and blue college-style letter M (#GoBlue). 10) A neon green and black professional football boot (#LEEARS). Each ornament has its corresponding #tag name printed in small, clean, professional black typography positioned neatly underneath the base of the ornament, not overlapping the glass. All ornaments are made of premium, colorful, and translucent molded glass, isolated on a pure white background.`;
+            const ornamentShapes = [
+                "a gold and black wrestling belt", "a stone-gray castle tower", "a blue and white police cruiser",
+                "a vibrant pink high-fashion heel", "a silver and chrome vintage microphone", "a pair of black and red MMA gloves",
+                "a warm ginger-colored sleeping kitten", "a clear glass Shanghai tower with a bright red Santa hat",
+                "a large maize and blue college-style letter M", "a neon green and black professional football boot"
+            ];
+
+            let promptList = data.xTrends.map((t, i) => `${i+1}) ${ornamentShapes[i]} (${t.name})`).join('. ');
+            const imagePrompt = `A single high-quality product photo of ten distinct molded glass Christmas ornaments arranged in two clean rows on a solid white background. Each ornament is a unique custom shape with vibrant colors representing its theme: ${promptList}. Each ornament has its corresponding #tag name printed in small, clean, professional black typography positioned neatly underneath the base of the ornament, not overlapping the glass. All ornaments are made of premium, colorful, and translucent molded glass, isolated on a pure white background.`;
             
             promptDisplay.textContent = imagePrompt;
-
-            // Copy functionality
-            document.getElementById('copy-prompt-btn').onclick = () => {
-                navigator.clipboard.writeText(imagePrompt).then(() => {
-                    const btn = document.getElementById('copy-prompt-btn');
-                    const originalText = btn.textContent;
-                    btn.textContent = 'Copied!';
-                    setTimeout(() => btn.textContent = originalText, 2000);
-                });
-            };
+            window.currentImagePrompt = imagePrompt;
         }
 
+        function initDateSelector() {
+            if (typeof retailHistory === 'undefined') return;
+            const select = document.getElementById('intel-date-select');
+            const dates = Object.keys(retailHistory).sort().reverse();
+            
+            select.innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join('');
+            
+            if (dates.length > 0) {
+                populateRetailIntelligence(dates[0]);
+            }
+        }
+
+        function switchIntelDate() {
+            const date = document.getElementById('intel-date-select').value;
+            populateRetailIntelligence(date);
+        }
+
+        document.getElementById('copy-prompt-btn').onclick = () => {
+            const text = window.currentImagePrompt || document.getElementById('prompt-display').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.getElementById('copy-prompt-btn');
+                const originalText = btn.textContent;
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = originalText, 2000);
+            });
+        };
+
         fetchLiveRates();
-        populateRetailIntelligence();
+        initDateSelector();
         setInterval(fetchLiveRates, 300000);
     </script>
 </body>
