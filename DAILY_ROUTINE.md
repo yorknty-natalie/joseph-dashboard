@@ -15,7 +15,7 @@
     *   Generate an image using the logic: 10 trends as custom-shaped molded glass ornaments, vibrant colors, #tag names printed underneath.
     *   Download the generated image.
     *   Move the downloaded image to `Project/Dashboard/Gemini Photo/`.
-7.  **Push Updates**: Commit and push all changes (including the new image) to GitHub.
+7.  **Push Updates**: Commit and push text-based changes (data and history) to GitHub. (Note: Images in `Gemini Photo/` are ignored by Git and will remain local only).
 8.  **Final Notification**:
     *   Send a message to Joseph on Telegram: "Daily update complete. Dashboard is live at https://yorknty-natalie.github.io/joseph-dashboard/"
     *   **Send the latest image from `Project/Dashboard/Gemini Photo/`** to Joseph as a media attachment.
