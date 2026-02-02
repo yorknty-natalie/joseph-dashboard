@@ -1,6 +1,6 @@
 # Daily Retail & X Trends Routine
 
-**Schedule: Every day at 09:00 AM UTC**
+**Schedule: Every day at 01:00 AM UTC**
 
 ### Tasks:
 1.  **Search Google Trends** for "US Retail" top searches over the last 24 hours.
@@ -11,7 +11,8 @@
 5.  **Update `Project/Dashboard/retail_data.js`**: Add a new entry to the `retailHistory` object for the current date with the latest trends, news summaries, and the top 10 X trends. (Keep all previous dates in the file).
 6.  **Gemini Image Generation**:
     *   Open Google Gemini in Chrome.
-    *   Use the "Pro" model.
+    *   **Select the "玻璃產品生成" Gem** from the sidebar.
+    *   **Switch the model to "Pro"**.
     *   Generate an image using the logic: 10 trends as custom-shaped molded glass ornaments, vibrant colors, #tag names printed underneath.
     *   Download the generated image.
     *   Move the downloaded image to `Project/Dashboard/Gemini Photo/`.
