@@ -413,13 +413,35 @@
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             display: block;
+            cursor: zoom-in;
+            transition: opacity 0.2s;
         }
 
-        .no-image-text {
-            font-size: 0.8rem;
-            color: var(--text-secondary);
-            font-style: italic;
-            padding: 2rem 0;
+        .daily-image:hover {
+            opacity: 0.9;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            justify-content: center;
+            align-items: center;
+            cursor: zoom-out;
+        }
+
+        .modal-content {
+            max-width: 95%;
+            max-height: 95%;
+            object-fit: contain;
+            border-radius: 8px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
         }
 
         .loader {
@@ -448,6 +470,11 @@
         <div class="tab-container">
             <button id="tab-econ" class="tab-btn active" onclick="switchView('econ')">Finance & Economy</button>
             <button id="tab-intel" class="tab-btn" onclick="switchView('intel')">Market Intelligence</button>
+        </div>
+
+        <!-- Lightbox Modal -->
+        <div id="image-modal" class="modal" onclick="closeModal()">
+            <img class="modal-content" id="modal-img">
         </div>
 
         <!-- Economy & Finance View -->
@@ -874,7 +901,9 @@
                 // Extract file ID to use a more robust Google Drive preview link if needed
                 const fileId = data.imageUrl.split('id=')[1] || data.imageUrl.split('/d/')[1];
                 const robustUrl = fileId ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w1200` : data.imageUrl;
-                imageWrapper.innerHTML = `<img src="${robustUrl}" class="daily-image" alt="Daily Trend Ornaments">`;
+                // High-res URL for enlargement
+                const fullResUrl = fileId ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w4000` : data.imageUrl;
+                imageWrapper.innerHTML = `<img src="${robustUrl}" class="daily-image" alt="Daily Trend Ornaments" onclick="openModal('${fullResUrl}')">`;
             } else {
                 imageWrapper.innerHTML = `<div class="no-image-text">No design concept available for this date.</div>`;
             }
@@ -919,6 +948,17 @@
                 econTab.classList.remove('active');
                 intelTab.classList.add('active');
             }
+        }
+
+        function openModal(imgSrc) {
+            const modal = document.getElementById('image-modal');
+            const modalImg = document.getElementById('modal-img');
+            modal.style.display = "flex";
+            modalImg.src = imgSrc;
+        }
+
+        function closeModal() {
+            document.getElementById('image-modal').style.display = "none";
         }
 
         fetchLiveRates();
