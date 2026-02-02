@@ -871,7 +871,10 @@
             // Set up Daily Image
             const imageWrapper = document.getElementById('daily-image-wrapper');
             if (data.imageUrl) {
-                imageWrapper.innerHTML = `<img src="${data.imageUrl}" class="daily-image" alt="Daily Trend Ornaments">`;
+                // Extract file ID to use a more robust Google Drive preview link if needed
+                const fileId = data.imageUrl.split('id=')[1] || data.imageUrl.split('/d/')[1];
+                const robustUrl = fileId ? `https://drive.google.com/thumbnail?id=${fileId}&sz=w1200` : data.imageUrl;
+                imageWrapper.innerHTML = `<img src="${robustUrl}" class="daily-image" alt="Daily Trend Ornaments">`;
             } else {
                 imageWrapper.innerHTML = `<div class="no-image-text">No design concept available for this date.</div>`;
             }
