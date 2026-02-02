@@ -9,13 +9,35 @@
     <script src="retail_data.js"></script>
     <style>
         :root {
+            /* Light Theme Variables */
             --bg-color: #f8fafc;
             --card-bg: #ffffff;
             --text-primary: #1e293b;
             --text-secondary: #64748b;
             --accent-color: #3b82f6;
+            --border-color: #e2e8f0;
+            --indicator-bg: #f8fafc;
+            --trend-bg: #f0fdf4;
+            --trend-text: #166534;
+            --buzz-bg: #f0f9ff;
+            --buzz-border: #e0f2fe;
             --border-radius: 16px;
             --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-color: #60a5fa;
+            --border-color: #334155;
+            --indicator-bg: #0f172a;
+            --trend-bg: #064e3b;
+            --trend-text: #6ee7b7;
+            --buzz-bg: #0c4a6e;
+            --buzz-border: #075985;
+            --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
         }
 
         body {
@@ -27,6 +49,7 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .dashboard {
@@ -38,6 +61,25 @@
             gap: 1.5rem;
         }
 
+        .header-actions {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 1rem;
+        }
+
+        .theme-toggle {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            font-weight: 600;
+            box-shadow: var(--shadow);
+            transition: all 0.2s ease;
+        }
+
         .tab-container {
             display: flex;
             justify-content: center;
@@ -46,8 +88,8 @@
         }
 
         .tab-btn {
-            background-color: white;
-            border: 1px solid #e2e8f0;
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
             color: var(--text-secondary);
             padding: 0.75rem 2rem;
             border-radius: 12px;
@@ -79,7 +121,8 @@
             border-radius: var(--border-radius);
             padding: 1.5rem;
             box-shadow: var(--shadow);
-            transition: transform 0.2s ease;
+            transition: transform 0.2s ease, background-color 0.3s;
+            border: 1px solid var(--border-color);
         }
 
         .card:hover {
@@ -100,17 +143,18 @@
             gap: 1.5rem;
             margin-bottom: 1.5rem;
             padding: 0.75rem 1.5rem;
-            background: white;
+            background: var(--card-bg);
             border-radius: 14px;
             box-shadow: var(--shadow);
             width: fit-content;
             margin-left: auto;
             margin-right: auto;
+            border: 1px solid var(--border-color);
         }
 
         .nav-btn {
             background-color: var(--bg-color);
-            border: 1px solid #e2e8f0;
+            border: 1px solid var(--border-color);
             color: var(--text-primary);
             width: 32px;
             height: 32px;
@@ -136,10 +180,10 @@
         }
 
         .current-date-display {
-            font-size: 1rem;
+            font-size: 1.1rem;
             font-weight: 700;
             color: var(--text-primary);
-            min-width: 120px;
+            min-width: 140px;
             text-align: center;
         }
 
@@ -191,75 +235,79 @@
         }
 
         .news-item {
-            padding: 1rem;
-            background-color: #f1f5f9;
-            border-radius: 10px;
-            margin-bottom: 1rem;
-            font-size: 0.85rem;
-            border-left: 4px solid var(--accent-color);
+            padding: 1.25rem;
+            background-color: var(--indicator-bg);
+            border-radius: 12px;
+            margin-bottom: 1.25rem;
+            border-left: 5px solid var(--accent-color);
+            border-top: 1px solid var(--border-color);
+            border-right: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
         }
 
         .news-store {
             font-weight: 700;
             color: var(--accent-color);
             display: block;
-            margin-bottom: 0.2rem;
+            margin-bottom: 0.4rem;
             text-transform: uppercase;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             letter-spacing: 0.05em;
         }
 
         .news-headline {
             display: block;
-            font-weight: 600;
+            font-weight: 700;
             color: var(--text-primary);
-            margin-bottom: 0.4rem;
-            font-size: 0.9rem;
+            margin-bottom: 0.6rem;
+            font-size: 1.1rem;
+            line-height: 1.3;
         }
 
         .news-summary {
             display: block;
             color: var(--text-secondary);
-            line-height: 1.5;
-            font-size: 0.8rem;
+            line-height: 1.6;
+            font-size: 0.95rem;
         }
 
         .trend-container {
             display: flex;
             flex-direction: column;
-            gap: 0.75rem;
-            margin-top: 1rem;
+            gap: 1rem;
+            margin-top: 1.25rem;
         }
 
         .trend-item {
-            background-color: #f0fdf4;
-            border: 1px solid #dcfce7;
-            padding: 0.75rem;
-            border-radius: 8px;
+            background-color: var(--trend-bg);
+            border: 1px solid var(--trend-text);
+            padding: 1rem;
+            border-radius: 10px;
         }
 
         .trend-title {
             display: block;
-            font-weight: 700;
-            color: #166534;
-            font-size: 0.8rem;
-            margin-bottom: 0.2rem;
+            font-weight: 800;
+            color: var(--trend-text);
+            font-size: 0.95rem;
+            margin-bottom: 0.4rem;
             text-transform: uppercase;
         }
 
         .trend-desc {
             display: block;
-            font-size: 0.75rem;
-            color: #15803d;
-            line-height: 1.4;
+            font-size: 0.9rem;
+            color: var(--trend-text);
+            line-height: 1.5;
+            opacity: 0.9;
         }
 
         .indicator-item {
             display: flex;
             flex-direction: column;
             padding: 1rem;
-            background-color: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background-color: var(--indicator-bg);
+            border: 1px solid var(--border-color);
             border-radius: 12px;
             margin-bottom: 1rem;
             gap: 0.4rem;
@@ -304,7 +352,7 @@
 
         .next-release-text {
             font-size: 0.7rem;
-            color: #2563eb;
+            color: var(--accent-color);
             font-weight: 600;
             margin-top: 0.2rem;
         }
@@ -315,7 +363,7 @@
             flex-direction: column;
             gap: 0.4rem;
             padding-top: 0.6rem;
-            border-top: 1px dashed #cbd5e1;
+            border-top: 1px dashed var(--text-secondary);
         }
 
         .status-dot {
@@ -331,7 +379,7 @@
 
         .status-positive { color: #10b981; }
         .status-negative { color: #ef4444; }
-        .status-neutral { color: #64748b; }
+        .status-neutral { color: var(--text-secondary); }
 
         .trend-up::before { content: "↑"; }
         .trend-down::before { content: "↓"; }
@@ -357,42 +405,44 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 0.75rem;
-            background-color: #f0f9ff;
-            border: 1px solid #e0f2fe;
-            border-radius: 8px;
-            margin-bottom: 0.5rem;
+            padding: 1rem;
+            background-color: var(--buzz-bg);
+            border: 1px solid var(--buzz-border);
+            border-radius: 10px;
+            margin-bottom: 0.75rem;
         }
 
         .buzz-name {
-            font-weight: 700;
-            color: #0369a1;
-            font-size: 0.85rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            font-size: 1rem;
         }
 
         .buzz-rank {
-            font-size: 0.7rem;
-            font-weight: 600;
+            font-size: 0.8rem;
+            font-weight: 700;
             color: #7dd3fc;
             background-color: #0c4a6e;
-            padding: 2px 6px;
-            border-radius: 4px;
-            margin-right: 0.5rem;
+            padding: 3px 8px;
+            border-radius: 6px;
+            margin-right: 0.75rem;
         }
 
         .buzz-desc {
-            font-size: 0.75rem;
-            color: #0e7490;
+            font-size: 0.9rem;
+            color: var(--text-primary);
             display: block;
-            margin-top: 0.2rem;
+            margin-top: 0.4rem;
+            line-height: 1.4;
+            opacity: 0.9;
         }
 
         /* Daily Image Styles */
         .daily-image-container {
             margin-top: 1.5rem;
             padding: 1rem;
-            background-color: #f8fafc;
-            border: 1px solid #e2e8f0;
+            background-color: var(--indicator-bg);
+            border: 1px solid var(--border-color);
             border-radius: 12px;
             text-align: center;
         }
@@ -403,7 +453,7 @@
             color: var(--text-secondary);
             text-transform: uppercase;
             display: block;
-            margin-bottom: 0.75rem;
+            margin-bottom: 1rem;
             text-align: left;
         }
 
@@ -447,7 +497,7 @@
         .loader {
             width: 20px;
             height: 20px;
-            border: 2px solid #e2e8f0;
+            border: 2px solid var(--border-color);
             border-top: 2px solid var(--accent-color);
             border-radius: 50%;
             animation: spin 1s linear infinite;
@@ -459,13 +509,18 @@
         }
 
         .hidden {
-            display: none;
+            display: none !important;
         }
     </style>
 </head>
 <body>
 
     <div class="dashboard">
+        <!-- Header Actions -->
+        <div class="header-actions">
+            <button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">🌙 Dark Mode</button>
+        </div>
+
         <!-- Tab Navigation -->
         <div class="tab-container">
             <button id="tab-econ" class="tab-btn active" onclick="switchView('econ')">Finance & Economy</button>
@@ -499,7 +554,7 @@
                 </div>
 
                 <!-- Divider -->
-                <div style="border-top: 1px solid #f1f5f9; margin: 1.5rem 0;"></div>
+                <div style="border-top: 1px solid var(--border-color); margin: 1.5rem 0;"></div>
 
                 <!-- US Dollar Index (DXY) Section -->
                 <div class="card-sub-header">
@@ -741,13 +796,37 @@
         </div>
 
         <!-- Placeholder for future information -->
-        <div class="card" style="display: flex; align-items: center; justify-content: center; border: 2px dashed #e2e8f0; background: transparent; box-shadow: none; min-height: 100px;">
+        <div class="card" style="display: flex; align-items: center; justify-content: center; border: 2px dashed var(--border-color); background: transparent; box-shadow: none; min-height: 100px;">
             <span style="color: var(--text-secondary); font-weight: 500;">+ Add Component</span>
         </div>
     </div>
 
     <script>
         let rateChart, dxyChart;
+
+        function toggleTheme() {
+            const body = document.body;
+            const btn = document.getElementById('theme-btn');
+            const currentTheme = body.getAttribute('data-theme');
+            
+            if (currentTheme === 'dark') {
+                body.removeAttribute('data-theme');
+                btn.textContent = '🌙 Dark Mode';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark');
+                btn.textContent = '☀️ Light Mode';
+                localStorage.setItem('theme', 'dark');
+            }
+            // Update charts colors on theme change
+            updateCharts();
+        }
+
+        // Initialize Theme from Storage
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.setAttribute('data-theme', 'dark');
+            document.getElementById('theme-btn').textContent = '☀️ Light Mode';
+        }
 
         async function fetchLiveRates() {
             const rateElement = document.getElementById('rate-value');
@@ -800,13 +879,17 @@
         }
 
         async function updateCharts() {
+            const isDark = document.body.getAttribute('data-theme') === 'dark';
+            const gridColor = isDark ? '#334155' : '#f1f5f9';
+            const tickColor = isDark ? '#94a3b8' : '#64748b';
+
             const commonOptions = {
                 responsive: true,
                 maintainAspectRatio: false,
                 plugins: { legend: { display: false } },
                 scales: {
-                    x: { grid: { display: false }, ticks: { font: { size: 10 }, color: '#64748b' } },
-                    y: { grid: { color: '#f1f5f9' }, ticks: { font: { size: 10 }, color: '#64748b' } }
+                    x: { grid: { display: false }, ticks: { font: { size: 10 }, color: tickColor } },
+                    y: { grid: { color: gridColor }, ticks: { font: { size: 10 }, color: tickColor } }
                 }
             };
 
@@ -823,7 +906,7 @@
                     datasets: [{
                         data: twdValues,
                         borderColor: '#3b82f6',
-                        backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                        backgroundColor: isDark ? 'rgba(59, 130, 246, 0.2)' : 'rgba(59, 130, 246, 0.1)',
                         borderWidth: 2,
                         fill: true,
                         tension: 0.4,
@@ -844,7 +927,7 @@
                     datasets: [{
                         data: dxyValues,
                         borderColor: '#8b5cf6',
-                        backgroundColor: 'rgba(139, 92, 246, 0.1)',
+                        backgroundColor: isDark ? 'rgba(139, 92, 246, 0.2)' : 'rgba(139, 92, 246, 0.1)',
                         borderWidth: 2,
                         fill: true,
                         tension: 0.4,
