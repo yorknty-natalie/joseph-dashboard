@@ -387,56 +387,39 @@
             margin-top: 0.2rem;
         }
 
-        /* Prompt Box Styles */
-        .prompt-box {
+        /* Daily Image Styles */
+        .daily-image-container {
             margin-top: 1.5rem;
             padding: 1rem;
             background-color: #f8fafc;
             border: 1px solid #e2e8f0;
             border-radius: 12px;
+            text-align: center;
         }
 
-        .prompt-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.75rem;
-        }
-
-        .prompt-label {
+        .daily-image-label {
             font-size: 0.75rem;
             font-weight: 700;
             color: var(--text-secondary);
             text-transform: uppercase;
+            display: block;
+            margin-bottom: 0.75rem;
+            text-align: left;
         }
 
-        .copy-btn {
-            background-color: var(--accent-color);
-            color: white;
-            border: none;
-            padding: 4px 12px;
-            border-radius: 6px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: background-color 0.2s;
-        }
-
-        .copy-btn:hover {
-            background-color: #2563eb;
-        }
-
-        .prompt-text {
-            font-size: 0.75rem;
-            color: var(--text-primary);
-            line-height: 1.5;
-            background: white;
-            padding: 0.75rem;
+        .daily-image {
+            width: 100%;
+            height: auto;
             border-radius: 8px;
-            border: 1px solid #f1f5f9;
-            max-height: 150px;
-            overflow-y: auto;
-            word-break: break-word;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: block;
+        }
+
+        .no-image-text {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            font-style: italic;
+            padding: 2rem 0;
         }
 
         .loader {
@@ -719,14 +702,11 @@
                         <!-- X Trends will be injected here -->
                     </ul>
 
-                    <!-- Image Generation Prompt Section -->
-                    <div class="prompt-box">
-                        <div class="prompt-header">
-                            <span class="prompt-label">Image Generation Prompt</span>
-                            <button class="copy-btn" id="copy-prompt-btn">Copy Prompt</button>
-                        </div>
-                        <div class="prompt-text" id="prompt-display">
-                            Generating prompt based on trends...
+                    <!-- Daily Design Concept Section -->
+                    <div class="daily-image-container">
+                        <span class="daily-image-label">Daily Design Concept</span>
+                        <div id="daily-image-wrapper">
+                            <!-- Image will be injected here -->
                         </div>
                     </div>
                 </div>
@@ -888,32 +868,13 @@
                 </li>
             `).join('');
 
-            // Set up Image Prompt based on selected date's trends
-            const promptDisplay = document.getElementById('prompt-display');
-            
-            // Map common keywords to appropriate ornament shapes
-            const getShape = (name, desc) => {
-                const n = name.toLowerCase();
-                const d = desc.toLowerCase();
-                if (n.includes('cena') || n.includes('rumble') || n.includes('ufc') || n.includes('wrestling')) return "a gold championship belt";
-                if (n.includes('bunny') || n.includes('bad bunny')) return "a cool rabbit wearing sunglasses";
-                if (n.includes('linkin') || n.includes('music') || n.includes('grammy')) return "a vintage silver microphone";
-                if (n.includes('chicago') || n.includes('comedy') || n.includes('seth')) return "a pair of comedy and tragedy masks";
-                if (n.includes('lopez') || n.includes('fashion') || n.includes('drag')) return "a glamorous high-fashion dress";
-                if (n.includes('redick') || n.includes('basketball') || n.includes('lakers')) return "a professional basketball";
-                if (n.includes('night manager') || n.includes('spy') || d.includes('drama')) return "a sleek silver briefcase";
-                if (n.includes('mcgraw') || n.includes('country')) return "a classic cowboy hat";
-                if (n.includes('paramount') || n.includes('movie') || n.includes('streaming')) return "a glass box of movie popcorn";
-                if (n.includes('santa') || n.includes('christmas')) return "a traditional santa hat";
-                if (n.includes('cat')) return "a sleeping ginger kitten";
-                return "a unique geometric star"; // default
-            };
-
-            let promptList = data.xTrends.map((t, i) => `${i+1}) ${getShape(t.name, t.desc)} (${t.name})`).join('. ');
-            const imagePrompt = `A single high-quality product photo of ten distinct molded glass Christmas ornaments arranged in two clean rows on a solid white background. Each ornament is a unique custom shape with vibrant colors representing its theme: ${promptList}. Each ornament has its corresponding #tag name printed in small, clean, professional black typography positioned neatly underneath the base of the ornament, not overlapping the glass. All ornaments are made of premium, colorful, and translucent molded glass, isolated on a pure white background.`;
-            
-            promptDisplay.textContent = imagePrompt;
-            window.currentImagePrompt = imagePrompt;
+            // Set up Daily Image
+            const imageWrapper = document.getElementById('daily-image-wrapper');
+            if (data.imageUrl) {
+                imageWrapper.innerHTML = `<img src="${data.imageUrl}" class="daily-image" alt="Daily Trend Ornaments">`;
+            } else {
+                imageWrapper.innerHTML = `<div class="no-image-text">No design concept available for this date.</div>`;
+            }
 
             // Update button states
             document.getElementById('prev-date-btn').classList.toggle('disabled', currentDateIndex >= availableDates.length - 1);
@@ -937,16 +898,6 @@
                 populateRetailIntelligence(availableDates[currentDateIndex]);
             }
         }
-
-        document.getElementById('copy-prompt-btn').onclick = () => {
-            const text = window.currentImagePrompt || document.getElementById('prompt-display').textContent;
-            navigator.clipboard.writeText(text).then(() => {
-                const btn = document.getElementById('copy-prompt-btn');
-                const originalText = btn.textContent;
-                btn.textContent = 'Copied!';
-                setTimeout(() => btn.textContent = originalText, 2000);
-            });
-        };
 
         function switchView(viewId) {
             const econView = document.getElementById('view-econ');

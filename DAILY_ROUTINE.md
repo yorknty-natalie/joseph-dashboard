@@ -17,6 +17,7 @@
     *   Download the generated image.
     *   Move the downloaded image to `Project/Dashboard/Gemini Photo/`.
     *   **Upload the image to Google Drive** in the "x trend photo" folder (inside "Natalie Assistant") using `gog`.
+    *   **Capture the file ID** from the upload result and update `Project/Dashboard/retail_data.js` with the corresponding `imageUrl` (formatted for direct display: `https://drive.google.com/uc?export=view&id=FILE_ID`).
 7.  **Push Updates**: Commit and push text-based changes (data and history) to GitHub. (Note: Images in `Gemini Photo/` are ignored by Git and will remain local only).
 8.  **Final Notification**:
     *   Send a message to Joseph on Telegram: "Daily update complete. Dashboard is live at https://yorknty-natalie.github.io/joseph-dashboard/"
