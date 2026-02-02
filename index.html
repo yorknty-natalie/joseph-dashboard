@@ -890,14 +890,26 @@
 
             // Set up Image Prompt based on selected date's trends
             const promptDisplay = document.getElementById('prompt-display');
-            const ornamentShapes = [
-                "a gold and black wrestling belt", "a stone-gray castle tower", "a blue and white police cruiser",
-                "a vibrant pink high-fashion heel", "a silver and chrome vintage microphone", "a pair of black and red MMA gloves",
-                "a warm ginger-colored sleeping kitten", "a clear glass Shanghai tower with a bright red Santa hat",
-                "a large maize and blue college-style letter M", "a neon green and black professional football boot"
-            ];
+            
+            // Map common keywords to appropriate ornament shapes
+            const getShape = (name, desc) => {
+                const n = name.toLowerCase();
+                const d = desc.toLowerCase();
+                if (n.includes('cena') || n.includes('rumble') || n.includes('ufc') || n.includes('wrestling')) return "a gold championship belt";
+                if (n.includes('bunny') || n.includes('bad bunny')) return "a cool rabbit wearing sunglasses";
+                if (n.includes('linkin') || n.includes('music') || n.includes('grammy')) return "a vintage silver microphone";
+                if (n.includes('chicago') || n.includes('comedy') || n.includes('seth')) return "a pair of comedy and tragedy masks";
+                if (n.includes('lopez') || n.includes('fashion') || n.includes('drag')) return "a glamorous high-fashion dress";
+                if (n.includes('redick') || n.includes('basketball') || n.includes('lakers')) return "a professional basketball";
+                if (n.includes('night manager') || n.includes('spy') || d.includes('drama')) return "a sleek silver briefcase";
+                if (n.includes('mcgraw') || n.includes('country')) return "a classic cowboy hat";
+                if (n.includes('paramount') || n.includes('movie') || n.includes('streaming')) return "a glass box of movie popcorn";
+                if (n.includes('santa') || n.includes('christmas')) return "a traditional santa hat";
+                if (n.includes('cat')) return "a sleeping ginger kitten";
+                return "a unique geometric star"; // default
+            };
 
-            let promptList = data.xTrends.map((t, i) => `${i+1}) ${ornamentShapes[i]} (${t.name})`).join('. ');
+            let promptList = data.xTrends.map((t, i) => `${i+1}) ${getShape(t.name, t.desc)} (${t.name})`).join('. ');
             const imagePrompt = `A single high-quality product photo of ten distinct molded glass Christmas ornaments arranged in two clean rows on a solid white background. Each ornament is a unique custom shape with vibrant colors representing its theme: ${promptList}. Each ornament has its corresponding #tag name printed in small, clean, professional black typography positioned neatly underneath the base of the ornament, not overlapping the glass. All ornaments are made of premium, colorful, and translucent molded glass, isolated on a pure white background.`;
             
             promptDisplay.textContent = imagePrompt;
