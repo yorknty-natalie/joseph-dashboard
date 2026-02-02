@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-02": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1C6wPEx1yrWI8glxJskfO1fvBqqQPu27z",
+        "imageUrl": "https://lh3.googleusercontent.com/u/0/d/1C6wPEx1yrWI8glxJskfO1fvBqqQPu27z",
         "trends": [
             {
                 "title": "Luxury Sector Refocus",
