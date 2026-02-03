@@ -2,6 +2,35 @@
 
 ## Daily Log
 
+### 2026-02-03
+**Google Trends US Retail (Last 24h):**
+- **Regality & Regency**: High engagement with period-piece aesthetics from #AKnightOfTheSevenKingdoms and #GRAMMYs fashion.
+- **K-Pop Brand Power**: #LinglingkwongxCalvinklein shows strong interest in niche influencer-retailer collaborations.
+- **Winter Sports**: #StadiumSeries games boosting winter fan gear and accessories.
+- **Biopic Buzz**: #MichaelMovie creating early merchandise anticipation.
+
+**Retailer Major News (Last 24h):**
+- **Target**: Holiday closure strategy saved 4% on labor costs.
+- **Walmart**: 50th automated center online; pushing for sub-2-hour delivery.
+- **Kohl's**: Adding 50 Sephora shops for spring season.
+- **Macy's**: Spring 2026 lines adopting 'Surrealist' couture elements.
+- **Amazon**: Rumors continue about retail-specific AI tools from OpenAI deal.
+- **TJX/Ross**: Acquiring luxury inventory from Saks Off 5th closures.
+
+**X Trends (Last 48h):**
+1. #MondayMotivation (Weekly engagement)
+2. #AKnightOfTheSevenKingdoms (Game of Thrones prequel)
+3. #GRAMMYs (Awards season)
+4. #StadiumSeries (NHL outdoor games)
+5. #LinglingkwongxCalvinklein (Fashion collab)
+6. #IndustryHBO (TV drama)
+7. #MichaelMovie (Biopic news)
+8. #BaddiesUSA (Reality show)
+9. #GroundhogDay (Holiday observance)
+10. #zerobaseone (K-pop group)
+
+---
+
 ### 2026-02-02
 **Google Trends US Retail (Last 24h):**
 - **Luxury Refocus**: Saks Global is closing 57 'Saks Off 5th' stores and liquidating e-commerce to focus on Neiman Marcus and full-price luxury.

@@ -1,4 +1,69 @@
 const retailHistory = {
+    "2026-02-03": {
+        "imageUrl": "https://lh3.googleusercontent.com/u/0/d/16UItKPWMlH4_-AELsAN9Slg12VgYR4ps",
+        "trends": [
+            {
+                "title": " Regality & Regency",
+                "description": "Continued high interest in period-piece aesthetics following #AKnightOfTheSevenKingdoms and #GRAMMYs fashion highlights."
+            },
+            {
+                "title": "K-Pop Brand Collaborations",
+                "description": "Massive engagement around #LinglingkwongxCalvinklein shows the rising power of luxury-retailer collabs with niche influencers."
+            },
+            {
+                "title": "Winter Sports Surge",
+                "description": "Buzz from the #StadiumSeries outdoor hockey games is driving sales in technical winter outerwear and themed accessories."
+            },
+            {
+                "title": "Pop Culture Biopics",
+                "description": "Interest in #MichaelMovie is sparking early nostalgia-driven merchandise trends for late 2026."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Holiday Closure Success",
+                "summary": "Target internal reports suggest the experimental one-day holiday closures effectively reduced quarterly labor overages by 4%."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Automation Milestone",
+                "summary": "Walmart confirms its 50th fully automated fulfillment center is now online, aiming for 2-hour delivery in 80% of US markets."
+            },
+            {
+                "store": "Kohl's",
+                "headline": "Sephora Expansion",
+                "summary": "Kohl's announces another 50 shop-in-shop Sephora locations to capture the spring beauty gift-giving season."
+            },
+            {
+                "store": "Macy's",
+                "headline": "Couture Influence",
+                "summary": "Macy's Spring 2026 lines are being heavily influenced by the 'Surrealist' aesthetics seen at last week's Paris Haute Couture."
+            },
+            {
+                "store": "Amazon",
+                "headline": "OpenAI Partnership",
+                "summary": "Speculation grows on the specific retail tools Amazon will build using the rumored $50B OpenAI investment."
+            },
+            {
+                "store": "Off-Price (TJX/Ross)",
+                "headline": "Inventory Goldmine",
+                "summary": "Off-price buyers are successfully acquiring high-end residual stock following the Saks Off 5th e-commerce liquidation."
+            }
+        ],
+        "xTrends": [
+            { "name": "#MondayMotivation", "desc": "Weekly inspirational engagement driving early-week shopping habits." },
+            { "name": "#AKnightOfTheSevenKingdoms", "desc": "High anticipation for the new Westeros saga driving fantasy merch." },
+            { "name": "#GRAMMYs", "desc": "Fashion and red carpet discussions setting the trend for Spring 2026." },
+            { "name": "#StadiumSeries", "desc": "Outdoor winter sports culture and technical fan gear." },
+            { "name": "#LinglingkwongxCalvinklein", "desc": "Global luxury fashion collaboration generating viral reach." },
+            { "name": "#IndustryHBO", "desc": "Finance-culture drama driving interest in 'Corporate Chic' apparel." },
+            { "name": "#MichaelMovie", "desc": "Nostalgia and biopic buzz around Michael Jackson's life." },
+            { "name": "#BaddiesUSA", "desc": "Reality TV drama generating social media product placements." },
+            { "name": "#GroundhogDay", "desc": "Observance of the traditional early-February weather forecast holiday." },
+            { "name": "#zerobaseone", "desc": "K-pop fandom activity influencing global youth retail trends." }
+        ]
+    },
     "2026-02-02": {
         "imageUrl": "https://lh3.googleusercontent.com/u/0/d/1C6wPEx1yrWI8glxJskfO1fvBqqQPu27z",
         "trends": [
