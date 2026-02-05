@@ -1,4 +1,69 @@
 const retailHistory = {
+    "2026-02-05": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=16V_zdttkXhBFvi9-W1ka-zbMMZJi-f7h",
+        "trends": [
+            {
+                "title": "NBA Trade Deadline Frenzy",
+                "description": "Anthony Davis, Kristaps Porzingis, and multiple game matchups dominating searches as the trade deadline approaches with major roster moves."
+            },
+            {
+                "title": "Google Stock Surge",
+                "description": "GOOG/GOOGL trending heavily after earnings report, showing strong retail investor interest in tech stocks."
+            },
+            {
+                "title": "Winter Olympics 2026 Hype",
+                "description": "Milan-Cortina games generating massive search interest with 'where is 2026 winter olympics' trending at 100K+ searches."
+            },
+            {
+                "title": "Walmart's Trillion Dollar Milestone",
+                "description": "Historic moment as Walmart becomes the first retailer to reach $1 trillion market valuation, driven by e-commerce growth."
+            }
+        ],
+        "news": [
+            {
+                "store": "Walmart",
+                "headline": "$1 Trillion Milestone",
+                "summary": "Walmart becomes the first retailer ever to hit $1 trillion market value, fueled by booming e-commerce sales and higher-income shoppers."
+            },
+            {
+                "store": "Goodwill",
+                "headline": "Record Revenue Growth",
+                "summary": "Goodwill notches record revenue and announces plans to open 100 more stores, capitalizing on thrift shopping trends."
+            },
+            {
+                "store": "Claire's",
+                "headline": "Leadership Refresh",
+                "summary": "Claire's new owners name former Athleta and Nike executive Michelle Goad as chief brand officer to reset the decades-old mall fixture for growth."
+            },
+            {
+                "store": "Macy's",
+                "headline": "Store Purge Continues",
+                "summary": "Macy's 470-store retail purge continues with another wave of closures as the department store chain reshapes its footprint."
+            },
+            {
+                "store": "TJ Maxx",
+                "headline": "NYC Expansion",
+                "summary": "TJ Maxx signs its first new NYC lease in a decade, signaling renewed confidence in urban off-price retail."
+            },
+            {
+                "store": "Retail Industry",
+                "headline": "Surveillance Pricing Scrutiny",
+                "summary": "Surveillance pricing (dynamic pricing based on customer data) faces potential regulatory pushback from consumer advocacy groups."
+            }
+        ],
+        "xTrends": [
+            { "name": "Tommaso Cioni", "desc": "Savannah Guthrie's brother-in-law trending at 200K+ searches after breaking news." },
+            { "name": "Anthony Davis", "desc": "NBA star trade rumors dominating sports discussions with Lakers, Mavs mentioned." },
+            { "name": "Google Stock", "desc": "GOOG earnings driving 200K+ searches from retail investors." },
+            { "name": "Winter Olympics 2026", "desc": "Milan-Cortina games generating massive global interest." },
+            { "name": "Kristaps Porzingis", "desc": "Warriors trade discussions around the 7'3\" center heating up." },
+            { "name": "Washington Post", "desc": "Jeff Bezos and layoffs controversy trending at 50K+ searches." },
+            { "name": "Channing Tatum", "desc": "Actor trending after hospital-related news." },
+            { "name": "Overwatch", "desc": "Gaming news around new heroes and Overwatch 2 updates." },
+            { "name": "Man City vs Newcastle", "desc": "Premier League match driving 100K+ searches." },
+            { "name": "Gavin McKenna", "desc": "Hockey prospect trending with felony-related news at 100K+." }
+        ]
+    },
     "2026-02-03": {
         "imageUrl": "https://lh3.googleusercontent.com/u/0/d/16UItKPWMlH4_-AELsAN9Slg12VgYR4ps",
         "trends": [
