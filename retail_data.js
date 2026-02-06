@@ -1,4 +1,69 @@
 const retailHistory = {
+    "2026-02-06": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1IjHW6tAop4zJKgzrvr7e5wPWsUlsftRz",
+        "trends": [
+            {
+                "title": "Bitcoin & Crypto Surge",
+                "description": "Bitcoin price trending at 500K+ searches alongside XRP and Ethereum as crypto markets rally."
+            },
+            {
+                "title": "TrumpRX Phenomenon",
+                "description": "New trending topic TrumpRX generating 100K+ searches with significant social media buzz."
+            },
+            {
+                "title": "NBA Trade Aftermath",
+                "description": "Kristaps Porzingis (200K+), Jose Alvarado (100K+), and multiple player trades dominating sports news."
+            },
+            {
+                "title": "Tech Stock Watch",
+                "description": "Amazon stock and Meta stock price trending as investors react to earnings reports."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "New CEO Takes Helm",
+                "summary": "Michael Fiddelke officially starts as Target CEO, reiterating top priorities for the retail giant's transformation."
+            },
+            {
+                "store": "Walmart",
+                "headline": "CEO Transition Complete",
+                "summary": "John Furner begins tenure as Walmart CEO, paying tribute to predecessor while outlining growth strategy."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "IP Control Shifts",
+                "summary": "Authentic Brands Group now owns 77% of the entity controlling perpetual licenses for Saks Fifth Avenue, Neiman Marcus, and Bergdorf Goodman."
+            },
+            {
+                "store": "Claire's",
+                "headline": "New Brand Leadership",
+                "summary": "Michelle Goad named chief brand officer to transform the tween retailer's mall-oriented store footprint."
+            },
+            {
+                "store": "Peloton",
+                "headline": "Workforce Reduction",
+                "summary": "Peloton lays off 11% of workforce as part of restructuring plan targeting $100M in cost savings."
+            },
+            {
+                "store": "Rhone",
+                "headline": "Resale Program Launch",
+                "summary": "Rhone launches ReRhone resale program powered by Archive, sourcing inventory from customer returns."
+            }
+        ],
+        "xTrends": [
+            { "name": "Bitcoin Price", "desc": "Crypto markets rallying with Bitcoin leading at 500K+ searches." },
+            { "name": "TrumpRX", "desc": "New viral trend generating 100K+ searches." },
+            { "name": "Kristaps Porzingis", "desc": "Warriors trade discussions continue post-deadline." },
+            { "name": "Jose Alvarado", "desc": "Pelicans guard trending after standout performance." },
+            { "name": "Amazon Stock", "desc": "Tech stock movements driving investor interest." },
+            { "name": "Jim Carrey", "desc": "Actor trending with 20K+ searches for new project." },
+            { "name": "NFL Awards 2026", "desc": "Annual NFL awards ceremony generating buzz." },
+            { "name": "Eileen Gu", "desc": "Olympic skier trending during Winter Games coverage." },
+            { "name": "Great Lakes", "desc": "Weather-related trending topic with 20K+ searches." },
+            { "name": "Derrick Callella", "desc": "Trending personality with 50K+ searches." }
+        ]
+    },
     "2026-02-05": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=16V_zdttkXhBFvi9-W1ka-zbMMZJi-f7h",
         "trends": [

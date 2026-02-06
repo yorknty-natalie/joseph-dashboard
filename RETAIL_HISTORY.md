@@ -2,6 +2,48 @@
 
 ## Daily Log
 
+### 2026-02-06
+**Google Trends US Retail (Last 24h):**
+- **Crypto Rally**: Bitcoin price trending at 500K+ searches, XRP and Ethereum also active.
+- **TrumpRX**: New viral phenomenon generating 100K+ searches.
+- **NBA Post-Trade**: Kristaps Porzingis, Jose Alvarado, Luke Kennard trending after trade deadline moves.
+- **Tech Stocks**: Amazon stock (100K+) and Meta stock price trending as investors watch earnings.
+
+**Retailer Major News (Last 24h):**
+- **Target**: Michael Fiddelke officially starts as new CEO, reiterating transformation priorities.
+- **Walmart**: John Furner begins CEO tenure, pays tribute to predecessor Doug McMillon.
+- **Saks Global**: Authentic Brands Group now controls 77% of IP licensing for Saks, Neiman Marcus, Bergdorf Goodman.
+- **Claire's**: Michelle Goad (ex-Gap) named chief brand officer to transform mall footprint.
+- **Peloton**: 11% workforce layoff as part of $100M cost savings restructuring plan.
+- **Rhone**: Launches ReRhone resale program powered by Archive platform.
+
+**X Trends (Last 48h):**
+1. Bitcoin Price (Crypto markets surge)
+2. TrumpRX (Viral trend)
+3. Kristaps Porzingis (NBA trade aftermath)
+4. Jose Alvarado (Pelicans standout)
+5. Amazon Stock (Tech earnings)
+6. Jim Carrey (Entertainment)
+7. NFL Awards 2026 (Sports ceremony)
+8. Eileen Gu (Winter Olympics)
+9. Great Lakes (Weather)
+10. Derrick Callella (Trending personality)
+
+---
+
+### 2026-02-05
+**Google Trends US Retail (Last 24h):**
+- **Winter Olympics 2026**: Massive search interest in Milan-Cortina games.
+- **NBA Action**: Multiple game matchups trending.
+- **Stock Market**: GOOG/GOOGL stock trending after earnings.
+
+**Retailer Major News (Last 24h):**
+- **Target**: New CEO admits retailer "lost trust" with shoppers.
+- **Walmart**: First retailer to hit $1 trillion market value.
+- **Macy's**: 14 more stores targeted for closure.
+
+---
+
 ### 2026-02-03
 **Google Trends US Retail (Last 24h):**
 - **Regality & Regency**: High engagement with period-piece aesthetics from #AKnightOfTheSevenKingdoms and #GRAMMYs fashion.
