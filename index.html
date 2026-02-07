@@ -628,9 +628,9 @@
             <div class="modal-backdrop" onclick="closeModal()"></div>
             <button class="modal-close-btn" onclick="closeModal()">✕</button>
             <div class="modal-container">
-                <button id="modal-prev-btn" class="modal-nav-btn modal-nav-prev" onclick="navigateModal(-1)">‹</button>
+                <button id="modal-prev-btn" class="modal-nav-btn modal-nav-prev" onclick="navigateModal(1)">‹</button>
                 <img class="modal-content" id="modal-img">
-                <button id="modal-next-btn" class="modal-nav-btn modal-nav-next" onclick="navigateModal(1)">›</button>
+                <button id="modal-next-btn" class="modal-nav-btn modal-nav-next" onclick="navigateModal(-1)">›</button>
             </div>
             <div class="modal-date-label" id="modal-date-label">---</div>
         </div>
@@ -1150,9 +1150,9 @@
 
         function handleModalKeydown(e) {
             if (e.key === 'ArrowLeft') {
-                navigateModal(-1);
+                navigateModal(1);  // Left = older date
             } else if (e.key === 'ArrowRight') {
-                navigateModal(1);
+                navigateModal(-1); // Right = newer date
             } else if (e.key === 'Escape') {
                 closeModal();
             }
@@ -1180,8 +1180,10 @@
         function updateModalNavButtons() {
             const prevBtn = document.getElementById('modal-prev-btn');
             const nextBtn = document.getElementById('modal-next-btn');
-            prevBtn.classList.toggle('disabled', currentDateIndex <= 0);
-            nextBtn.classList.toggle('disabled', currentDateIndex >= availableDates.length - 1);
+            // prev (left) goes to older dates (higher index)
+            prevBtn.classList.toggle('disabled', currentDateIndex >= availableDates.length - 1);
+            // next (right) goes to newer dates (lower index)
+            nextBtn.classList.toggle('disabled', currentDateIndex <= 0);
         }
 
         // Touch/Swipe support for mobile
@@ -1207,11 +1209,11 @@
             
             if (Math.abs(diff) > swipeThreshold) {
                 if (diff > 0) {
-                    // Swipe left -> next image
-                    navigateModal(1);
-                } else {
-                    // Swipe right -> previous image
+                    // Swipe left -> next day (newer)
                     navigateModal(-1);
+                } else {
+                    // Swipe right -> previous day (older)
+                    navigateModal(1);
                 }
             }
         }
