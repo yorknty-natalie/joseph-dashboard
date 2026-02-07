@@ -1,4 +1,69 @@
 const retailHistory = {
+    "2026-02-07": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1laFqy7speVfq4J4s2zsT2lra0Qhl2qJa",
+        "trends": [
+            {
+                "title": "NFL & Sports Dominance",
+                "description": "Stafford, Maye, Herbert trending as NFL discussions heat up alongside Super Bowl preparation."
+            },
+            {
+                "title": "Wrestling Entertainment",
+                "description": "SmackDown and Cody Rhodes leading WWE trending topics with championship storylines."
+            },
+            {
+                "title": "Music & Entertainment",
+                "description": "J Cole trending for 20+ hours, Lion King also gaining significant attention."
+            },
+            {
+                "title": "Political Landscape",
+                "description": "Obamas, Tim Scott, and Truth Social trending amid ongoing political discussions."
+            }
+        ],
+        "news": [
+            {
+                "store": "Coty",
+                "headline": "OpenAI Partnership",
+                "summary": "Coty partners with OpenAI, weaving AI throughout its business as an efficiency enhancer for creativity."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "IP Control Update",
+                "summary": "Authentic Brands Group now owns 77% of the entity controlling perpetual licenses for Saks, Neiman Marcus, Bergdorf Goodman."
+            },
+            {
+                "store": "Target & Walmart",
+                "headline": "New CEO Era Continues",
+                "summary": "Michael Fiddelke and John Furner settling into their new CEO roles at Target and Walmart respectively."
+            },
+            {
+                "store": "Peloton",
+                "headline": "Restructuring Progress",
+                "summary": "11% workforce reduction continues as part of $100M cost savings plan through fiscal 2026."
+            },
+            {
+                "store": "Claire's",
+                "headline": "Brand Transformation",
+                "summary": "New chief brand officer Michelle Goad leading mall footprint transformation strategy."
+            },
+            {
+                "store": "Retail Industry",
+                "headline": "AI Commerce Risks",
+                "summary": "Retailers racing to meet consumers on external AI platforms risk losing data and direct shopper interaction."
+            }
+        ],
+        "xTrends": [
+            { "name": "J Cole", "desc": "Hip-hop artist trending for 20+ hours." },
+            { "name": "SmackDown", "desc": "WWE Friday night wrestling show at #1." },
+            { "name": "Stafford", "desc": "LA Rams QB trending in NFL discussions." },
+            { "name": "Maye", "desc": "New England Patriots trending topic." },
+            { "name": "Herbert", "desc": "LA Chargers QB generating buzz." },
+            { "name": "Obamas", "desc": "Former first family trending for 17 hours." },
+            { "name": "Cody Rhodes", "desc": "WWE champion storyline trending." },
+            { "name": "Lion King", "desc": "Disney entertainment trending." },
+            { "name": "Tim Scott", "desc": "Senator trending in political discussions." },
+            { "name": "Truth Social", "desc": "Social media platform trending." }
+        ]
+    },
     "2026-02-06": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1IjHW6tAop4zJKgzrvr7e5wPWsUlsftRz",
         "trends": [
