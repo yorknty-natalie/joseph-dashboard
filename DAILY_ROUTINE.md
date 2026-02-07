@@ -4,9 +4,17 @@
 
 ### Tasks:
 1.  **Search Google Trends** for "US Retail" top searches over the last 24 hours.
+    - Use headless browser (`openclaw` profile) to access `https://trends.google.com/trending?geo=US&hours=24`
+    - If blocked by CAPTCHA, fallback to `web_fetch` on trends24.in
 2.  **Search News** for the following 10 retailers (last 24 hours):
     - Kohl's, Target, Macy's, Dillard's, Belk, Bealls, Walmart, Ross, Burlington, TJ Maxx.
-3.  **Search X Trends** for the top 10 sustained topics over the last 48 hours.
+    - Use `web_fetch` on RetailDive: `https://www.retaildive.com/`
+3.  **Search X Trends** using `bird` CLI:
+    ```bash
+    bird trending --json
+    ```
+    - This returns AI-curated trending topics with headlines, categories, and post counts.
+    - Select top 10 most relevant trends for the dashboard.
 4.  **Update `Project/Dashboard/RETAIL_HISTORY.md`**: Append a new section for the date with the findings.
 5.  **Update `Project/Dashboard/retail_data.js`**: Add a new entry to the `retailHistory` object for the current date with the latest trends, news summaries, and the top 10 X trends. (Keep all previous dates in the file).
 6.  **Gemini Image Generation**:
