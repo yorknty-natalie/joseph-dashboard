@@ -1,4 +1,69 @@
 const retailHistory = {
+    "2026-02-08": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1Ii7eAjSNJpGNbJOyHyQFwK-rZIHCxUmt",
+        "trends": [
+            {
+                "title": "Trump National Prayer Event",
+                "description": "Trump announces a national prayer event on the Mall for May 2026, generating 756K+ posts."
+            },
+            {
+                "title": "Bitcoin Rebound",
+                "description": "Bitcoin rebounds to $70,000 after dipping below $62,000, seeing 477K+ posts."
+            },
+            {
+                "title": "Milano Olympics Opening",
+                "description": "Boos greet U.S. VP Vance at the Milano-Cortina Winter Olympics opening ceremony; 453K+ posts."
+            },
+            {
+                "title": "Epstein Documents Release",
+                "description": "DOJ releases 3.5 million pages of Epstein documents, sparking 429K+ posts."
+            }
+        ],
+        "news": [
+            {
+                "store": "Coty",
+                "headline": "OpenAI Partnership for Creativity",
+                "summary": "Coty is weaving AI throughout its business as an efficiency enhancer for creativity and strategic thinking."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "IP Control Consolidation",
+                "summary": "Authentic Brands Group now owns 77% of the entity controlling Saks, Neiman Marcus, and Bergdorf Goodman IP."
+            },
+            {
+                "store": "Target & Walmart",
+                "headline": "New CEOs Take Reins",
+                "summary": "Michael Fiddelke (Target) and John Furner (Walmart) officially start their roles as CEOs."
+            },
+            {
+                "store": "Peloton",
+                "headline": "11% Workforce Reduction",
+                "summary": "Restructuring plan aims for $100M cost savings by end of fiscal 2026 through layoffs."
+            },
+            {
+                "store": "Claire's",
+                "headline": "New Chief Brand Officer",
+                "summary": "Michelle Goad (ex-Gap) tasked with transforming the tween retailer's mall-oriented store footprint."
+            },
+            {
+                "store": "Retail Tech",
+                "headline": "AI Commerce Risks",
+                "summary": "Experts warn retailers risk losing data and direct interactions by rushing to external AI platforms."
+            }
+        ],
+        "xTrends": [
+            { "name": "Trump Prayer Event", "desc": "National prayer event on Mall for May 2026." },
+            { "name": "JoongDunk", "desc": "Dare You to Death Episode 7 chemistry buzz." },
+            { "name": "RCB WPL Title", "desc": "RCB claims second straight WPL title." },
+            { "name": "Anti-ICE Protests", "desc": "Police arrest dozens in Minneapolis clashes." },
+            { "name": "SAVE America Act", "desc": "House Republicans advance voter ID bill." },
+            { "name": "Epstein Documents", "desc": "DOJ releases 3.5M pages of documents." },
+            { "name": "India U19", "desc": "Record sixth World Cup title for India U19." },
+            { "name": "Mike Vrabel", "desc": "NFL Honors sweep for Patriots turnaround." },
+            { "name": "Milano Olympics", "desc": "Opening ceremony drama and VP Vance visit." },
+            { "name": "Bitcoin Rebound", "desc": "Crypto rally sees Bitcoin hitting $70k again." }
+        ]
+    },
     "2026-02-07": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1laFqy7speVfq4J4s2zsT2lra0Qhl2qJa",
         "trends": [
