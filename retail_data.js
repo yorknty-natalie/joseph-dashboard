@@ -1,4 +1,59 @@
 const retailHistory = {
+    "2026-02-09": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1Cs67FugiWtpXG6rHkyFLg7Dz0-aZW24y",
+        "trends": [
+            {
+                "title": "Trump-Obama Video Backlash",
+                "description": "Trump shares controversial video depicting Obamas, drawing massive bipartisan backlash with 2.8M posts."
+            },
+            {
+                "title": "Cole Palmer Rapid Hat-Trick",
+                "description": "Chelsea's Cole Palmer scores a rapid hat-trick in 3-1 win over Wolves, seeing 309K+ posts."
+            },
+            {
+                "title": "Starmer Chief of Staff Resigns",
+                "description": "Downing Street resignation linked to Mandelson-Epstein scandal sparks 243K+ posts."
+            },
+            {
+                "title": "Bad Bunny Super Bowl Show",
+                "description": "Bad Bunny headlines historic Spanish-language Super Bowl halftime performance; 361K+ posts."
+            }
+        ],
+        "news": [
+            {
+                "store": "Coty",
+                "headline": "OpenAI Creative Partnership",
+                "summary": "Coty integrates OpenAI technology to enhance creativity and strategic efficiency across its brands."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "IP Rights Consolidation",
+                "summary": "Authentic Brands Group takes 77% control of Saks, Neiman Marcus, and Bergdorf Goodman IP licensing."
+            },
+            {
+                "store": "Retail Strategy",
+                "headline": "AI Platform Risks",
+                "summary": "Experts caution retailers about data loss and loss of customer connection when moving to external AI platforms."
+            },
+            {
+                "store": "Target & Walmart",
+                "headline": "New CEO Implementation",
+                "summary": "Michael Fiddelke (Target) and John Furner (Walmart) continue their first week as CEOs of the retail giants."
+            }
+        ],
+        "xTrends": [
+            { "name": "Trump-Obama Row", "desc": "Bipartisan backlash over controversial video." },
+            { "name": "Cole Palmer", "desc": "Rapid hat-trick leads Chelsea to win." },
+            { "name": "Starmer Resignation", "desc": "Chief of staff exits amid Epstein-linked scandal." },
+            { "name": "Bad Bunny SB", "desc": "Historic Spanish Super Bowl halftime show." },
+            { "name": "Savannah Guthrie", "desc": "Ransom pledged for missing mother Nancy." },
+            { "name": "Thomas Massie", "desc": "Threatens to name redacted Epstein clients." },
+            { "name": "Real Madrid Win", "desc": "2-0 victory over Valencia at the Mestalla." },
+            { "name": "Gyökeres Brace", "desc": "Arsenal cruise to 3-0 win over Sunderland." },
+            { "name": "Seahawks Lead", "desc": "Super Bowl LX rematch early lead vs Patriots." },
+            { "name": "J.D. Vance Boos", "desc": "Greeted with boos at Milano Olympics parade." }
+        ]
+    },
     "2026-02-08": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1Ii7eAjSNJpGNbJOyHyQFwK-rZIHCxUmt",
         "trends": [

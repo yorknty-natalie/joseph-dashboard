@@ -2,6 +2,33 @@
 
 ## Daily Log
 
+### 2026-02-09
+**Google Trends US & X Trends (Last 24-48h):**
+- **controversial video row**: Trump vs Obamas video backlash dominates with 2.8M posts.
+- **Premier League**: Cole Palmer's rapid hat-trick fuels Chelsea victory.
+- **Politics & Scandal**: Starmer's Chief of Staff resigns amid Epstein scandal; Thomas Massie threats.
+- **Super Bowl LX**: Bad Bunny Spanish halftime show; Seahawks vs Patriots rematch.
+- **Winter Olympics**: VP Vance greeted with boos in Milano.
+
+**Retailer Major News (Last 24h):**
+- **Coty**: Leveraging OpenAI partnership to boost creative efficiency.
+- **Saks Global**: ABG takes major IP control for Saks and Neiman Marcus groups.
+- **Strategy Shift**: Retailers warned about the long-term data risks of using third-party AI commerce platforms.
+
+**X Trends (Last 48h):**
+1. Trump-Obama Row
+2. Cole Palmer
+3. Starmer Resignation
+4. Bad Bunny SB
+5. Savannah Guthrie
+6. Thomas Massie
+7. Real Madrid Win
+8. Gyökeres Brace
+9. Seahawks Lead
+10. J.D. Vance Boos
+
+---
+
 ### 2026-02-08
 **Google Trends US & X Trends (Last 24-48h):**
 - **National Prayer Event**: Trump announces Mall event for May 2026; 756K+ posts.
