@@ -1,4 +1,64 @@
 const retailHistory = {
+    "2026-02-10": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Super Bowl Halftime Debate",
+                "description": "Bad Bunny's Spanish performance sparks national patriotism debates; 816K+ posts."
+            },
+            {
+                "title": "Trump-Musk SAVE Act",
+                "description": "Bipartisan discussions heat up as Trump and Musk push for the SAVE Act voter ID legislation; 413K+ posts."
+            },
+            {
+                "title": "Premier League Drama",
+                "description": "Cole Palmer's hat-trick and Man City's Anfield comeback dominate sports search interest."
+            },
+            {
+                "title": "Presidents Day Interest",
+                "description": "Early shopping interest spikes for upcoming Presidents Day sales and western wear (Tecovas)."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Fiddelke Era Begins",
+                "summary": "Michael Fiddelke officially takes over as CEO, focusing on trust and transformation."
+            },
+            {
+                "store": "Walmart",
+                "headline": "John Furner Starts",
+                "summary": "John Furner begins his tenure as CEO of the world's largest retailer."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "IP Consolidation",
+                "summary": "ABG secures 77% control of Saks and Neiman Marcus IP rights."
+            },
+            {
+                "store": "Coty",
+                "headline": "OpenAI Beauty Partnership",
+                "summary": "Integrating AI to enhance creative efficiency across global beauty brands."
+            },
+            {
+                "store": "Peloton",
+                "headline": "Restructuring Layoffs",
+                "summary": "11% of workforce affected in move to save $100M by end of fiscal 2026."
+            }
+        ],
+        "xTrends": [
+            { "name": "Bad Bunny SB", "desc": "Halftime performance sparks Spanish debate." },
+            { "name": "Trump-Musk SAVE Act", "desc": "Advocating for voter ID and citizenship proof." },
+            { "name": "Japan Supermajority", "desc": "Historic election win for Takaichi's LDP." },
+            { "name": "Herzog Sydney Protests", "desc": "Clashes during Sydney visit." },
+            { "name": "NCT JNJM Debut", "desc": "K-pop subunit teasers viral." },
+            { "name": "Cole Palmer Hat-Trick", "desc": "Chelsea star's dominance continues." },
+            { "name": "Man City Comeback", "desc": "2-1 win at Anfield over Liverpool." },
+            { "name": "Presidents Day Sales", "desc": "Upcoming retail event anticipation." },
+            { "name": "Tecovas Boots", "desc": "Shopping trend for western wear." },
+            { "name": "Peloton Layoffs", "desc": "Restructuring and cost-cutting focus." }
+        ]
+    },
     "2026-02-09": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1Cs67FugiWtpXG6rHkyFLg7Dz0-aZW24y",
         "trends": [
