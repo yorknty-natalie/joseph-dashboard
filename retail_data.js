@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-10": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=10AyTu0iyOTObqesH2tO-ew_KwOuQFlbx",
         "trends": [
             {
                 "title": "Super Bowl Halftime Debate",
