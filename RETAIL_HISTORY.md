@@ -2,6 +2,35 @@
 
 ## Daily Log
 
+### 2026-02-11
+**Google Trends US & X Trends (Last 24-48h):**
+- **Retail Restructuring**: Eddie Bauer files for bankruptcy and winds down all 175 stores (100K+ mentions); Saks Global to shutter 9 full-line stores.
+- **Entertainment & Events**: Noah Kahan tickets (50K+) and Epic Games (5K+) leading shopping-related search interest.
+- **Politics & Legislation**: Redactions in new Epstein files (589K+) and the SAVE America Act (517K+) dominate X discussions.
+- **Sports Highlights**: Japan Election supermajority (693K+); Chelsea vs Leeds 2-2 draw (104K+); Pistons-Hornets brawl win (230K+).
+- **Tech & Auto**: Rivian R2 interest (20K+) and noise-canceling earbuds (2K+) trending in consumer tech.
+
+**Retailer Major News (Last 24h):**
+- **Target**: Cutting 500 corporate roles to reinvest in store-level payroll and labor; new COO and Chief Merchant appointed under Michael Fiddelke.
+- **Saks Global**: Shuttering 9 stores (8 Saks Fifth Avenue, 1 Neiman Marcus) as part of bankruptcy restructuring; Cheryl Han returns as Chief Marketing & Digital Officer.
+- **Walmart**: Expanding Jacksonville footprint with new Supercenter; launching cross-border fulfillment for Marketplace sellers.
+- **Eddie Bauer**: Formally begins liquidation of all US and Canadian operations after bankruptcy filing.
+- **Lulus**: Expands wholesale partnership to include all Nordstrom locations nationwide.
+
+**X Trends (Last 48h):**
+1. Epstein File Redactions
+2. SAVE America Act
+3. Japan Election Supermajority
+4. Gene Wu Backlash
+5. Chelsea vs Leeds Draw
+6. Madrid vs Valencia
+7. Pistons-Hornets Brawl
+8. United Fan Hair Vow
+9. Newcastle Relegation Scrap
+10. Eddie Bauer Bankruptcy
+
+---
+
 ### 2026-02-10
 **Google Trends US & X Trends (Last 24-48h):**
 - **Super Bowl LX Aftermath**: Bad Bunny's Spanish-language halftime performance sparks patriotism debates; 816K+ posts.

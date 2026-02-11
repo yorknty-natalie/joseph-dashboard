@@ -1,4 +1,64 @@
 const retailHistory = {
+    "2026-02-11": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Retail Restructuring",
+                "description": "Eddie Bauer and Saks Global announce major store closures and bankruptcy moves; 100K+ mentions."
+            },
+            {
+                "title": "Noah Kahan Ticket Demand",
+                "description": "Massive search volume for tour tickets (50K+) signaling strong live event retail interest."
+            },
+            {
+                "title": "Rivian R2 Interest",
+                "description": "High consumer engagement with the new Rivian R2 model (20K+) trending in automotive retail."
+            },
+            {
+                "title": "Epstein & SAVE Act",
+                "description": "Political discussions on Epstein file redactions and voter ID legislation dominate social sentiment."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Labor Reinvestment",
+                "summary": "Cutting 500 corporate roles to fund store-level payroll and labor hours under new C-suite leadership."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "Store Shuttering",
+                "summary": "Closing 9 full-line stores as bankruptcy restructuring continues; Cheryl Han returns to lead digital."
+            },
+            {
+                "store": "Eddie Bauer",
+                "headline": "Full Liquidation",
+                "summary": "Winding down all 175 stores in the US and Canada after filing for Chapter 11 bankruptcy."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Marketplace Expansion",
+                "summary": "Launching cross-border shipping for sellers and opening a new Supercenter in Jacksonville, FL."
+            },
+            {
+                "store": "Lulus",
+                "headline": "Nordstrom Expansion",
+                "summary": "Scaling wholesale partnership to all Nordstrom stores following successful test runs."
+            }
+        ],
+        "xTrends": [
+            { "name": "Epstein Files", "desc": "Frustration over heavy redactions in new releases." },
+            { "name": "SAVE America Act", "desc": "Republican push for voter ID and citizenship proof." },
+            { "name": "Japan Supermajority", "desc": "LDP secures historic win in snap election." },
+            { "name": "Gene Wu Backlash", "desc": "Unity remarks clip draws sharp criticism." },
+            { "name": "Chelsea vs Leeds", "desc": "Dramatic 2-2 draw after Chelsea blows lead." },
+            { "name": "Madrid vs Valencia", "desc": "Real Madrid 2-0 win to keep pace with Barca." },
+            { "name": "Pistons Brawl", "desc": "Chaotic win over Hornets with multiple ejections." },
+            { "name": "United Fan Vow", "desc": "Viral hair-related bet ahead of West Ham game." },
+            { "name": "Newcastle Winner", "desc": "Late goal sinks Spurs in relegation battle." },
+            { "name": "Eddie Bauer", "desc": "Retail bankruptcy news trends in business circles." }
+        ]
+    },
     "2026-02-10": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=10AyTu0iyOTObqesH2tO-ew_KwOuQFlbx",
         "trends": [
