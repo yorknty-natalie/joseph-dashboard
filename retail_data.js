@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-11": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1vVRrmwpdd6cy158_5lQ7Kk00L8XFBe9I",
         "trends": [
             {
                 "title": "Retail Restructuring",
