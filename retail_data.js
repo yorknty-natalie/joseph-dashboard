@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-12": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1tQr70KTPHADZQ01HhaZDShoZbyaU2MXC",
         "trends": [
             {
                 "title": "Retail Leadership Shifts",
