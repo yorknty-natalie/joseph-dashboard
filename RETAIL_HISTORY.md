@@ -2,6 +2,35 @@
 
 ## Daily Log
 
+### 2026-02-12
+**Google Trends US & X Trends (Last 24-48h):**
+- **Trending Topics**: Real ID (16 hrs trending), El Paso, Tumbler Ridge, The Dow (finance/retail interest), #Unrivaled (Sports/Brand), James Van Der Beek.
+- **Retail News**: Target leadership changes (Michael Fiddelke's team), Macy's vet moving to Warby Parker, Brooks Running growth, Anta's US flagship.
+- **Sports & Events**: Seahawks Super Bowl LX Parade (Seahawks vs Patriots 18h ago), Man City vs Fulham, Liverpool vs Sunderland.
+- **Politics**: ICE Arrests/Deportations, Carrie Prejean Boller removed from commission, Sonia.
+
+**Retailer Major News (Last 24h):**
+- **Target**: Michael Fiddelke names new COO and chief merchant; transitioning to single chief merchandising officer structure.
+- **Warby Parker**: Taps Adrian Mitchell (former Macy’s CFO/COO) as its new CFO.
+- **Brooks Running**: Record revenue up 16% in 2025; No. 1 in performance running footwear.
+- **Anta**: Opening first US flagship store in Beverly Hills; parent company recently bought stake in Puma.
+- **Saks Global**: Questions over IP control as ABG owns 77% of the entity for Saks, Neiman Marcus, Bergdorf Goodman.
+
+**X Trends (Last 48h):**
+1. ICE Arrests (Politics)
+2. UK Courtsdesk (Legal/News)
+3. Carrie Prejean Boller (Politics)
+4. Nancy Guthrie Abduction (News)
+5. Ratcliffe Immigrants Claim (Politics)
+6. Seahawks SB Parade (Sports)
+7. Haaland Locks (Sports)
+8. Man City vs Fulham (Sports)
+9. Van Dijk Header (Sports)
+10. Chelsea Draw (Sports)
+
+---
+
+
 ### 2026-02-11
 **Google Trends US & X Trends (Last 24-48h):**
 - **Retail Restructuring**: Eddie Bauer files for bankruptcy and winds down all 175 stores (100K+ mentions); Saks Global to shutter 9 full-line stores.

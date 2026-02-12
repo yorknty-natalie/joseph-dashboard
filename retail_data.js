@@ -1,4 +1,65 @@
 const retailHistory = {
+    "2026-02-12": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Retail Leadership Shifts",
+                "description": "Target names new COO and chief merchant; Warby Parker recruits Macy's vet as CFO."
+            },
+            {
+                "title": "Performance Running Boom",
+                "description": "Brooks Running hits record revenue, up 16% in 2025, leading the US specialty retail market."
+            },
+            {
+                "title": "Super Bowl Celebrations",
+                "description": "Seahawks Super Bowl LX victory parade in Seattle trending as fans celebrate victory over Patriots."
+            },
+            {
+                "title": "Global Retail Expansion",
+                "description": "Chinese brand Anta plots its first US flagship in Beverly Hills following a stake in Puma."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "C-Suite Transformation",
+                "summary": "Michael Fiddelke appoints Jim Lee as COO and Lisa Roath as Chief Merchant to streamline operations."
+            },
+            {
+                "store": "Warby Parker",
+                "headline": "Macy's Talent Acquisition",
+                "summary": "Adrian Mitchell joins as CFO, bringing extensive experience from Macy's leadership."
+            },
+            {
+                "store": "Brooks Running",
+                "headline": "Record 2025 Growth",
+                "summary": "Revenue up 16% in 2025; maintained #1 position in performance running footwear for 9th straight year."
+            },
+            {
+                "store": "Anta",
+                "headline": "US Flagship Launch",
+                "summary": "Opening a 'brand hub' in Beverly Hills as part of a strategic US market entry."
+            },
+            {
+                "store": "Saks Global",
+                "headline": "IP Control Questions",
+                "summary": "Authentic Brands Group now owns 77% of the entity controlling IP for Saks, Neiman Marcus, and Bergdorf Goodman."
+            }
+        ],
+        "xTrends": [
+            { "name": "ICE Arrests", "desc": "Reports on arrests during the first year of the Trump administration." },
+            { "name": "UK Courtsdesk", "desc": "Closure of court reporting platform sparks open justice debate." },
+            { "name": "Carrie Prejean Boller", "desc": "Removal from Trump commission after hearing clash." },
+            { "name": "Nancy Guthrie", "desc": "Search intensifies for abducted mother after video release." },
+            { "name": "Ratcliffe Immigrants", "desc": "Claims about UK immigration and economic impact." },
+            { "name": "Seahawks Parade", "desc": "Fans celebrate Super Bowl LX triumph over Patriots." },
+            { "name": "Haaland Locks", "desc": "Man City star's hair trends during snowy match." },
+            { "name": "Man City Win", "desc": "3-0 victory over Fulham in the snow." },
+            { "name": "Van Dijk Header", "desc": "Liverpool captain secures gritty win at Sunderland." },
+            { "name": "Chelsea Draw", "desc": "Blow two-goal lead in 2-2 draw with Leeds." }
+        ]
+    },
+
     "2026-02-11": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1eJ-An85U6_YGKTJVSyITvs-rS8zDHE7w",
         "trends": [
