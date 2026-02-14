@@ -1,4 +1,65 @@
 const retailHistory = {
+    "2026-02-14": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1QrouDYgh22hNetTLRigeasPy5JrXul_A",
+        "trends": [
+            {
+                "title": "Olympic & Sports Peak",
+                "description": "2026 Winter Olympics figure skating (2M+) and NBA retirement news (Chris Paul) dominate searches alongside the Celebrity All Star Game."
+            },
+            {
+                "title": "SAVE Act Legislation",
+                "description": "The House passing the SAVE Act regarding voter citizenship proof generates 2.5M posts, leading social sentiment."
+            },
+            {
+                "title": "Luxury Brand Ambassadors",
+                "description": "Jungkook (BTS) joining Hublot as Global Ambassador sparks 1.3M posts, highlighting the continued strength of K-pop in luxury retail."
+            },
+            {
+                "title": "Spring Home Transitions",
+                "description": "Retailers like Kohl's are pivoting to spring inventories with major new home collection launches hitting shelves this week."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Merchandising Consolidation",
+                "summary": "Target moves to a single chief merchandising officer structure to speed up decision-making under CEO Michael Fiddelke."
+            },
+            {
+                "store": "Kohl's",
+                "headline": "Spring Home Launch",
+                "summary": "Hitting shelves this week with 11 new collections focused on seasonal refreshes for the home."
+            },
+            {
+                "store": "Macy's",
+                "headline": "CFO Exit to Warby Parker",
+                "summary": "Macy's CFO Adrian Mitchell departs for Warby Parker as Macy's stock remains undervalued despite strong YTD gains."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Automation Blitz",
+                "summary": "John Furner's tenure begins with a heavy focus on scaling automated centers to achieve sub-2-hour delivery nationwide."
+            },
+            {
+                "store": "Anta",
+                "headline": "US Flagship Debut",
+                "summary": "The Chinese sports giant opens its first US flagship in Beverly Hills, following its stake in Puma."
+            }
+        ],
+        "xTrends": [
+            { "name": "SAVE Act Passes", "desc": "House passes legislation requiring citizenship proof to vote." },
+            { "name": "Chris Paul Retires", "desc": "NBA legend retires after 21 seasons following Raptors waiver." },
+            { "name": "Jungkook x Hublot", "desc": "BTS star named Hublot's Global Brand Ambassador." },
+            { "name": "Operation Metro Surge", "desc": "Large-scale Minnesota law enforcement operation ends with 4,000 arrests." },
+            { "name": "SAVE America Act", "desc": "Continued push for voter integrity legislation trending on X." },
+            { "name": "Imran Khan Health", "desc": "Reports of vision loss for the former PM spark international concern." },
+            { "name": "Thomas Massie", "desc": "Safety assurance post after clash over redacted Epstein documents." },
+            { "name": "Atlético 4-0 Barca", "desc": "Dominant Copa del Rey win for Atlético Madrid." },
+            { "name": "Pedro Neto", "desc": "Chelsea star's FA Cup hat-trick fuels sports engagement." },
+            { "name": "Shaidorov Gold", "desc": "Kazakhstan celebrates historic Olympic figure skating gold." }
+        ]
+    },
+
     "2026-02-12": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1oZnKCM6nb6EIeBiW85WhSpQlIPGbTEmV",
         "trends": [

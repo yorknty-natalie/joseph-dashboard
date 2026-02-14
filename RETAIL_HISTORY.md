@@ -2,6 +2,35 @@
 
 ## Daily Log
 
+### 2026-02-14
+**Google Trends US & X Trends (Last 24-48h):**
+- **Sports Dominance**: 2026 Winter Olympics men figure skating (2M+), Celebrity All Star Game (100K+), and FA Cup matches (Pedro Neto hat-trick) leading search interest.
+- **Entertainment & Branding**: Jungkook (BTS) named Hublot's Global Brand Ambassador (1.3M posts); Chris Paul announces retirement after 21 NBA seasons.
+- **Politics & News**: House passes the SAVE Act (2.5M posts) regarding citizenship proof for voting; Operation Metro Surge ends in Minnesota with 4,000 arrests.
+- **International News**: Kazakhstan's Shaidorov wins historic Olympic Gold; Imran Khan's health reports spark global concern.
+
+**Retailer Major News (Last 24h):**
+- **Kohl's**: Launching 11 new Spring Home collections this week as retailers pivot to spring seasonal inventory.
+- **Macy's**: Stock continues to trade at a discount despite 33% YTD growth; Adrian Mitchell (CFO/COO) transitions to Warby Parker.
+- **Target**: Implementing a new single Chief Merchandising Officer structure under CEO Michael Fiddelke to streamline execution.
+- **Walmart**: John Furner begins his tenure focusing on a massive expansion of automated fulfillment centers for 2-hour delivery.
+- **Anta**: Opening its first US flagship in Beverly Hills, marking a major move by the Chinese brand into the US luxury/performance market.
+- **Brooks Running**: Reports 16% revenue growth in 2025, maintaining its #1 position in US performance running footwear.
+
+**X Trends (Last 48h):**
+1. SAVE Act Passes (Politics)
+2. Chris Paul Retires (Sports)
+3. Jungkook x Hublot (Entertainment/Fashion)
+4. Operation Metro Surge (News)
+5. SAVE America Act (Politics)
+6. Imran Khan Eye Exam (World News)
+7. Thomas Massie Safety (Politics)
+8. Atlético Madrid 4-0 Barcelona (Sports)
+9. Pedro Neto Hat-Trick (Sports)
+10. Shaidorov Olympic Gold (Sports)
+
+---
+
 ### 2026-02-12
 **Google Trends US & X Trends (Last 24-48h):**
 - **Trending Topics**: Real ID (16 hrs trending), El Paso, Tumbler Ridge, The Dow (finance/retail interest), #Unrivaled (Sports/Brand), James Van Der Beek.
