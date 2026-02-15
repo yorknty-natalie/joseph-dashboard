@@ -2,6 +2,35 @@
 
 ## Daily Log
 
+### 2026-02-15
+**Google Trends US & X Trends (Last 24-48h):**
+- **Sports & Events**: Real Madrid vs Real Sociedad (200K+); Keshad Johnson wins 2026 NBA Slam Dunk Contest (47K+); Arizona Basketball and Damian Lillard trending.
+- **Holidays & Life**: Día de San Valentín (Valentine's Day) generating 100K+ searches.
+- **Politics & News**: New Epstein files naming Jay-Z and Bannon (189K+); Sen. Susan Collins backs the SAVE America Act (658K+); Trump pledges $1B for military housing.
+- **Global News**: Munich Security Conference (415K+); tragic death of student Quentin in Lyon (319K+).
+- **Tech & Science**: SpaceX and rocket launch activity trending (10K+).
+
+**Retailer Major News (Last 24h):**
+- **Target**: Michael Fiddelke restructures C-suite with new COO and single Chief Merchandising Officer model to accelerate execution.
+- **Walmart**: Maintains trillion-dollar market cap; announcing Q4 earnings Feb 19; partnering with Apple TV for "Saturday Showdown" highlights.
+- **Macy's**: CFO/COO Adrian Mitchell transitions to Warby Parker; retailers prepping for Presidents Day store hours (Feb 16).
+- **Brooks Running**: Continues performance footwear dominance with 16% revenue growth in 2025.
+- **Anta**: Opening its first "brand hub" flagship in Beverly Hills following its parent's investment in Puma.
+
+**X Trends (Last 48h):**
+1. Munich Security Conference (Global Politics)
+2. Riser Music Concert (Entertainment)
+3. Atlético 4-0 Barca (Sports)
+4. Susan Collins & SAVE America Act (Politics)
+5. Trump Fort Bragg Pledge (Politics)
+6. Quentin Assault Death (News)
+7. New Epstein Files (News)
+8. Pedro Neto Hat-Trick (Sports)
+9. Real Madrid 4-1 Sociedad (Sports)
+10. Keshad Johnson Dunk Champ (Sports)
+
+---
+
 ### 2026-02-14
 **Google Trends US & X Trends (Last 24-48h):**
 - **Sports Dominance**: 2026 Winter Olympics men figure skating (2M+), Celebrity All Star Game (100K+), and FA Cup matches (Pedro Neto hat-trick) leading search interest.

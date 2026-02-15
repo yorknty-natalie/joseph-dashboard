@@ -1,4 +1,65 @@
 const retailHistory = {
+    "2026-02-15": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Valentine's Day Surge",
+                "description": "Día de San Valentín (Valentine's Day) generating 100K+ searches as consumers prep for the holiday."
+            },
+            {
+                "title": "NBA All-Star Weekend",
+                "description": "Keshad Johnson winning the 2026 Slam Dunk Contest and Damian Lillard trending highlight massive sports engagement."
+            },
+            {
+                "title": "Epstein File Revelations",
+                "description": "New Epstein files naming public figures like Jay-Z spark 189K+ posts, dominating political and news discussions."
+            },
+            {
+                "title": "Retail Structural Shifts",
+                "description": "Target's move to a single chief merchant structure and Macy's CFO transition to Warby Parker indicate major leadership realignments."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "C-Suite Reorganization",
+                "summary": "CEO Michael Fiddelke names new COO and consolidates merchandising under a single officer for faster decision-making."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Apple TV Partnership",
+                "summary": "Partnering with Apple TV for 'Saturday Showdown' highlights while maintaining a $1T market cap ahead of Feb 19 earnings."
+            },
+            {
+                "store": "Macy's",
+                "headline": "CFO Move to Warby Parker",
+                "summary": "CFO/COO Adrian Mitchell departs for Warby Parker as department stores prepare for Presidents Day peak hours."
+            },
+            {
+                "store": "Brooks Running",
+                "headline": "Record 16% Growth",
+                "summary": "Posting its ninth straight year of growth and solidifying its #1 position in the US performance running footwear market."
+            },
+            {
+                "store": "Anta",
+                "headline": "US Flagship Launch",
+                "summary": "Opening a high-profile 'brand hub' in Beverly Hills, marking a aggressive US luxury and performance market entry."
+            }
+        ],
+        "xTrends": [
+            { "name": "Munich Conference", "desc": "Global leaders discuss Ukraine and transatlantic tensions." },
+            { "name": "Riser Music Concert", "desc": "Debut high-energy concert in Bangkok goes viral with 3M posts." },
+            { "name": "Atlético 4-0 Barca", "desc": "Shocking Copa del Rey rout for Atlético Madrid." },
+            { "name": "Susan Collins", "desc": "Senator secures 50th Senate supporter for SAVE America Act." },
+            { "name": "Trump Fort Bragg", "desc": "Pledge of $1B for military housing during visit." },
+            { "name": "Quentin Assault", "desc": "Outrage over tragic death of French student in Lyon." },
+            { "name": "New Epstein Files", "desc": "Victim tips naming Jay-Z and Bannon emails spark news wave." },
+            { "name": "Pedro Neto", "desc": "Chelsea star's hat-trick powers FA Cup dominance." },
+            { "name": "Real Madrid 4-1", "desc": "Surge to the top of La Liga with win over Real Sociedad." },
+            { "name": "Keshad Johnson", "desc": "Heat rookie wins 2026 Slam Dunk Contest." }
+        ]
+    },
+
     "2026-02-14": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1QrouDYgh22hNetTLRigeasPy5JrXul_A",
         "trends": [
