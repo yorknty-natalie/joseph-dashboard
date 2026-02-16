@@ -1,4 +1,65 @@
 const retailHistory = {
+    "2026-02-16": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Sports & Entertainment Synergy",
+                "description": "Pedro Neto's hat-trick and Damian Lillard's 3-point title win drive massive engagement, highlighting the continued crossover between sports and retail branding."
+            },
+            {
+                "title": "Holiday & Cultural Planning",
+                "description": "Presidents Day closures and sales anticipation alongside preparations for Chinese New Year 2026 and Ramadan signal a peak period for seasonal inventory."
+            },
+            {
+                "title": "Political & Global News",
+                "description": "Munich Security Conference and Imran Khan's health crisis dominate news cycles, influencing global consumer sentiment and market stability."
+            },
+            {
+                "title": "Retail Policy Awareness",
+                "description": "Trending searches for Costco returns and Real ID requirements indicate a focus on consumer rights and regulatory compliance during the holiday weekend."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Leadership Overhaul",
+                "summary": "Michael Fiddelke restructures C-suite with a new COO and a single Chief Merchandising Officer to accelerate execution."
+            },
+            {
+                "store": "Macy's",
+                "headline": "Executive Departure",
+                "summary": "CFO/COO Adrian Mitchell departs for Warby Parker, highlighting talent shifts in the department store sector."
+            },
+            {
+                "store": "Brooks Running",
+                "headline": "Growth Dominance",
+                "summary": "Maintains #1 market position in US performance running footwear with 16% revenue growth in 2025."
+            },
+            {
+                "store": "Anta",
+                "headline": "Luxury Flagship Strategy",
+                "summary": "Opening first US 'brand hub' in Beverly Hills as part of an aggressive push into the high-end performance market."
+            },
+            {
+                "store": "Retail Strategy",
+                "headline": "2026 Focus Areas",
+                "summary": "Executives at top conferences prioritize Gen AI and customer behavior as key drivers for department store recovery."
+            }
+        ],
+        "xTrends": [
+            { "name": "Pedro Neto", "desc": "Chelsea star's hat-trick powers FA Cup dominance." },
+            { "name": "Valentine's Day", "desc": "Romance and self-love reflections trending after the holiday." },
+            { "name": "Lindsey Graham", "desc": "Senator's speech at Munich Iranian exile rally goes viral." },
+            { "name": "Delhi Protest", "desc": "YouTuber alleges caste attack during university scuffle." },
+            { "name": "Quentin Lyon", "desc": "Outrage over student's death in Lyon protest clash." },
+            { "name": "Rubio / Munich", "desc": "Senator urges Europe to defend Western civilization." },
+            { "name": "Imran Khan", "desc": "Crisis over vision loss reports for the jailed former PM." },
+            { "name": "Real Madrid Top", "desc": "4-1 win over Sociedad secures La Liga lead." },
+            { "name": "Damian Lillard", "desc": "Third consecutive 3-point contest title win." },
+            { "name": "India vs Pakistan", "desc": "High-tension T20 World Cup clash updates." }
+        ]
+    },
+
     "2026-02-15": {
         "imageUrl": "",
         "trends": [
