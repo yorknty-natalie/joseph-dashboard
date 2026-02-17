@@ -2,6 +2,33 @@
 
 ## Daily Log
 
+### 2026-02-17
+**Google Trends US & X Trends (Last 24-48h):**
+- **Cultural Celebrations**: Lunar New Year 2026 (Year of the Fire Horse) generating massive interest (50K+ searches) and vibrant social media greetings (290K+ posts).
+- **Sports Highlights**: Girona's dramatic 2-1 comeback over Barcelona (200K+ searches) handing Real Madrid the La Liga lead; Arsenal's 4-0 FA Cup win over Wigan (237K+ posts); Anthony Edwards named NBA All-Star MVP.
+- **Politics & News**: Trump claims "total exoneration" as DOJ halts Epstein file releases (66K+ posts); massive worldwide rallies for Iran regime change (444K+ posts); high school walkouts over ICE deportations turning violent (411K+ posts).
+- **Entertainment & Life**: Robert Duvall (2M+) and Tyra Banks (50K+) trending; BTS launching 'What Is Your Love Song?' campaign (355K+ posts); interest in Ramadan 2026 start dates and Solar Eclipse 2026.
+
+**Retailer Major News (Last 24h):**
+- **Target**: Michael Fiddelke's C-suite restructuring (new COO/Chief Merchant) continues to be the primary focus for operational efficiency.
+- **Macy's**: Navigating the transition of CFO Adrian Mitchell to Warby Parker while prepping for post-Presidents Day spring inventory shifts.
+- **Brooks Running**: Solidifies dominance in performance footwear with 16% revenue growth, a key benchmark for specialty retail.
+- **Anta**: Beverly Hills "brand hub" flagship launch marks a strategic pivot toward US luxury and high-performance markets.
+
+**X Trends (Last 48h):**
+1. Iran Regime Rallies (Politics)
+2. Arsenal 4-0 Wigan (Sports)
+3. BTS Love Song Campaign (Entertainment)
+4. Trump / Epstein Files (Politics)
+5. Year of the Fire Horse (Cultural)
+6. ICE Deportation Walkouts (News)
+7. Girona vs Barcelona (Sports)
+8. Anthony Edwards MVP (Sports)
+9. Robert Duvall (Entertainment)
+10. Ramadan 2026 (Life)
+
+---
+
 ### 2026-02-16
 **Google Trends US & X Trends (Last 24-48h):**
 - **Sports & Entertainment**: Pedro Neto's hat-trick for Chelsea (169K+); Michael Jordan and Ric Flair trending (200K+ and 10K+); Damian Lillard 3-Point Contest win and Keshad Johnson Dunk Champ (170K+).

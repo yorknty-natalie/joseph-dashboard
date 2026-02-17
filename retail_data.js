@@ -1,4 +1,65 @@
 const retailHistory = {
+    "2026-02-17": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Year of the Fire Horse",
+                "description": "Lunar New Year 2026 (Year of the Fire Horse) dominates searches (50K+) and social media greetings (290K+) globally."
+            },
+            {
+                "title": "Girona Stuns Barcelona",
+                "description": "Dramatic 2-1 comeback win for Girona hands Real Madrid the La Liga lead, sparking 200K+ searches."
+            },
+            {
+                "title": "Trump Epstein Exoneration",
+                "description": "Trump claims 'total exoneration' as DOJ halts further Epstein file releases, generating 66K+ posts on X."
+            },
+            {
+                "title": "BTS 'Love Song' Launch",
+                "description": "BTS's new campaign for the ARIRANG album sparks 355K+ posts, highlighting the massive retail power of K-pop."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "COO/Merchant Alignment",
+                "summary": "Focus remains on Michael Fiddelke's C-suite overhaul to streamline operations and merchandising under a single officer."
+            },
+            {
+                "store": "Macy's",
+                "headline": "Post-Holiday Pivot",
+                "summary": "Managing CFO transition while shifting inventory focus to spring collections after the Presidents Day peak."
+            },
+            {
+                "store": "Brooks Running",
+                "headline": "Specialty Retail Benchmark",
+                "summary": "16% revenue growth in 2025 sets a high bar for the performance footwear segment in US specialty retail."
+            },
+            {
+                "store": "Anta",
+                "headline": "Beverly Hills Hub",
+                "summary": "Opening of first US flagship in Beverly Hills signals aggressive luxury market entry for the Chinese brand."
+            },
+            {
+                "store": "Retail Strategy",
+                "headline": "2026 Outlook",
+                "summary": "Generative AI and department store recovery models are top-of-mind for executives at upcoming industry conferences."
+            }
+        ],
+        "xTrends": [
+            { "name": "Iran Regime Rallies", "desc": "Hundreds of thousands rally worldwide for regime change in Iran." },
+            { "name": "Arsenal 4-0 Wigan", "desc": "Gunners cruise into the FA Cup fifth round with a dominant win." },
+            { "name": "BTS Love Song", "desc": "New campaign for ARIRANG album goes viral with 355K posts." },
+            { "name": "Trump Exoneration", "desc": "Claims 'total exoneration' after DOJ stops Epstein file releases." },
+            { "name": "Fire Horse Lunar", "desc": "Global celebrations for the Year of the Fire Horse." },
+            { "name": "ICE Walkouts", "desc": "High school protests over deportations turn violent in several states." },
+            { "name": "Girona Comeback", "desc": "Dramatic 2-1 win over Barcelona shifts the La Liga title race." },
+            { "name": "Anthony Edwards MVP", "desc": "Timberwolves star shines in revamped NBA All-Star format." },
+            { "name": "Robert Duvall", "desc": "Veteran actor trending with over 2M searches." },
+            { "name": "Ramadan 2026", "desc": "Search interest spikes for start dates of the upcoming holy month." }
+        ]
+    },
+
     "2026-02-16": {
         "imageUrl": "",
         "trends": [
