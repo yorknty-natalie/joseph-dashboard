@@ -143,6 +143,33 @@
 
 ---
 
+### 2026-02-18
+**Google Trends US & X Trends (Last 24-48h):**
+- **Sports Highlights**: 2026 Winter Olympics men's snowboarding slopestyle (100K+ searches); Mikaela Shiffrin and Alysa liu (200K+) leading winter sports buzz; Sahibzada Farhan's century for Pakistan vs Namibia (22K+ posts).
+- **Global News & Politics**: Iranian forces raid Chenar village amid unrest (556K+ posts); Marco Rubio's European tour draws mixed reactions (277K+ posts); reports of voter roll issues in California (398K+ posts).
+- **Tech & Business**: "Is YouTube down" spikes with 1M+ searches; Palantir trending with 20K+ searches; Galgotias University evicted from AI summit over robot misrepresentation (178K+ posts).
+- **Life & Holidays**: Ash Wednesday and Ramadan Kareem starting interest (50K+ and 20K+ searches); IRS tax refund searches surging (50K+).
+
+**Retailer Major News (Last 24h):**
+- **Macy's**: Announced another wave of store closures as part of its ongoing footprint optimization strategy.
+- **Walmart**: Analyst confidence remains high as DA Davidson reaffirms a "Buy" rating ahead of Q4 earnings.
+- **Walmart vs Target**: Both stocks have seen ~30% spikes in the last three months, with high investor anticipation for upcoming results.
+- **Retail Vulnerability**: Retail Dive identifies J. Crew and Guitar Center as brands vulnerable to bankruptcy in 2026 due to tariffs and falling sentiment.
+
+**X Trends (Last 48h):**
+1. Real Madrid vs Benfica / Vinícius Racism (Sports/Other)
+2. Iranian Village Raid (News)
+3. California Voter Roll Issues (News)
+4. Olympic Pairs Skating Gold (Sports)
+5. Rubio European Tour (Politics)
+6. India AI Summit Chaos (News)
+7. Galgotias Univ AI Eviction (News)
+8. Pakistan vs Namibia T20 (Sports)
+9. Galatasaray 5-2 Juventus (Sports)
+10. Girona Comeback (Sports)
+
+---
+
 
 ### 2026-02-11
 **Google Trends US & X Trends (Last 24-48h):**

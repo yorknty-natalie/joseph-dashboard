@@ -1,4 +1,60 @@
 const retailHistory = {
+    "2026-02-18": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1DdZQZTTYB60LQlpvaD6rhHlaxNxuRrJZ",
+        "trends": [
+            {
+                "title": "Winter Olympics Peak",
+                "description": "Men's snowboarding slopestyle (100K+) and skating gold for Japan/USA drive massive engagement."
+            },
+            {
+                "title": "YouTube Outage",
+                "description": "'Is YouTube down' spikes with 1M+ searches, highlighting the impact of digital platform stability on consumer behavior."
+            },
+            {
+                "title": "Tax & Seasonality",
+                "description": "IRS tax refund searches (50K+) and preparations for Ash Wednesday and Ramadan signal shifting consumer priorities."
+            },
+            {
+                "title": "AI Summit Controversy",
+                "description": "Discussions around robot misrepresentation and summit chaos (178K+) reflect growing public scrutiny of AI tech."
+            }
+        ],
+        "news": [
+            {
+                "store": "Macy's",
+                "headline": "Strategic Store Closures",
+                "summary": "Announces more closures as part of a long-term plan to optimize physical footprint and focus on high-performing locations."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Earnings Optimism",
+                "summary": "Analysts maintain 'Buy' ratings ahead of Q4 results, citing strong consumer demand and e-commerce growth."
+            },
+            {
+                "store": "Walmart vs Target",
+                "headline": "Stock Surge",
+                "summary": "Both retailers see ~30% stock increases in 90 days as investors bet on dominant department store recovery."
+            },
+            {
+                "store": "Retail Risks",
+                "headline": "Bankruptcy Watch",
+                "summary": "J. Crew and Guitar Center identified as vulnerable due to economic headwinds and shifting sentiment in 2026."
+            }
+        ],
+        "xTrends": [
+            { "name": "Vinícius / Real Madrid", "desc": "1-0 win over Benfica overshadowed by racism claims." },
+            { "name": "Iranian Village Raid", "desc": "Mass arrests in Chenar village amid ongoing unrest." },
+            { "name": "CA Voter Rolls", "desc": "Journalist report on voter roll discrepancies goes viral." },
+            { "name": "Japan Pairs Gold", "desc": "First-ever Olympic pairs skating gold for Japan." },
+            { "name": "Rubio Europe Tour", "desc": "Mixed reactions to U.S. foreign policy shifts." },
+            { "name": "India AI Summit", "desc": "Controversy over misrepresented Chinese robots." },
+            { "name": "Galgotias Univ Evicted", "desc": "University removed from summit for robot fraud." },
+            { "name": "Sahibzada Farhan", "desc": "T20 century powers Pakistan past Namibia." },
+            { "name": "Galatasaray 5-2 Juve", "desc": "Shocking UCL play-off result for the Turkish side." },
+            { "name": "Girona Comeback", "desc": "Late win shifts La Liga standings." }
+        ]
+    },
+
     "2026-02-17": {
         "imageUrl": "",
         "trends": [
