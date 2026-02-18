@@ -239,7 +239,7 @@ const retailHistory = {
     },
 
     "2026-02-14": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1QrouDYgh22hNetTLRigeasPy5JrXul_A",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1q1M2ajgdshZT67RIgI8pYFiaKKbVRmal",
         "trends": [
             {
                 "title": "Olympic & Sports Peak",
