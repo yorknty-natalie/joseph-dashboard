@@ -56,7 +56,7 @@ const retailHistory = {
     },
 
     "2026-02-17": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1Z-aTnvsTVJdHn2B2NwZDpziLktWUnUQN",
         "trends": [
             {
                 "title": "Year of the Fire Horse",
@@ -117,7 +117,7 @@ const retailHistory = {
     },
 
     "2026-02-16": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1ZrXbaWgKq9AwySQ8S9FUvBcNqfrv_6Ao",
         "trends": [
             {
                 "title": "Sports & Entertainment Synergy",
@@ -178,7 +178,7 @@ const retailHistory = {
     },
 
     "2026-02-15": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=17jR7UOq692v92VRdMwLdkr5kjKCN7-Id",
         "trends": [
             {
                 "title": "Valentine's Day Surge",
