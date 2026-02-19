@@ -1,4 +1,60 @@
 const retailHistory = {
+    "2026-02-19": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1_KxpoKg2GIi_o3zoDM7ysbe0y7KdKaKd",
+        "trends": [
+            {
+                "title": "Winter Olympics: Snowboarding & Skating",
+                "description": "2026 Winter Olympics dominate search volume with men's snowboarding slopestyle and Japan's historic first pairs skating gold medal."
+            },
+            {
+                "title": "Year of the Fire Horse",
+                "description": "Lunar New Year 2026 (Year of the Fire Horse) generates massive global interest with 850K+ posts on social platforms."
+            },
+            {
+                "title": "Global News & possible Iran Strikes",
+                "description": "International tensions rise as Iranian forces raid Chenar village and the US positions forces for potential strikes."
+            },
+            {
+                "title": "YouTube & Tech Disruptions",
+                "description": "Outage reports (20K+) highlight the sensitivity of digital retail channels to platform stability."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "Deal Bar Launch",
+                "summary": "Launches a new front-of-store section with items under $10 to capture financially constrained shoppers."
+            },
+            {
+                "store": "Target",
+                "headline": "C-suite Revamp",
+                "summary": "Appoints Mario Rivera as COO and transitions to a single chief merchant structure to streamline decision-making."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Automation Gains",
+                "summary": "Continues to gain market share among high-income demographics through aggressive fulfillment automation."
+            },
+            {
+                "store": "Pinterest",
+                "headline": "Tariff Concerns",
+                "summary": "Reports dissatisfaction with Q4 revenue, specifically pointing to the negative impact of trade tariffs on retail advertising."
+            }
+        ],
+        "xTrends": [
+            { "name": "Iranian Forces Raid", "desc": "Hundreds arrested in Chenar village amid national unrest." },
+            { "name": "Year of the Fire Horse", "desc": "Celebrities share joy for Lunar New Year 2026." },
+            { "name": "India-France Ties", "desc": "Macron and Modi elevate ties to strategic partnership." },
+            { "name": "Possible Iran Strikes", "desc": "U.S. positions forces for weekend operations." },
+            { "name": "Rhode Island Ice Rink", "desc": "Tragic murder-suicide incident involving former spouse." },
+            { "name": "Restore Britain", "desc": "Rupert Lowe launches plan with mass deportation focus." },
+            { "name": "Galatasaray vs Juventus", "desc": "Turkish side stuns Juve 5-2 in UCL playoff." },
+            { "name": "Japan Pairs Gold", "desc": "Miura and Kihara win Japan's first pairs skating gold." },
+            { "name": "Canada/USA Hockey", "desc": "North American rivals advance in Olympic OT thrillers." },
+            { "name": "Quinn Hughes Winner", "desc": "OT goal lifts USA past Sweden in quarterfinals." }
+        ]
+    },
+
     "2026-02-18": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1DdZQZTTYB60LQlpvaD6rhHlaxNxuRrJZ",
         "trends": [
@@ -850,6 +906,7 @@ const retailHistory = {
         "xTrends": [
             { "name": "#MondayMotivation", "desc": "Weekly inspirational engagement driving early-week shopping habits." },
             { "name": "#AKnightOfTheSevenKingdoms", "desc": "High anticipation for the new Westeros saga driving fantasy merch." },
+
             { "name": "#GRAMMYs", "desc": "Fashion and red carpet discussions setting the trend for Spring 2026." },
             { "name": "#StadiumSeries", "desc": "Outdoor winter sports culture and technical fan gear." },
             { "name": "#LinglingkwongxCalvinklein", "desc": "Global luxury fashion collaboration generating viral reach." },
@@ -990,4 +1047,4 @@ const retailHistory = {
             { "name": "#LEEARS", "desc": "Specific engagement around the latest Premier League match results." }
         ]
     }
-};
+}
