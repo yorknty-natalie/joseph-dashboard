@@ -3,55 +3,55 @@ const retailHistory = {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1DdZQZTTYB60LQlpvaD6rhHlaxNxuRrJZ",
         "trends": [
             {
-                "title": "Winter Olympics Peak",
-                "description": "Men's snowboarding slopestyle (100K+) and skating gold for Japan/USA drive massive engagement."
+                "title": "Winter Olympics: Snowboarding Slopestyle",
+                "description": "Men's snowboarding slopestyle (500K+) drives massive search volume as the 2026 Winter Olympics continue to dominate global interest."
             },
             {
-                "title": "YouTube Outage",
-                "description": "'Is YouTube down' spikes with 1M+ searches, highlighting the impact of digital platform stability on consumer behavior."
+                "title": "YouTube & Digital Outages",
+                "description": "'Is YouTube down' (200K+) and related outage reports highlight the impact of platform stability on consumer digital behavior."
             },
             {
-                "title": "Tax & Seasonality",
-                "description": "IRS tax refund searches (50K+) and preparations for Ash Wednesday and Ramadan signal shifting consumer priorities."
+                "title": "Lil Poppa & Pop Culture",
+                "description": "Lil Poppa (500K+) trending alongside other entertainment figures, signaling strong celebrity-driven interest."
             },
             {
-                "title": "AI Summit Controversy",
-                "description": "Discussions around robot misrepresentation and summit chaos (178K+) reflect growing public scrutiny of AI tech."
+                "title": "Lent & Ramadan Preparation",
+                "description": "Ash Wednesday (50K+) and early Ramadan Kareem (20K+) searches indicate a pivot toward seasonal cultural and religious observances."
             }
         ],
         "news": [
             {
                 "store": "Macy's",
-                "headline": "Strategic Store Closures",
-                "summary": "Announces more closures as part of a long-term plan to optimize physical footprint and focus on high-performing locations."
+                "headline": "Footprint Optimization",
+                "summary": "Announces another wave of store closures as part of its long-term strategy to focus on higher-performing locations."
             },
             {
                 "store": "Walmart",
-                "headline": "Earnings Optimism",
-                "summary": "Analysts maintain 'Buy' ratings ahead of Q4 results, citing strong consumer demand and e-commerce growth."
+                "headline": "Analyst 'Buy' Reaffirmation",
+                "summary": "DA Davidson maintains its 'Buy' rating for Walmart ahead of Q4 earnings, citing strong market confidence and e-commerce growth."
             },
             {
                 "store": "Walmart vs Target",
-                "headline": "Stock Surge",
-                "summary": "Both retailers see ~30% stock increases in 90 days as investors bet on dominant department store recovery."
+                "headline": "Stock Surge Comparison",
+                "summary": "Both retail giants have seen ~30% stock spikes in the last 90 days as investors anticipate final holiday results."
             },
             {
-                "store": "Retail Risks",
-                "headline": "Bankruptcy Watch",
-                "summary": "J. Crew and Guitar Center identified as vulnerable due to economic headwinds and shifting sentiment in 2026."
+                "store": "Retail Vulnerability",
+                "headline": "2026 Bankruptcy Watch",
+                "summary": "Industry reports identify J. Crew and Guitar Center as vulnerable to economic shifts and falling consumer sentiment in 2026."
             }
         ],
         "xTrends": [
-            { "name": "Vinícius / Real Madrid", "desc": "1-0 win over Benfica overshadowed by racism claims." },
-            { "name": "Iranian Village Raid", "desc": "Mass arrests in Chenar village amid ongoing unrest." },
-            { "name": "CA Voter Rolls", "desc": "Journalist report on voter roll discrepancies goes viral." },
-            { "name": "Japan Pairs Gold", "desc": "First-ever Olympic pairs skating gold for Japan." },
-            { "name": "Rubio Europe Tour", "desc": "Mixed reactions to U.S. foreign policy shifts." },
-            { "name": "India AI Summit", "desc": "Controversy over misrepresented Chinese robots." },
-            { "name": "Galgotias Univ Evicted", "desc": "University removed from summit for robot fraud." },
-            { "name": "Sahibzada Farhan", "desc": "T20 century powers Pakistan past Namibia." },
-            { "name": "Galatasaray 5-2 Juve", "desc": "Shocking UCL play-off result for the Turkish side." },
-            { "name": "Girona Comeback", "desc": "Late win shifts La Liga standings." }
+            { "name": "Vinícius / Real Madrid", "desc": "1-0 win over Benfica overshadowed by racism claims and sportsmanship debates." },
+            { "name": "Iranian Forces Raid", "desc": "Hundreds arrested in Chenar village amid ongoing national unrest." },
+            { "name": "CA Voter Roll Issues", "desc": "Viral report on voter registration discrepancies at business addresses in California." },
+            { "name": "Japan Pairs Gold", "desc": "First-ever Olympic pairs skating gold for Japan drives massive sports engagement." },
+            { "name": "Marco Rubio Europe Tour", "desc": "Senator's diplomatic tour draws both praise and criticism for U.S. foreign policy shifts." },
+            { "name": "India AI Summit Chaos", "desc": "Misrepresented robots lead to university eviction and summit controversy." },
+            { "name": "Sahibzada Farhan", "desc": "T20 World Cup century for Pakistan vs Namibia goes viral." },
+            { "name": "Galatasaray 5-2 Juventus", "desc": "Shocking UCL play-off comeback for the Turkish side." },
+            { "name": "Sidney Crosby", "desc": "NHL star trending as hockey fans follow mid-season highlights." },
+            { "name": "Tucker Carlson", "desc": "Media personality trending amid ongoing political commentary cycles." }
         ]
     },
 
@@ -417,7 +417,7 @@ const retailHistory = {
             { "name": "Pistons Brawl", "desc": "Chaotic win over Hornets with multiple ejections." },
             { "name": "United Fan Vow", "desc": "Viral hair-related bet ahead of West Ham game." },
             { "name": "Newcastle Winner", "desc": "Late goal sinks Spurs in relegation battle." },
-            { "name": "Eddie Bauer", "desc": "Retail bankruptcy news trends in business circles." }
+            { "name": "Eddie Bauer Bankruptcy", "desc": "Retail bankruptcy news trends in business circles." }
         ]
     },
     "2026-02-10": {
