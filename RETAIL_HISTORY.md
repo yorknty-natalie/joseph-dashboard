@@ -2,6 +2,36 @@
 
 ## Daily Log
 
+### 2026-02-20 (Rerun at 16:39 UTC)
+**Google Trends US (Past 24h) — Trending Now (Updated Feb 20, ~4:41 PM UTC):**
+- **Eric Dane**: 5M+ search volume (top overall).
+- **Alysa Liu**: 1M+ plus related sub-queries ("alysa liu teeth", "alysa liu mother"), indicating sustained attention.
+- **Supreme Court**: 200K+ (policy/news cycle).
+- **Toy Story 5**: 100K+ (entertainment + merchandising spillover potential).
+
+**Retailer News Checks (Retail Dive — latest front page):**
+- **Pat McGrath Labs**: Secures $30M financing from existing lender; Chapter 11 restructuring; Patricia McGrath becomes CCO.
+- **Spanx**: Relaunches swimwear with three compression levels.
+- **Kohl’s / Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: No additional same-day, retailer-specific front-page items beyond prior coverage; latest items skewed toward brand/sector stories.
+
+**X Trends (Top 10, via `bird trending --json`):**
+1. Nigerian TikToker Mirabel admits fabricating rape story
+2. Vinícius accuses Benfica’s Prestianni of racist slur
+3. Baby macaque bullied/punched, finds comfort in plush toy
+4. Tucker Carlson airport questioning re: Palestinian Christians
+5. Trump hosts first “Board of Peace” meeting w/ Gaza pledges
+6. BTS V private chats surface in Min Hee-jin court win vs HYBE
+7. Rep. Ted Lieu claims unreleased Epstein files allege Trump crimes
+8. Alysa Liu wins U.S. first Olympic figure skating gold in 24 years
+9. Ferrari tops Bahrain testing (Leclerc record lap, Hamilton starts)
+10. Alysa Liu (secondary/duplicate cluster)
+
+**Relay/Gemini status:**
+- Browser Relay became unavailable mid-session (OpenClaw browser control timed out).
+- Per fallback rule, image generation + Drive upload were skipped; text data updates proceeded.
+
+---
+
 ### 2026-02-20 (Rerun at 16:31 UTC)
 **Google Trends US (Past 24h):**
 - **Eric Dane**: 5M+ search volume, leading broad mainstream attention.

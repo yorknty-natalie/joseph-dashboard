@@ -50,60 +50,60 @@ const retailHistory = {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1o8OZIjrwoLV0KxMzYzJ5b9Vl0VnzxDGO",
         "trends": [
             {
-                "title": "Eric Dane health update",
-                "description": "Google Trends US shows ‘eric dane’ at 5M+ searches, leading broad entertainment/news attention in the last 24 hours."
+                "title": "Eric Dane",
+                "description": "Google Trends US shows ‘eric dane’ at 5M+ searches (top overall), driving broad entertainment/news attention in the last 24 hours."
             },
             {
-                "title": "Alysa Liu Olympic momentum",
-                "description": "‘alysa liu’ remains a top-volume term (1M+), keeping winter sports visibility elevated for consumer engagement cycles."
+                "title": "Alysa Liu",
+                "description": "‘alysa liu’ at 1M+ searches with multiple related clusters (e.g., ‘alysa liu teeth’, ‘alysa liu mother’), indicating sustained Olympic-driven interest."
             },
             {
-                "title": "Supreme Court + market watch",
-                "description": "‘supreme court’ (200K+) and ‘dow jones’ trending together suggest a policy-and-markets narrative that can influence retail sentiment."
+                "title": "Supreme Court",
+                "description": "‘supreme court’ at 200K+ searches signals a strong policy/news cycle that can affect consumer sentiment."
             },
             {
-                "title": "Sports-night traffic pattern",
-                "description": "High search activity for NBA/NHL matchups (e.g., Celtics vs Warriors, Nuggets vs Clippers, men’s hockey olympics) reinforces event-driven demand windows."
+                "title": "Toy Story 5",
+                "description": "‘toy story 5’ at 100K+ suggests entertainment-driven demand and potential merchandising spillover."
             }
         ],
         "news": [
             {
+                "store": "Pat McGrath Labs",
+                "headline": "$30M financing / Chapter 11 deal",
+                "summary": "Secured $30M financing from an existing lender as part of Chapter 11 restructuring; Patricia McGrath becomes chief creative officer."
+            },
+            {
+                "store": "Spanx",
+                "headline": "Swimwear relaunch",
+                "summary": "Relaunches swimwear with three different compression levels in the new collection."
+            },
+            {
                 "store": "Kohl's",
                 "headline": "Deal Bar rollout",
-                "summary": "Retail Dive search highlights ‘Kohl’s launches Deal Bar in all stores’ (Feb 17), reinforcing sub-$10 value positioning."
+                "summary": "Recent Retail Dive coverage continues to highlight a chainwide ‘Deal Bar’ under-$10 value push."
             },
             {
                 "store": "Target",
                 "headline": "Corporate cuts, store payroll focus",
-                "summary": "Recent coverage shows Target cutting 500 roles while reinvesting in store payroll (Feb 10), balancing efficiency and frontline execution."
+                "summary": "Recent coverage highlights Target cutting corporate roles while reinvesting in store payroll, balancing efficiency and frontline execution."
             },
             {
-                "store": "Macy's",
-                "headline": "Fulfillment network changes",
-                "summary": "January coverage remains centered on Connecticut fulfillment center reductions/closures, signaling continued network optimization."
-            },
-            {
-                "store": "Walmart",
-                "headline": "Seller logistics expansion",
-                "summary": "Retail Dive search continues to show Walmart’s cross-border shipping program and broader automation/logistics expansion themes."
-            },
-            {
-                "store": "Dillard's / Belk / Bealls / Ross / Burlington / TJ Maxx",
-                "headline": "Limited fresh same-day coverage",
-                "summary": "Search results are mostly older or sector-roundup items; no major new standalone same-day developments surfaced for these names."
+                "store": "Macy's / Dillard's / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx",
+                "headline": "Limited fresh front-page retailer-specific items",
+                "summary": "Retail Dive front page during this run skewed to brand/sector stories; no additional same-day standalone items were captured for these specific retailers."
             }
         ],
         "xTrends": [
-            { "name": "Vinícius/Prestianni row", "desc": "Racism-slur allegation in UCL discourse remains high-velocity." },
-            { "name": "Baby Macaque", "desc": "Viral animal story sustains broad entertainment sharing." },
-            { "name": "Ted Lieu Epstein claim", "desc": "Political allegations over unreleased files drive heavy discussion." },
-            { "name": "Board of Peace", "desc": "White House Gaza reconstruction meeting trends in geopolitics." },
-            { "name": "Alysa Liu Gold", "desc": "Historic U.S. women’s skating gold continues sports momentum." },
-            { "name": "BTS V court-chat leak", "desc": "Entertainment/legal crossover topic with strong fan engagement." },
-            { "name": "Nigerian TikToker hoax", "desc": "Confession story remains a major social-news trend." },
-            { "name": "Tucker Carlson airport clip", "desc": "Political media confrontation clip continues circulating." },
-            { "name": "Ferrari Bahrain testing", "desc": "Leclerc/Hamilton testing headlines trend among motorsport fans." },
-            { "name": "Alysa Liu (duplicate cluster)", "desc": "Secondary Alysa topic confirms sustained multi-cluster traction." }
+            { "name": "Mirabel Rape Hoax", "desc": "Nigerian TikToker admits to fabricating viral story." },
+            { "name": "Vinícius Racism", "desc": "Racist slur accusation in Champions League clash." },
+            { "name": "Baby Macaque", "desc": "Viral comfort story of bullied macaque finds massive reach." },
+            { "name": "Tucker Carlson", "desc": "Airport questioning regarding Palestinian Christians." },
+            { "name": "Board of Peace", "desc": "Trump hosts first ‘Board of Peace’ meeting at White House with Gaza pledges." },
+            { "name": "BTS V Chats", "desc": "Private chats surface in Min Hee-jin court win against HYBE." },
+            { "name": "Ted Lieu Epstein", "desc": "Claims of unreleased Epstein files alleging Trump crimes." },
+            { "name": "Alysa Liu Gold", "desc": "Historic U.S. Olympic figure skating gold win." },
+            { "name": "Ferrari Testing", "desc": "Leclerc record lap and Hamilton headlines in Bahrain testing." },
+            { "name": "Alysa Liu (duplicate)", "desc": "Secondary Alysa topic confirms sustained multi-cluster traction." }
         ]
     },
 
