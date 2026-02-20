@@ -2,6 +2,39 @@
 
 ## Daily Log
 
+### 2026-02-20
+**Google Trends US (Past 24h):**
+- **2026 Winter Olympics (Women’s Figure Skating Free Skate)**: Massive spike (2M+ searches) as results/highlights drive attention.
+- **Winter Weather Advisory**: Broad interest (50K+) tied to storm impacts, travel disruptions, and last-minute essentials purchasing.
+- **Toy Story 5**: Entertainment/news cycle (50K+) likely to drive merchandise/search spillover.
+- **Sports Score Searches**: Multiple NBA matchups spiking (Pistons vs Knicks, Nets vs Cavaliers, Rockets vs Hornets), reinforcing game-night retail/promotional cycles.
+
+**Retailer News Checks (Retail Dive search – latest hits):**
+- **Kohl’s**: “Kohl’s launches ‘Deal Bar’ in all stores” (Feb 17, 2026) — expands sub-$10 value messaging at front-of-store.
+- **Target**: “Target cuts 500 roles, invests in store payroll” (Feb 10, 2026) — cost reset + store labor investment.
+- **Macy’s**: Distribution/fulfillment center changes continue (Jan 13–20, 2026) — network optimization theme.
+- **Walmart**: “Walmart readies cross-border shipping program for sellers” (Feb 4, 2026) — seller services + logistics expansion.
+- **Dillard’s**: Q3 focus on basics (Nov 13, 2025) — defensive merchandising positioning.
+- **Belk**: Smaller-format “Market” concept (Dec 1, 2025).
+- **Bealls**: No recent major Retail Dive coverage surfaced in search results.
+- **Ross**: Store opening plans (Oct 15, 2025).
+- **Burlington**: No fresh standalone Burlington-specific items surfaced (results largely sector/roundups).
+- **TJ Maxx**: Holiday marketing activation (Dec 15, 2025).
+
+**X Trends (Top 10, via bird trending --json):**
+1. Vinícius accuses Benfica’s Prestianni of racist slur (Sports/controversy)
+2. Macron wraps India visit + AI summit (News)
+3. 14 cricket captains urge care for Imran Khan in jail (Sports/World)
+4. Conservatives press Thune on SAVE America Act vote (Politics)
+5. CBS blocks Talarico Colbert interview (US politics/media)
+6. Rupert Lowe launches “Restore Britain” platform (UK politics)
+7. Arsenal blows two-goal lead in Wolves draw (Sports)
+8. USA to Olympics hockey semis (Sports)
+9. Trump “Board of Peace” for Gaza reconstruction pledges (News)
+10. Baby macaque bullied/punched, seeks comfort (Viral)
+
+---
+
 ### 2026-02-17
 **Google Trends US & X Trends (Last 24-48h):**
 - **Cultural Celebrations**: Lunar New Year 2026 (Year of the Fire Horse) generating massive interest (50K+ searches) and vibrant social media greetings (290K+ posts).

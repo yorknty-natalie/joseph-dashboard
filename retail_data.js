@@ -1,4 +1,60 @@
 const retailHistory = {
+    "2026-02-20": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Winter Olympics (Women’s FS Free Skate)",
+                "description": "Women’s figure skating free skate dominates Google Trends (2M+), driving broad attention and likely merch/search spillover."
+            },
+            {
+                "title": "Winter Weather Advisory",
+                "description": "Weather advisories surge (50K+), often correlating with demand for last-minute essentials and disrupted delivery/travel patterns."
+            },
+            {
+                "title": "Toy Story 5",
+                "description": "Toy Story 5 spikes (50K+), signaling a pop-culture moment that can translate into licensed retail demand."
+            },
+            {
+                "title": "Game-night Retail Cycle",
+                "description": "Multiple NBA matchup searches spike (e.g., Pistons–Knicks, Nets–Cavs), reinforcing promo/traffic patterns around live sports."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "Deal Bar rollout",
+                "summary": "Retail Dive notes Kohl’s launched a ‘Deal Bar’ in all stores (Feb 17), emphasizing under-$10 value at the front of store."
+            },
+            {
+                "store": "Target",
+                "headline": "Cuts 500 roles; invests in store payroll",
+                "summary": "Target’s Feb 10 update highlights a corporate cost reset alongside reinvestment in store labor."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Exports program for sellers",
+                "summary": "Walmart is preparing a cross-border shipping/exports program (Feb 4), extending seller services and logistics capability."
+            },
+            {
+                "store": "Macy's",
+                "headline": "Fulfillment network changes",
+                "summary": "Recent Retail Dive coverage remains focused on distribution/fulfillment center changes (Jan 2026), signaling ongoing network optimization."
+            }
+        ],
+        "xTrends": [
+            { "name": "Vinícius / Prestianni", "desc": "Racism allegation dominates post-match discourse." },
+            { "name": "Macron in India", "desc": "Strategic partnership and AI summit headlines." },
+            { "name": "Imran Khan health", "desc": "Cricket leaders urge care during detention." },
+            { "name": "Thune / SAVE America Act", "desc": "Conservatives push for a vote; internal pressure story." },
+            { "name": "CBS / Talarico", "desc": "Colbert interview blocked amid FCC-rule concerns pre-primary." },
+            { "name": "Restore Britain", "desc": "Rupert Lowe launches platform with hardline policy proposals." },
+            { "name": "Arsenal vs Wolves", "desc": "Two-goal lead lost late; match controversy drives engagement." },
+            { "name": "USA Hockey", "desc": "OT winner sends USA to Olympic semis; rivalry chatter." },
+            { "name": "Board of Peace", "desc": "Gaza reconstruction pledges and political reactions trend." },
+            { "name": "Baby Macaque", "desc": "Viral animal clip drives broad entertainment sharing." }
+        ]
+    },
+
     "2026-02-19": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1_KxpoKg2GIi_o3zoDM7ysbe0y7KdKaKd",
         "trends": [
