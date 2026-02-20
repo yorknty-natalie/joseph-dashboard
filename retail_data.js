@@ -1,4 +1,51 @@
 const retailHistory = {
+    "2026-02-21": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1VrdqP4InRfowowYqN8sm-8GP3sFKoR2O",
+        "trends": [
+            {
+                "title": "Olympic Gold (Alysa Liu)",
+                "description": "Alysa Liu wins US first women's figure skating gold in 24 years, creating a massive cultural and celebratory search spike."
+            },
+            {
+                "title": "Winter Weather Preparedness",
+                "description": "Continued trending of 'Aliens' and 'UFOs' alongside weather anomalies suggests high engagement with unusual events and preparedness."
+            },
+            {
+                "title": "Political Economic Discourse",
+                "description": "'Tariffs' and 'Alito' trending indicates a shift in focus towards policy impacts on retail and consumer prices."
+            }
+        ],
+        "news": [
+            {
+                "store": "Pat McGrath Labs",
+                "headline": "Restructuring & Financing",
+                "summary": "Secured $30M financing as part of Chapter 11 restructuring; founder Patricia McGrath moves to CCO role."
+            },
+            {
+                "store": "Spanx",
+                "headline": "Swimwear Relaunch",
+                "summary": "Relaunching swimwear with three different compression levels to capture the 2026 vacation market."
+            },
+            {
+                "store": "Retail Trends",
+                "headline": "Brands to Watch in 2026",
+                "summary": "Mango and Cyklar identified as key brands leaning on physical retail to win customers this year."
+            }
+        ],
+        "xTrends": [
+            { "name": "Mirabel Rape Hoax", "desc": "Nigerian TikToker admits to fabricating viral story." },
+            { "name": "Vinícius Racism", "desc": "Racist slur accusation in Champions League clash." },
+            { "name": "Baby Macaque", "desc": "Viral comfort story of bullied macaque finds massive reach." },
+            { "name": "Tucker Carlson", "desc": "Airport questioning regarding Palestinian Christians." },
+            { "name": "Board of Peace", "desc": "Trump hosts Gaza reconstruction meeting at White House." },
+            { "name": "BTS V Chat Win", "desc": "Private chats surface in court victory against HYBE." },
+            { "name": "Ted Lieu Epstein", "desc": "Claims of unreleased files alleging Trump crimes." },
+            { "name": "Alysa Liu Gold", "desc": "Historic US Olympic Figure Skating gold win." },
+            { "name": "Ferrari Testing", "desc": "Leclerc and Hamilton dominate Bahrain F1 testing." },
+            { "name": "Pat McGrath Deal", "desc": "Chapter 11 restructuring and new capital infusion." }
+        ]
+    },
+
     "2026-02-20": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1o8OZIjrwoLV0KxMzYzJ5b9Vl0VnzxDGO",
         "trends": [
