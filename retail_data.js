@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-20": {
-        "imageUrl": "",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1o8OZIjrwoLV0KxMzYzJ5b9Vl0VnzxDGO",
         "trends": [
             {
                 "title": "Winter Olympics (Women’s FS Free Skate)",
