@@ -1,48 +1,52 @@
 const retailHistory = {
     "2026-02-21": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1VrdqP4InRfowowYqN8sm-8GP3sFKoR2O",
+        "imageUrl": "",
         "trends": [
             {
-                "title": "Olympic Gold (Alysa Liu)",
-                "description": "Alysa Liu wins US first women's figure skating gold in 24 years, creating a massive cultural and celebratory search spike."
+                "title": "Eric Dane",
+                "description": "Google Trends US shows ‘eric dane’ at 5M+ searches, leading entertainment/news attention in the last 24 hours."
             },
             {
-                "title": "Winter Weather Preparedness",
-                "description": "Continued trending of 'Aliens' and 'UFOs' alongside weather anomalies suggests high engagement with unusual events and preparedness."
+                "title": "Supreme Court",
+                "description": "‘supreme court’ spikes at 500K+ searches, indicating high sensitivity to upcoming policy decisions."
             },
             {
-                "title": "Political Economic Discourse",
-                "description": "'Tariffs' and 'Alito' trending indicates a shift in focus towards policy impacts on retail and consumer prices."
+                "title": "USA vs Slovakia",
+                "description": "Olympic hockey matchup generates 500K+ searches, highlighting peak sports engagement cycles."
+            },
+            {
+                "title": "Winter Storm Watch",
+                "description": "Weather-related searches (100K+) correlate with regional retail demand for emergency supplies and essentials."
             }
         ],
         "news": [
             {
                 "store": "Pat McGrath Labs",
-                "headline": "Restructuring & Financing",
-                "summary": "Secured $30M financing as part of Chapter 11 restructuring; founder Patricia McGrath moves to CCO role."
+                "headline": "$30M financing / Chapter 11 deal",
+                "summary": "Secured $30M financing from an existing lender as part of Chapter 11 restructuring; Patricia McGrath becomes chief creative officer."
             },
             {
                 "store": "Spanx",
-                "headline": "Swimwear Relaunch",
-                "summary": "Relaunching swimwear with three different compression levels to capture the 2026 vacation market."
+                "headline": "Swimwear relaunch",
+                "summary": "Relaunches swimwear with three different compression levels in its latest collection to capture vacation demand."
             },
             {
-                "store": "Retail Trends",
-                "headline": "Brands to Watch in 2026",
-                "summary": "Mango and Cyklar identified as key brands leaning on physical retail to win customers this year."
+                "store": "Brands to Watch",
+                "headline": "Physical retail focus for 2026",
+                "summary": "Mango and Cyklar identified as legacy and emerging brands leaning on physical retail to win customers."
             }
         ],
         "xTrends": [
-            { "name": "Mirabel Rape Hoax", "desc": "Nigerian TikToker admits to fabricating viral story." },
-            { "name": "Vinícius Racism", "desc": "Racist slur accusation in Champions League clash." },
-            { "name": "Baby Macaque", "desc": "Viral comfort story of bullied macaque finds massive reach." },
-            { "name": "Tucker Carlson", "desc": "Airport questioning regarding Palestinian Christians." },
-            { "name": "Board of Peace", "desc": "Trump hosts Gaza reconstruction meeting at White House." },
-            { "name": "BTS V Chat Win", "desc": "Private chats surface in court victory against HYBE." },
-            { "name": "Ted Lieu Epstein", "desc": "Claims of unreleased files alleging Trump crimes." },
-            { "name": "Alysa Liu Gold", "desc": "Historic US Olympic Figure Skating gold win." },
-            { "name": "Ferrari Testing", "desc": "Leclerc and Hamilton dominate Bahrain F1 testing." },
-            { "name": "Pat McGrath Deal", "desc": "Chapter 11 restructuring and new capital infusion." }
+            { "name": "Phil Spencer", "desc": "Xbox head retires after 38 years of leadership." },
+            { "name": "Alysa Liu", "desc": "Historic U.S. figure skating gold win continues to dominate social trends." },
+            { "name": "Vinícius controversy", "desc": "Racism-slur allegation in UCL clash drives high-velocity discourse." },
+            { "name": "Matt Jeneroux", "desc": "Conservative MP defects to Liberals, boosting Carney's caucus." },
+            { "name": "Mirabel Hoax", "desc": "Nigerian TikToker admits to fabricating viral rape story." },
+            { "name": "Baby Macaque", "desc": "Viral comfort story of bullied monkey finds massive social reach." },
+            { "name": "Ted Lieu Epstein", "desc": "Claims of unreleased files alleging Trump crimes spark political debate." },
+            { "name": "Tucker Carlson", "desc": "Media personality's Huckabee interview generates significant engagement." },
+            { "name": "Arsenal Thriller", "desc": "Late Wolves comeback in 2-2 draw fuels sports chatter." },
+            { "name": "USA vs Slovakia", "desc": "Olympic hockey rivalry updates trend among sports fans." }
         ]
     },
 

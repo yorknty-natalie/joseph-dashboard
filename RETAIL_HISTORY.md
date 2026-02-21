@@ -2,6 +2,37 @@
 
 ## Daily Log
 
+### 2026-02-21
+**Google Trends US (Past 24h) — Trending Now:**
+- **Eric Dane**: 5M+ search volume, leading broad mainstream attention.
+- **Supreme Court**: 500K+ searches, signaling policy and legal news dominance.
+- **USA vs Slovakia**: 500K+ searches for Olympic hockey, driving high sports-related engagement.
+- **Winter Storm Watch**: 100K+ searches, indicating regional interest in weather impacts and retail readiness.
+
+**Retailer News Checks (Retail Dive):**
+- **6 brands to watch in 2026**: Mango and Cyklar are leaning on physical retail to win customers.
+- **Spanx**: Relaunches swimwear with three compression levels to capture the 2026 market.
+- **Pat McGrath Labs**: Secured $30M in financing via Chapter 11 restructuring; Patricia McGrath appointed as CCO.
+- **Kohl’s / Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: No new front-page developments; covered brands focus on store-level payroll and value concepts.
+
+**X Trends (Top 10, via bird trending --json):**
+1. Phil Spencer retires from Xbox after 38 years.
+2. Alysa Liu wins Olympic Gold, ending U.S. figure skating drought.
+3. Vinícius racism claim halts Real Madrid's Benfica win.
+4. Conservative MP Matt Jeneroux defects to Liberals.
+5. Nigerian TikToker Mirabel admits fabricating rape story.
+6. Baby macaque punch story finds comfort viral reach.
+7. Rep. Ted Lieu claims unreleased Epstein Files allege Trump crimes.
+8. Tucker Carlson Huckabee interview on U.S.-Israel aid.
+9. Arsenal drop points in late Wolves thriller.
+10. USA vs Slovakia Olympic hockey rivalry chatter.
+
+**Relay/Gemini status:**
+- Browser Relay became unavailable (status: not running).
+- Per fallback rule, image generation and Drive upload were skipped; text data updates completed.
+
+---
+
 ### 2026-02-20 (Rerun at 16:39 UTC)
 **Google Trends US (Past 24h) — Trending Now (Updated Feb 20, ~4:41 PM UTC):**
 - **Eric Dane**: 5M+ search volume (top overall).
