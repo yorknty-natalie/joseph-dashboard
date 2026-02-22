@@ -606,3 +606,27 @@
 - **Burlington/Ross/TJ Maxx**: Seeing continued "treasure hunt" traffic as inflation-conscious consumers shift to off-price retailers.
 
 ---
+
+### 2026-02-22
+**Google Trends US Retail (Last 24h):**
+- **Google Trends unavailable**: trends.google.com returned 429/blocked during this run.
+- **Fallback signal (Retail Dive + X trends):** Attention clustered around (1) brand/store expansion plans for 2026, (2) seasonal category pushes (swimwear), and (3) restructuring/financing in prestige beauty.
+
+**Retailer Major News (Last 24h):**
+- **Retail Dive**: “6 brands to watch in 2026” highlights brands leaning on physical retail to win customers.
+- **Spanx**: Relaunches swimwear with multiple compression levels.
+- **Pat McGrath Labs**: Secures $30M financing tied to a Chapter 11 restructuring deal.
+
+**X Trends (Last 48h):**
+1. Epstein files / Prince Andrew (major engagement headline)
+2. Vinícius / Prestianni slur probe (UEFA-related football discourse)
+3. BLACKPINK 100M YouTube subscribers (entertainment milestone)
+4. NYC snow shoveler signup criticism (weather/municipal logistics)
+5. Wexner lawyer hot-mic (Epstein deposition cycle)
+6. KATSEYE Manon health hiatus (entertainment)
+7. Gorton & Denton by-election poll (UK politics)
+8. Susan Rice warning on accountability (US politics)
+9. Man City vs Newcastle (O'Reilly brace) (sports)
+10. Ronaldo / Al Nassr summit (sports)
+
+---

@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-02-22": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Retail Dive: Brands to watch in 2026",
+                "description": "Retail Dive highlights brands leaning on physical retail (e.g., Mango, Cyklar), signaling continued store-led growth strategies."
+            },
+            {
+                "title": "Spanx relaunches swimwear",
+                "description": "Spanx re-enters swimwear with multiple compression levels, reflecting ongoing category expansion and premium shapewear adjacency."
+            },
+            {
+                "title": "Pat McGrath Labs financing / Chapter 11",
+                "description": "Pat McGrath Labs secured $30M in financing tied to a Chapter 11 restructuring deal, underscoring continued stress in prestige beauty DTC models."
+            },
+            {
+                "title": "Google Trends access limited",
+                "description": "Google Trends returned 429/blocked during this run; US Retail search themes were approximated via Retail Dive + X trend signals instead of Trends UI."
+            }
+        ],
+        "news": [
+            {
+                "store": "Retail Dive",
+                "headline": "6 brands to watch in 2026",
+                "summary": "Coverage notes legacy + emerging brands leaning on physical retail as a primary growth lever."
+            },
+            {
+                "store": "Spanx",
+                "headline": "Swimwear relaunch",
+                "summary": "New swim assortment with three compression levels aims to capture seasonal demand and extend the brand beyond core shapewear."
+            },
+            {
+                "store": "Pat McGrath Labs",
+                "headline": "$30M financing / Chapter 11 deal",
+                "summary": "Secured $30M financing from an existing lender as part of restructuring; Patricia McGrath becomes chief creative officer."
+            }
+        ],
+        "xTrends": [
+            { "name": "Epstein files / Prince Andrew", "desc": "Epstein files discourse drives major engagement; Prince Andrew arrest rumor headline is trending." },
+            { "name": "Vinícius / Prestianni slur probe", "desc": "UEFA probe around a slur allegation keeps Vinícius-related football discourse elevated." },
+            { "name": "BLACKPINK 100M YouTube subs", "desc": "BLACKPINK milestone sparks large entertainment + creator economy chatter." },
+            { "name": "NYC snow shoveler signup", "desc": "Storm prep + municipal logistics trend; often correlates with spikes in essentials purchasing." },
+            { "name": "Wexner lawyer hot-mic", "desc": "Court/deposition moment fuels ongoing Epstein-related news cycle." },
+            { "name": "KATSEYE Manon hiatus", "desc": "Entertainment/artist health update trends across fan communities." },
+            { "name": "Gorton & Denton by-election poll", "desc": "UK political polling trend; broader news engagement." },
+            { "name": "Susan Rice warning", "desc": "US political discourse trend tied to institutions/democracy framing." },
+            { "name": "Man City title push", "desc": "O'Reilly's brace match storyline trends among sports fans." },
+            { "name": "Ronaldo / Al Nassr", "desc": "Ronaldo brace result trends with high sports interest." }
+        ]
+    },
+
     "2026-02-21": {
         "imageUrl": "",
         "trends": [
