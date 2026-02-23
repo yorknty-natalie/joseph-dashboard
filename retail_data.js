@@ -1,4 +1,45 @@
 const retailHistory = {
+    "2026-02-23": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Google Trends extraction unavailable",
+                "description": "Google Trends UI could not be reliably extracted during this run (cookie wall + headless control timeouts). Trend signal was inferred from Retail Dive + X trends instead."
+            },
+            {
+                "title": "Walmart cross-border shipping for sellers",
+                "description": "Retail Dive search surfaced Walmart’s cross-border shipping program for sellers (Feb 4, 2026), reinforcing seller-services + logistics expansion as a key theme."
+            },
+            {
+                "title": "Off-price: limited fresh standalone hits",
+                "description": "Ross/Burlington/TJ Maxx searches mostly surfaced older sector roundups (late 2025–Jan 2026) rather than fresh standalone retailer-specific news."
+            },
+            {
+                "title": "X trend cluster: politics + sports + entertainment",
+                "description": "Top X trends clustered around voter ID legislation, major celebrity news (Eric Dane), and sports match results, which can shape attention and demand windows."
+            }
+        ],
+        "news": [
+            {
+                "store": "Walmart",
+                "headline": "Cross-border shipping program for sellers (WFS)",
+                "summary": "Retail Dive (Feb 4, 2026): Walmart readies a cross-border shipping/exports capability for marketplace sellers, extending seller services and fulfillment reach."
+            }
+        ],
+        "xTrends": [
+            { "name": "SAVE America Act / voter ID push", "desc": "Grassroots conservatives push Senate on the SAVE America Act voter ID bill (~488K posts)." },
+            { "name": "Eric Dane ALS", "desc": "Eric Dane death after ALS battle drives major engagement (~1.3M)." },
+            { "name": "Chelsea vs Burnley draw", "desc": "Late equalizer + red card storyline trends (~202K)." },
+            { "name": "U.S. troops / Iran tensions", "desc": "Viral post about troop meal amid tensions (~232K)." },
+            { "name": "Xbox leadership change", "desc": "Phil Spencer retires; Asha Sharma takes Xbox helm (~331K)." },
+            { "name": "NYC snow shoveler ID", "desc": "Mayor’s call draws ID requirement mockery (~536K)." },
+            { "name": "Ambassador Huckabee borders", "desc": "Biblical borders endorsement trends (~541K)." },
+            { "name": "Nico O'Reilly brace", "desc": "Man City vs Newcastle result trends (~155K)." },
+            { "name": "Alysa Liu Olympics gala", "desc": "Post-gold attention remains high (~390K)." },
+            { "name": "South Africa vs India cricket", "desc": "T20 World Cup Super 8 result trends (~153K)." }
+        ]
+    },
+
     "2026-02-22": {
         "imageUrl": "",
         "trends": [
