@@ -4,10 +4,14 @@
 
 ### 2026-02-24
 **Google Trends US (Past 24h) — Trending Now:**
-- Not executed in this run (user requested X trend execution only).
+- Google Trends content remained blocked by cookie wall in this run.
+- Fallback signal (trends24 + X + RetailDive): U.S. attention clustered around civic/political stories, football results, severe weather recovery, and major breaking-crime headlines.
 
-**Retailer News Checks (Retail Dive search):**
-- Not executed in this run.
+**Retailer News Checks (Retail Dive):**
+- **Aritzia**: Acquired Fred Segal brand and leased the Los Angeles flagship; renovation-focused expansion signal.
+- **Spanx**: Relaunches swimwear with three compression levels, indicating seasonal category expansion.
+- **Pat McGrath Labs**: Secured $30M financing tied to Chapter 11 restructuring; Patricia McGrath shifts to CCO.
+- **Kohl’s / Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: No clearly new retailer-specific front-page updates surfaced in this fetch cycle.
 
 **X Trends (Top 10, via `bird trending --json`):**
 1. Arsenal crush Tottenham 4-1 in North London derby (657K posts)
@@ -22,7 +26,8 @@
 10. U.S. women’s hockey team declines Trump SOTU invite (278K posts)
 
 **Relay/Gemini status:**
-- Skipped (X trend only run).
+- Browser connection failed (no active Chrome Relay tab attached).
+- Per fallback rule, image generation and Drive upload were skipped.
 
 ---
 
