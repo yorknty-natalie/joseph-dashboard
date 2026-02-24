@@ -1,4 +1,45 @@
 const retailHistory = {
+    "2026-02-24": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "X trend execution completed",
+                "description": "Run mode: X-only execution per user request. Google Trends and Retail Dive checks were not executed in this run."
+            },
+            {
+                "title": "Sports + politics lead attention",
+                "description": "Top X topics skewed toward football match outcomes, SAVE Act political pressure, and geopolitics."
+            },
+            {
+                "title": "Breaking-news volatility",
+                "description": "High-volume breaking events (cartel raid, UK testimony, obituary news) contributed to rapid engagement shifts."
+            },
+            {
+                "title": "Weather + civic discourse overlap",
+                "description": "NYC blizzard recovery and U.S. civic/political stories stayed active in the same cycle, suggesting mixed-intent attention windows."
+            }
+        ],
+        "news": [
+            {
+                "store": "Run Scope",
+                "headline": "X-only execution",
+                "summary": "Per user request, only X trend collection was executed for 2026-02-24; retailer news scan and Google Trends collection were skipped."
+            }
+        ],
+        "xTrends": [
+            { "name": "Arsenal vs Tottenham", "desc": "Arsenal crush Tottenham 4-1 in North London derby (~657K posts)." },
+            { "name": "SAVE Act pressure", "desc": "Conservatives push to oust Thune over SAVE Act stance (~381K posts)." },
+            { "name": "Barcelona vs Levante", "desc": "Barcelona 3-0 win to reclaim top league position (~186K posts)." },
+            { "name": "UK grooming-gang testimony", "desc": "Survivor testimony drives major outrage cycle (~372K posts)." },
+            { "name": "U.S.-Iran warning", "desc": "Envoy warns Iran is weeks from nuclear-bomb material (~258K posts)." },
+            { "name": "El Mencho raid", "desc": "Mexican forces kill cartel leader El Mencho in Jalisco raid (~3M posts)." },
+            { "name": "NYC blizzard", "desc": "NYC digs out after historic 15–20 inch snowstorm (~107K posts)." },
+            { "name": "Ronaldo brace", "desc": "Ronaldo brace powers Al Nassr to top of Saudi Pro League (~190K posts)." },
+            { "name": "Rondale Moore", "desc": "Vikings receiver Rondale Moore death news trends (~162K posts)." },
+            { "name": "U.S. women’s hockey", "desc": "Team declines Trump State of the Union invite (~278K posts)." }
+        ]
+    },
+
     "2026-02-23": {
         "imageUrl": "",
         "trends": [
