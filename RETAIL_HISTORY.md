@@ -744,3 +744,28 @@
 10. Ronaldo / Al Nassr summit (sports)
 
 ---
+
+
+### 2026-02-25 (19:17 Asia/Taipei run)
+**Google Trends US (Past 24h) — Top Hashtag Momentum:**
+- #SOTU2026, #WWENXT, #StaySelcaDay, #RHOA, #Sanremo2026, #PIPPKIN, #JUNGKOOKxCALVINKLEIN, #LakeShow, #READYORNOT2, #NINGNINGxGucci.
+- Note: Google Trends native page remained cookie-walled in this run; hashtag momentum used as fallback signal.
+
+**Retailer News Checks (Retail Dive search):**
+- **Kohl's**: “Kohl’s turnaround could take a while” (Feb. 23, 2026).
+- **Target**: “Target expands Levi’s denim to 150 additional stores” (Feb. 23, 2026).
+- **Dillard’s**: “Dillard’s holds steady at the holidays” (Feb. 24, 2026).
+- **Macy’s**: latest surfaced result was Jan. 28, 2026 (Style Crew affiliate expansion).
+- **Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clearly fresh standalone updates in this run window.
+
+**X Trends (Top 10, via x-trend skill output):**
+1. #SOTU2026
+2. #WWENXT
+3. #StaySelcaDay
+4. #RHOA
+5. #Sanremo2026
+6. #PIPPKIN
+7. #JUNGKOOKxCALVINKLEIN
+8. #LakeShow
+9. #READYORNOT2
+10. #NINGNINGxGucci
