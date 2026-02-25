@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-02-25": {
+        "imageUrl": "",
+        "trends": [
+            {
+                "title": "Google Trends blocked; fallback used",
+                "description": "Google Trends remained behind cookie/consent constraints. Signals were inferred from trends24, Retail Dive, and X trend velocity."
+            },
+            {
+                "title": "Political + sports + breaking-news cycle",
+                "description": "Top X topics mixed football derbies, SAVE Act pressure, geopolitical warnings, and high-volume breaking-crime coverage."
+            },
+            {
+                "title": "Weather-driven demand window",
+                "description": "NYC blizzard recovery trend suggests short-term demand for essentials, logistics, and local service categories."
+            },
+            {
+                "title": "Retail front page skewed to brand stories",
+                "description": "Retail Dive surfaced Aritzia/Fred Segal, Spanx swimwear, and Pat McGrath financing; limited fresh standalone updates for core big-box list today."
+            }
+        ],
+        "news": [
+            {
+                "store": "Aritzia",
+                "headline": "Acquires Fred Segal brand + LA flagship lease",
+                "summary": "Aritzia purchased Fred Segal and leased the Los Angeles flagship with renovation plans, signaling selective physical-retail expansion."
+            },
+            {
+                "store": "Spanx",
+                "headline": "Swimwear relaunch",
+                "summary": "Spanx re-enters swimwear with three compression levels, expanding seasonal assortment and premium-shapewear adjacency."
+            },
+            {
+                "store": "Pat McGrath Labs",
+                "headline": "$30M financing / Chapter 11 deal",
+                "summary": "The company secured $30M financing from an existing lender; founder Patricia McGrath becomes chief creative officer in restructuring."
+            }
+        ],
+        "xTrends": [
+            { "name": "Arsenal vs Tottenham", "desc": "Arsenal crush Tottenham 4-1 in North London derby (~657K posts)." },
+            { "name": "SAVE Act pressure", "desc": "Conservatives push to oust Thune over SAVE Act stance (~381K posts)." },
+            { "name": "Barcelona vs Levante", "desc": "Barcelona 3-0 win to reclaim top spot (~186K posts)." },
+            { "name": "UK grooming-gang testimony", "desc": "Survivor testimony drives major outrage cycle (~372K posts)." },
+            { "name": "U.S.-Iran warning", "desc": "Envoy warns Iran is weeks from nuclear-bomb material (~258K posts)." },
+            { "name": "El Mencho raid", "desc": "Mexican forces kill cartel leader El Mencho in Jalisco raid (~3M posts)." },
+            { "name": "NYC blizzard", "desc": "NYC digs out after historic 15–20 inch blizzard (~107K posts)." },
+            { "name": "Ronaldo brace", "desc": "Ronaldo brace powers Al Nassr to league summit (~190K posts)." },
+            { "name": "Rondale Moore", "desc": "Vikings receiver Rondale Moore death news trends (~162K posts)." },
+            { "name": "U.S. women’s hockey", "desc": "Team declines Trump State of the Union invite (~278K posts)." }
+        ]
+    },
+
     "2026-02-24": {
         "imageUrl": "",
         "trends": [

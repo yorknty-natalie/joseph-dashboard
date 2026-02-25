@@ -18,11 +18,12 @@
 4.  **Relay Check**: Check if Chrome Browser Relay is working correctly (`browser.status` or `browser.tabs(profile='chrome')`). 
     - If it fails, report "browser connection failed" to Joseph via Telegram.
     - **Do not attempt repair**.
-    - Skip all image generation and Google Drive steps (Step 7 in new numbering).
+    - Skip all image generation and Google Drive steps (Step 8 in new numbering).
     - Proceed to update text data and push to GitHub only.
-5.  **Update `Project/Dashboard/RETAIL_HISTORY.md`**: Append a new section for the date with the findings.
-6.  **Update `Project/Dashboard/retail_data.js`**: Add a new entry to the `retailHistory` object for the current date with the latest trends, news summaries, and the top 10 X trends. (Keep all previous dates in the file).
-7.  **Gemini Image Generation**:
+5.  **Date key rule (important)**: Always use **Asia/Taipei** local date (`YYYY-MM-DD`) as the canonical date key for all outputs.
+6.  **Update `Project/Dashboard/RETAIL_HISTORY.md`**: Append a new section for the Taipei-local date with the findings.
+7.  **Update `Project/Dashboard/retail_data.js`**: Add a new entry to the `retailHistory` object using the same Taipei-local date key, with latest trends, news summaries, and top 10 X trends. (Keep all previous dates in the file).
+8.  **Gemini Image Generation**:
     *   **Check Existing Tabs**: Use `browser.tabs` to see if Gemini is already open. If yes, use `browser.focus` on the existing `targetId`. Only open a new tab if none exist.
     *   **Stable Handshake**: After opening/focusing, if `snapshot` returns "tab not found", **Wait 5 seconds and retry** on the same ID. Do not open a new URL until 3 retries fail.
     *   Open Google Gemini in Chrome Browser Relay.
@@ -36,8 +37,8 @@
     *   **Teardown**: Close all Gemini tabs used during the session to keep the browser clean.
     *   **Upload the image to Google Drive** in the "x trend photo" folder using `gog`.
     *   **Capture the file ID** from the upload result and update `Project/Dashboard/retail_data.js` with the corresponding `imageUrl` (formatted for direct display: `https://drive.google.com/uc?export=view&id=FILE_ID`).
-8.  **Push Updates**: Commit and push text-based changes (data and history) to GitHub. (Note: Images in `Gemini Photo/` are ignored by Git and will remain local only).
-9.  **Final Notification**:
+9.  **Push Updates**: Commit and push text-based changes (data and history) to GitHub. (Note: Images in `Gemini Photo/` are ignored by Git and will remain local only).
+10.  **Final Notification**:
     *   Send a message to Joseph on Telegram: "Daily update complete. Dashboard is live at https://yorknty-natalie.github.io/joseph-dashboard/"
     *   **Send the latest image from `Project/Dashboard/Gemini Photo/`** to Joseph as a media attachment.
     *   Include the Google Drive link for the new image in the message.
