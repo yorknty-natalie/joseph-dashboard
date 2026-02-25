@@ -1,44 +1,27 @@
 # Daily Retail & X Trends Routine
 
-**Schedule: Every day at 01:00 AM UTC**
+## 2026-02-25 (Asia/Taipei)
 
-### Tasks:
-1.  **Search Google Trends** for "US Retail" top searches over the last 24 hours.
-    - Use headless browser (`openclaw` profile) to access `https://trends.google.com/trending?geo=US&hours=24`
-    - If blocked by CAPTCHA, fallback to `web_fetch` on trends24.in
-2.  **Search News** for the following 10 retailers (last 24 hours):
-    - Kohl's, Target, Macy's, Dillard's, Belk, Bealls, Walmart, Ross, Burlington, TJ Maxx.
-    - Use `web_fetch` on RetailDive: `https://www.retaildive.com/`
-3.  **Search X Trends** using `bird` CLI:
-    ```bash
-    bird trending --json
-    ```
-    - This returns AI-curated trending topics with headlines, categories, and post counts.
-    - Select top 10 most relevant trends for the dashboard.
-4.  **Relay Check**: Check if Chrome Browser Relay is working correctly (`browser.status` or `browser.tabs(profile='chrome')`). 
-    - If it fails, report "browser connection failed" to Joseph via Telegram.
-    - **Do not attempt repair**.
-    - Skip all image generation and Google Drive steps (Step 8 in new numbering).
-    - Proceed to update text data and push to GitHub only.
-5.  **Date key rule (important)**: Always use **Asia/Taipei** local date (`YYYY-MM-DD`) as the canonical date key for all outputs.
-6.  **Update `Project/Dashboard/RETAIL_HISTORY.md`**: Append a new section for the Taipei-local date with the findings.
-7.  **Update `Project/Dashboard/retail_data.js`**: Add a new entry to the `retailHistory` object using the same Taipei-local date key, with latest trends, news summaries, and top 10 X trends. (Keep all previous dates in the file).
-8.  **Gemini Image Generation**:
-    *   **Check Existing Tabs**: Use `browser.tabs` to see if Gemini is already open. If yes, use `browser.focus` on the existing `targetId`. Only open a new tab if none exist.
-    *   **Stable Handshake**: After opening/focusing, if `snapshot` returns "tab not found", **Wait 5 seconds and retry** on the same ID. Do not open a new URL until 3 retries fail.
-    *   Open Google Gemini in Chrome Browser Relay.
-    *   **Select the "玻璃產品生成" Gem** from the sidebar.
-    *   **Switch the model to "Pro"**.
-    *   Generate an image using the logic: 10 trends as custom-shaped molded glass ornaments, vibrant colors, #tag names printed underneath.
-    *   **Verification**: Ensure the generation finished by checking for the image element before attempting download.
-    *   **Click on the generated image** to open lightbox view.
-    *   **Click "下載原尺寸圖片"** button to download the full-resolution image (NOT screenshot!).
-    *   Find downloaded file in system Downloads folder and copy to `Project/Dashboard/Gemini Photo/`.
-    *   **Teardown**: Close all Gemini tabs used during the session to keep the browser clean.
-    *   **Upload the image to Google Drive** in the "x trend photo" folder using `gog`.
-    *   **Capture the file ID** from the upload result and update `Project/Dashboard/retail_data.js` with the corresponding `imageUrl` (formatted for direct display: `https://drive.google.com/uc?export=view&id=FILE_ID`).
-9.  **Push Updates**: Commit and push text-based changes (data and history) to GitHub. (Note: Images in `Gemini Photo/` are ignored by Git and will remain local only).
-10.  **Final Notification**:
-    *   Send a message to Joseph on Telegram: "Daily update complete. Dashboard is live at https://yorknty-natalie.github.io/joseph-dashboard/"
-    *   **Send the latest image from `Project/Dashboard/Gemini Photo/`** to Joseph as a media attachment.
-    *   Include the Google Drive link for the new image in the message.
+### Google Trends US (latest momentum)
+- `#SOTU2026` dominated hashtag momentum (~8h trend length).
+- Entertainment/sports overlap from `#WWENXT` and `#LakeShow`.
+- K-pop/fashion momentum from `#StaySelcaDay`, `#JUNGKOOKxCALVINKLEIN`, `#NINGNINGxGucci`.
+- Additional cultural clusters: `#RHOA`, `#Sanremo2026`, `#READYORNOT2`.
+
+### Retailer News (Retail Dive latest notable)
+- **Kohl's**: “Kohl’s turnaround could take a while” (Feb 23, 2026).
+- **Target**: “Target expands Levi’s denim to 150 additional stores” (Feb 23, 2026).
+- **Dillard’s**: “Dillard’s holds steady at the holidays” (Feb 24, 2026).
+- **Macy’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clearly fresh standalone item in this run window.
+
+### X Trends (Top 10 + short notes)
+1. `#SOTU2026` — State of the Union reaction cycle.
+2. `#WWENXT` — WWE NXT event/storyline chatter.
+3. `#StaySelcaDay` — fan selfie-sharing trend.
+4. `#RHOA` — Real Housewives discussion spike.
+5. `#Sanremo2026` — festival performance/voting conversation.
+6. `#PIPPKIN` — niche/noisy trend signal.
+7. `#JUNGKOOKxCALVINKLEIN` — fashion campaign amplification.
+8. `#LakeShow` — Lakers game-night/social buzz.
+9. `#READYORNOT2` — sequel release/trailer chatter.
+10. `#NINGNINGxGucci` — luxury ambassador momentum.
