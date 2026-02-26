@@ -135,3 +135,28 @@
 8. `#AskAva` — mixed Q&A campaign signal.
 9. `#GalaxyUnpacked` — Samsung event reveal chatter.
 10. `#ApátridasFracasados` — Spanish-language political commentary cluster.
+
+## 2026-02-26 (09:53 rerun, Asia/Taipei)
+
+### Google Trends US (latest momentum)
+- Top hashtag momentum unchanged: `#SOTU2026`, `#WWENXT`, `#WednesdayMotivation`, `#LakeShow`, `#RHOSLC`, `#GalaxyGiveaways`, `#GalaxyS26`, `#AskAva`, `#GalaxyUnpacked`, `#ApátridasFracasados`.
+- Google Trends native page remained inaccessible; fallback source used.
+
+### Retailer News (Retail Dive latest notable)
+- **Kohl's**: “Kohl’s turnaround could take a while” (Feb 23, 2026).
+- **Macy’s**: “Warby Parker taps Macy’s vet as CFO” (Feb 10, 2026).
+- **Dillard’s**: “Dillard’s holds steady at the holidays” (Feb 24, 2026).
+- **Walmart**: “Walmart: Supply chain spending set to ‘peak’ next 2 years, CEO says” (Feb 25, 2026).
+- **Target / Belk / Bealls / Ross / Burlington / TJ Maxx**: no clearly fresh standalone (<24h) updates surfaced in this run.
+
+### X Trends (Top 10 + short notes)
+1. `#SOTU2026` — State of the Union discussion cycle.
+2. `#WWENXT` — WWE NXT event/storyline chatter.
+3. `#WednesdayMotivation` — recurring midweek motivation posts.
+4. `#LakeShow` — Lakers game/fandom momentum.
+5. `#RHOSLC` — reality TV reaction spikes.
+6. `#GalaxyGiveaways` — Samsung promo/giveaway activity.
+7. `#GalaxyS26` — Galaxy launch/rumor conversation.
+8. `#AskAva` — mixed Q&A campaign signal.
+9. `#GalaxyUnpacked` — Samsung event reveal chatter.
+10. `#ApátridasFracasados` — Spanish-language political commentary cluster.
