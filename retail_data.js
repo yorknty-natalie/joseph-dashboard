@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-26": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1LoiUthtjmkOoU5RYH4FHZYUVnQNQSWdr",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1GR_kCUS7K-valNuLXXeJlJQc_f2OJl2z",
         "trends": [
             {
                 "title": "US hashtag momentum led by #SOTU2026",
@@ -38,15 +38,15 @@ const retailHistory = {
         ],
         "xTrends": [
             { "name": "#SOTU2026", "desc": "State of the Union reaction cycle." },
-            { "name": "#WWENXT", "desc": "WWE NXT event/storyline chatter." },
             { "name": "#WednesdayMotivation", "desc": "Recurring midweek motivation posting." },
+            { "name": "#WWENXT", "desc": "WWE NXT event/storyline chatter." },
             { "name": "#LakeShow", "desc": "Lakers game and fan momentum." },
             { "name": "#RHOSLC", "desc": "Reality TV episode reaction spikes." },
-            { "name": "#GalaxyGiveaways", "desc": "Samsung promotion/giveaway campaign chatter." },
+            { "name": "#Survivor50", "desc": "Survivor franchise episode/cast buzz." },
             { "name": "#GalaxyS26", "desc": "Galaxy S26 launch-rumor discussion." },
             { "name": "#AskAva", "desc": "Q&A campaign tag with mixed signals." },
-            { "name": "#GalaxyUnpacked", "desc": "Samsung event reveal conversation." },
-            { "name": "#ApátridasFracasados", "desc": "Spanish-language political discourse trend." }
+            { "name": "#GalaxyGiveaways", "desc": "Samsung promotion/giveaway campaign chatter." },
+            { "name": "#GalaxyUnpacked", "desc": "Samsung event reveal conversation." }
         ]
     },
 
