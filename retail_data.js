@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-02-26": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1c60aDgoZ4w89EJqCZsRylWcbgUcqmRqC",
+        "trends": [
+            {
+                "title": "US hashtag momentum led by #SOTU2026",
+                "description": "Top 24h hashtag momentum was led by #SOTU2026 (11h), with WWE, NBA, and Samsung-related tags also active."
+            },
+            {
+                "title": "Google Trends UI remained inaccessible",
+                "description": "Google Trends native page remained cookie-walled in this run; getdaytrends 24h hashtag stream used as fallback signal."
+            },
+            {
+                "title": "Retail updates concentrated in a few names",
+                "description": "Fresh notable search hits centered on Kohl's, Target, Dillard’s, and Walmart, while several tracked retailers had no clear new standalone item."
+            },
+            {
+                "title": "X top tags mixed politics, sports, entertainment, and tech",
+                "description": "Top 10 tags included #SOTU2026, #WWENXT, #LakeShow, #RHOSLC, and Samsung event/giveaway hashtags."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "Kohl’s turnaround could take a while",
+                "summary": "Retail Dive search surfaced Kohl’s turnaround coverage (latest notable: Feb 23, 2026), signaling a longer reset cycle."
+            },
+            {
+                "store": "Target",
+                "headline": "Target expands Levi’s denim to 150 additional stores",
+                "summary": "Retail Dive (Feb 23, 2026): denim expansion continues assortment scaling toward 1,000+ stores by end-2026."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Walmart: Supply chain spending set to peak next 2 years",
+                "summary": "Retail Dive (Feb 25, 2026): continued supply-chain investment points to multi-year automation and logistics focus."
+            }
+        ],
+        "xTrends": [
+            { "name": "#SOTU2026", "desc": "State of the Union reaction cycle." },
+            { "name": "#WWENXT", "desc": "WWE NXT event/storyline chatter." },
+            { "name": "#WednesdayMotivation", "desc": "Recurring midweek motivation posting." },
+            { "name": "#LakeShow", "desc": "Lakers game and fan momentum." },
+            { "name": "#RHOSLC", "desc": "Reality TV episode reaction spikes." },
+            { "name": "#GalaxyGiveaways", "desc": "Samsung promotion/giveaway campaign chatter." },
+            { "name": "#GalaxyS26", "desc": "Galaxy S26 launch-rumor discussion." },
+            { "name": "#AskAva", "desc": "Q&A campaign tag with mixed signals." },
+            { "name": "#GalaxyUnpacked", "desc": "Samsung event reveal conversation." },
+            { "name": "#ApátridasFracasados", "desc": "Spanish-language political discourse trend." }
+        ]
+    },
+
     "2026-02-25": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1nJlpuRs03k1LgYXZ59O0uh5FDzjABke4",
         "trends": [
