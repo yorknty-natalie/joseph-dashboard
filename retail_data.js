@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-26": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1c60aDgoZ4w89EJqCZsRylWcbgUcqmRqC",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1iOtvE88-Nu8lp8-UJ_gIEPKM95Kzdzz0",
         "trends": [
             {
                 "title": "US hashtag momentum led by #SOTU2026",
