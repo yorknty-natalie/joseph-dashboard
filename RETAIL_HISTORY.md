@@ -745,6 +745,33 @@
 
 ---
 
+### 2026-02-27 (Asia/Taipei)
+**Google Trends US (Past 24h) — Top Hashtag Momentum:**
+- Google Trends native page remained cookie-walled in this run.
+- Fallback momentum (getdaytrends 24h longest hashtags): #Survivor50, #SkylineSweeps, #BridgertonS4, #AEWDynamite, #SouthernCharm, #OlandriaxRobertoCavalli, #ThursdayMotivation, #MorphUSDC, #PepsiYouDeserveATreatEvent, #Scrubs.
+
+**Retailer News Checks (Retail Dive homepage):**
+- **Kohl's**: “MAC Cosmetics to enter Sephora US” includes expansion to Sephora at Kohl’s stores.
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update surfaced in this run window.
+
+**X Trends (Top 10, via x-trend skill flow):**
+1. #Survivor50 — franchise episode/cast buzz
+2. #SkylineSweeps — likely promo/giveaway trend
+3. #BridgertonS4 — season speculation chatter
+4. #AEWDynamite — wrestling event/storyline chatter
+5. #SouthernCharm — reality TV reaction cycle
+6. #OlandriaxRobertoCavalli — fashion collab chatter
+7. #ThursdayMotivation — recurring motivational posting
+8. #MorphUSDC — crypto/DeFi campaign activity
+9. #PepsiYouDeserveATreatEvent — branded promotion trend
+10. #Scrubs — TV nostalgia discussion
+
+**Gemini/Drive status:**
+- Browser control timed out during fresh Gemini generation attempt.
+- Fallback: reused latest local generated image (`x-trend-image-20260226-1021.png`) and uploaded to Drive as `x-trend-image-20260227-fallback.png`.
+- FILE_ID: `1TFsn3F6XOkfrgelxEzXf5PLds3sQsdJw`.
+
+---
 
 ### 2026-02-25 (19:17 Asia/Taipei run)
 **Google Trends US (Past 24h) — Top Hashtag Momentum:**

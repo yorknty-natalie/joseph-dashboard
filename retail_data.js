@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-02-27": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1TFsn3F6XOkfrgelxEzXf5PLds3sQsdJw",
+        "trends": [
+            {
+                "title": "Google Trends UI remained inaccessible",
+                "description": "Google Trends native page remained cookie-walled in this run; getdaytrends Top Hashtags (24h longest) used as fallback momentum signal."
+            },
+            {
+                "title": "Momentum skewed to entertainment and campaigns",
+                "description": "Top hashtag set included #Survivor50, #BridgertonS4, #AEWDynamite, #SouthernCharm, and #PepsiYouDeserveATreatEvent, indicating mixed retail relevance."
+            },
+            {
+                "title": "Retail signal concentrated around Kohl's beauty channel",
+                "description": "Retail Dive homepage highlighted MAC Cosmetics entering Sephora US and Sephora at Kohl’s locations; other tracked big-box/off-price names showed no clear fresh standalone homepage update."
+            },
+            {
+                "title": "X top tags were mostly non-macro retail themes",
+                "description": "Top 10 tags were driven by entertainment, fandom, and branded campaign activity rather than broad consumer macro signals."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "MAC Cosmetics to enter Sephora US and Sephora at Kohl’s",
+                "summary": "Retail Dive homepage featured Estée Lauder’s channel expansion placing MAC into Sephora stand-alone and Sephora at Kohl’s locations."
+            },
+            {
+                "store": "Target",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Target-specific item was visible on the Retail Dive homepage in this run window."
+            },
+            {
+                "store": "Walmart",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Walmart-specific item was visible on the Retail Dive homepage in this run window."
+            }
+        ],
+        "xTrends": [
+            { "name": "#Survivor50", "desc": "Survivor franchise episode/cast buzz." },
+            { "name": "#SkylineSweeps", "desc": "Likely promo/giveaway campaign with noisy signal." },
+            { "name": "#BridgertonS4", "desc": "Fandom speculation and season-related chatter." },
+            { "name": "#AEWDynamite", "desc": "AEW live event and storyline conversation." },
+            { "name": "#SouthernCharm", "desc": "Reality TV episode reaction cycle." },
+            { "name": "#OlandriaxRobertoCavalli", "desc": "Fashion/influencer luxury-collab trend." },
+            { "name": "#ThursdayMotivation", "desc": "Recurring weekday motivational posting." },
+            { "name": "#MorphUSDC", "desc": "Crypto/DeFi community campaign activity." },
+            { "name": "#PepsiYouDeserveATreatEvent", "desc": "Branded promotional event hashtag." },
+            { "name": "#Scrubs", "desc": "TV nostalgia and clip-driven conversation." }
+        ]
+    },
+
     "2026-02-26": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1yJgGkXVbNGBgvrqqdUg9qUpCLuUgSY3x",
         "trends": [

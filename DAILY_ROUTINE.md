@@ -192,3 +192,26 @@
 8. `#AskAva` — Q&A campaign tag with mixed signal quality.
 9. `#GalaxyGiveaways` — Samsung promo/giveaway circulation.
 10. `#GalaxyUnpacked` — Samsung event reveal/speculation chatter.
+
+## 2026-02-27 (Asia/Taipei)
+
+### Google Trends US (latest momentum)
+- Google Trends native page remained cookie-walled during fetch.
+- Fallback momentum signal from getdaytrends Top Hashtags (24h longest): `#Survivor50`, `#SkylineSweeps`, `#BridgertonS4`, `#AEWDynamite`, `#SouthernCharm`, `#OlandriaxRobertoCavalli`, `#ThursdayMotivation`, `#MorphUSDC`, `#PepsiYouDeserveATreatEvent`, `#Scrubs`.
+- Retail-adjacent signal is mixed/weak; most momentum is entertainment/campaign-driven.
+
+### Retailer News (Retail Dive latest notable)
+- **Kohl's**: MAC Cosmetics expanding into Sephora at Kohl’s stores (distribution expansion signal).
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update in this fetch window.
+
+### X Trends (Top 10 + short notes)
+1. `#Survivor50` — Survivor franchise episode/cast buzz.
+2. `#SkylineSweeps` — likely promo/giveaway campaign trend.
+3. `#BridgertonS4` — fandom speculation around upcoming season content.
+4. `#AEWDynamite` — live wrestling event and storyline chatter.
+5. `#SouthernCharm` — reality TV episode reactions.
+6. `#OlandriaxRobertoCavalli` — fashion/influencer-luxury collab chatter.
+7. `#ThursdayMotivation` — recurring weekday motivational posting.
+8. `#MorphUSDC` — crypto/DeFi campaign and community activity.
+9. `#PepsiYouDeserveATreatEvent` — branded promotional event trend.
+10. `#Scrubs` — TV nostalgia/clip-driven discussion.
