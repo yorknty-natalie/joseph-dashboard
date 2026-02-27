@@ -931,3 +931,29 @@
 **Gemini/Drive status:**
 - Used latest generated image `x-trend-image-20260226-0953.png` and uploaded to Drive.
 - FILE_ID: `1GR_kCUS7K-valNuLXXeJlJQc_f2OJl2z`.
+
+---
+
+### 2026-02-27 (22:05 Asia/Taipei cron run)
+**Google Trends US (Past 24h) — latest momentum:**
+- Google Trends native page remained cookie-walled.
+- Fallback momentum (getdaytrends 24h longest): #TheTraitorsUS, #SkylineSweeps, #OlandriaxRobertoCavalli, #ResidentEvilRequiem, #Scream7, #ThePitt, #BridgertonS4, #TheRomantic, #HSRxFortnite, #MorphUSDC.
+
+**Retailer News Checks (Retail Dive homepage):**
+- **Kohl's**: MAC Cosmetics to enter Sephora US, including Sephora at Kohl’s stores.
+- **Target / Macy's / Dillard's / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone last-24h homepage update in this run window.
+
+**X Trends (Top 10):**
+1. #TheTraitorsUS
+2. #SkylineSweeps
+3. #OlandriaxRobertoCavalli
+4. #ResidentEvilRequiem
+5. #Scream7
+6. #ThePitt
+7. #BridgertonS4
+8. #TheRomantic
+9. #HSRxFortnite
+10. #MorphUSDC
+
+**Gemini/Drive status:**
+- x-trend-image run requested; pending completion details in this workflow.

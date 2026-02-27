@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-02-27": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1TFsn3F6XOkfrgelxEzXf5PLds3sQsdJw",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1C80tYIIVYpsh1YrEXUaok2nJwaCtXfDm",
         "trends": [
             {
                 "title": "Google Trends UI remained inaccessible",

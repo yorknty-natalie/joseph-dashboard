@@ -215,3 +215,26 @@
 8. `#MorphUSDC` — crypto/DeFi campaign and community activity.
 9. `#PepsiYouDeserveATreatEvent` — branded promotional event trend.
 10. `#Scrubs` — TV nostalgia/clip-driven discussion.
+
+## 2026-02-27 (22:05 cron run, Asia/Taipei)
+
+### Google Trends US (latest momentum)
+- Google Trends native page remained cookie-walled during this run.
+- Fallback momentum from getdaytrends 24h-longest hashtags: `#TheTraitorsUS`, `#SkylineSweeps`, `#OlandriaxRobertoCavalli`, `#ResidentEvilRequiem`, `#Scream7`, `#ThePitt`, `#BridgertonS4`, `#TheRomantic`, `#HSRxFortnite`, `#MorphUSDC`.
+- Retail-adjacent demand signal appears mixed/weak; dominant clusters are entertainment, gaming, and campaign hashtags.
+
+### Retailer News (Retail Dive latest notable)
+- **Kohl's**: MAC Cosmetics will enter Sephora US, including Sephora at Kohl’s locations (distribution expansion signal).
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update surfaced in this run window.
+
+### X Trends (Top 10 + short notes)
+1. `#TheTraitorsUS` — reality competition episode/strategy discussion.
+2. `#SkylineSweeps` — giveaway/promo participation chatter.
+3. `#OlandriaxRobertoCavalli` — fashion/influencer runway styling buzz.
+4. `#ResidentEvilRequiem` — game trailer/lore speculation momentum.
+5. `#Scream7` — sequel casting/update fan discussion.
+6. `#ThePitt` — TV drama episode reaction spikes.
+7. `#BridgertonS4` — season speculation and fandom discourse.
+8. `#TheRomantic` — broad romance-themed mixed-context trend.
+9. `#HSRxFortnite` — crossover gaming collab chatter.
+10. `#MorphUSDC` — crypto/DeFi campaign activity.
