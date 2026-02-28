@@ -957,3 +957,31 @@
 
 **Gemini/Drive status:**
 - x-trend-image run requested; pending completion details in this workflow.
+
+---
+
+### 2026-02-28 (Asia/Taipei)
+**Google Trends US (Past 24h) — Top Hashtag Momentum:**
+- Google Trends native page remained cookie-walled in this run.
+- Fallback momentum (getdaytrends 24h longest hashtags): #TheTraitorsUS, #FursuitFriday, #OlandriaxBlumarine, #OlandriaxGCDS, #OnlyFriendsDreamOnEP1, #ResidentEvilRequiem, #Scream7, #ThePitt, #fridayvibes, #TheRomantic.
+
+**Retailer News Checks (Retail Dive homepage):**
+- **Kohl's**: “MAC Cosmetics to enter Sephora US” includes expansion to Sephora at Kohl’s stores.
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update surfaced in this run window.
+
+**X Trends (Top 10):**
+1. #TheTraitorsUS
+2. #FursuitFriday
+3. #OlandriaxBlumarine
+4. #OlandriaxGCDS
+5. #OnlyFriendsDreamOnEP1
+6. #ResidentEvilRequiem
+7. #Scream7
+8. #ThePitt
+9. #fridayvibes
+10. #TheRomantic
+
+**Gemini/Drive status:**
+- x-trend summary generated for 2026-02-28.
+- Fresh Gemini image generation via x-trend-image could not be completed in this run; fallback image uploaded to Drive.
+- FILE_ID: `1B2SxJXPlxrpG4YXXmvWnDIj0IhuCPWWR`. 

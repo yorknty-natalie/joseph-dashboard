@@ -238,3 +238,26 @@
 8. `#TheRomantic` — broad romance-themed mixed-context trend.
 9. `#HSRxFortnite` — crossover gaming collab chatter.
 10. `#MorphUSDC` — crypto/DeFi campaign activity.
+
+## 2026-02-28 (Asia/Taipei)
+
+### Google Trends US (latest momentum)
+- Google Trends native page remained cookie-walled during this run.
+- Fallback momentum from getdaytrends Top Hashtags (24h longest): `#TheTraitorsUS`, `#FursuitFriday`, `#OlandriaxBlumarine`, `#OlandriaxGCDS`, `#OnlyFriendsDreamOnEP1`, `#ResidentEvilRequiem`, `#Scream7`, `#ThePitt`, `#fridayvibes`, `#TheRomantic`.
+- Retail relevance appears mixed/weak; dominant momentum clusters are TV fandom, gaming/horror, and recurring social tags.
+
+### Retailer News (Retail Dive latest notable)
+- **Kohl's**: “MAC Cosmetics to enter Sephora US” (includes Sephora at Kohl’s expansion signal).
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update surfaced in this run window.
+
+### X Trends (Top 10 + short notes)
+1. `#TheTraitorsUS` — reality competition finale/episode reaction cycle.
+2. `#FursuitFriday` — recurring weekly fandom posting trend.
+3. `#OlandriaxBlumarine` — fashion/influencer campaign-style chatter.
+4. `#OlandriaxGCDS` — companion fashion-tag momentum.
+5. `#OnlyFriendsDreamOnEP1` — episode-1 fandom reaction surge.
+6. `#ResidentEvilRequiem` — game trailer/lore speculation trend.
+7. `#Scream7` — horror sequel casting/update discussion.
+8. `#ThePitt` — TV drama episode and character discourse.
+9. `#fridayvibes` — recurring Friday mood/community trend.
+10. `#TheRomantic` — mixed-context romance/media chatter.

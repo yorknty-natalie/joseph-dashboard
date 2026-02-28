@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-02-28": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1B2SxJXPlxrpG4YXXmvWnDIj0IhuCPWWR",
+        "trends": [
+            {
+                "title": "Google Trends UI remained cookie-walled",
+                "description": "Google Trends US page was not extractable in this run; fallback momentum came from getdaytrends US 24h longest hashtags."
+            },
+            {
+                "title": "Momentum concentrated in entertainment/fandom tags",
+                "description": "Top hashtag set was led by #TheTraitorsUS, #FursuitFriday, #OnlyFriendsDreamOnEP1, #ResidentEvilRequiem, #Scream7, and #ThePitt."
+            },
+            {
+                "title": "Retail homepage signal stayed narrow",
+                "description": "Retail Dive homepage highlighted MAC entering Sephora US/Sephora at Kohl’s, while most tracked big-box/off-price names had no fresh standalone homepage update."
+            },
+            {
+                "title": "X top tags were mostly show/fandom/gaming cycles",
+                "description": "Top 10 longest-trending hashtags skewed to TV, fandom, horror/gaming, and recurring social tags rather than broad macro-retail demand signals."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "MAC Cosmetics to enter Sephora US and Sephora at Kohl’s",
+                "summary": "Retail Dive homepage coverage highlighted Estée Lauder’s channel expansion into Sephora stand-alone locations and Sephora at Kohl’s."
+            },
+            {
+                "store": "Target",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Target-specific item was visible on the Retail Dive homepage in this run window."
+            },
+            {
+                "store": "Walmart",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Walmart-specific item was visible on the Retail Dive homepage in this run window."
+            }
+        ],
+        "xTrends": [
+            { "name": "#TheTraitorsUS", "desc": "Reality competition finale/episode reaction cycle." },
+            { "name": "#FursuitFriday", "desc": "Weekly fandom photo-sharing trend." },
+            { "name": "#OlandriaxBlumarine", "desc": "Fashion/influencer campaign-style chatter." },
+            { "name": "#OlandriaxGCDS", "desc": "Companion fashion tag with similar campaign momentum." },
+            { "name": "#OnlyFriendsDreamOnEP1", "desc": "Episode-1 fandom reaction surge." },
+            { "name": "#ResidentEvilRequiem", "desc": "Game trailer/lore speculation activity." },
+            { "name": "#Scream7", "desc": "Horror sequel casting/update conversation." },
+            { "name": "#ThePitt", "desc": "TV drama episode and character discourse." },
+            { "name": "#fridayvibes", "desc": "Recurring weekly mood/community posting." },
+            { "name": "#TheRomantic", "desc": "Mixed-context romance/media discussion trend." }
+        ]
+    },
+
     "2026-02-27": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1C80tYIIVYpsh1YrEXUaok2nJwaCtXfDm",
         "trends": [
