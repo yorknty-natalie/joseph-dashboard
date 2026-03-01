@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-03-01": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1DF1GzoeiQS6ehkyKE_756C9bYbYSwKFt",
+        "trends": [
+            {
+                "title": "Google Trends UI remained cookie-walled",
+                "description": "Google Trends US page was not extractable in this run; fallback momentum came from getdaytrends US 24h longest hashtags."
+            },
+            {
+                "title": "Momentum skewed toward wrestling, political, and live-watch tags",
+                "description": "Top hashtag set was #SmackDown, #njnbgusa, #ThankYouTrump, #LoveYouTeacherSeries, #OPLive, #DragRace, #WWEChamber, #JesusComingAtRapture, #UFCMexico, and #EliminationChamber."
+            },
+            {
+                "title": "Retail homepage signal remained narrow",
+                "description": "Retail Dive homepage signal was concentrated on MAC entering Sephora US including Sephora at Kohl’s, while other tracked retailers lacked clear fresh standalone homepage updates."
+            },
+            {
+                "title": "X top tags were mostly event/fandom/political cycles",
+                "description": "The top 10 trends were driven by WWE/UFC event windows, fandom reaction loops, and political/faith-based social bursts."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "MAC Cosmetics to enter Sephora US and Sephora at Kohl’s",
+                "summary": "Retail Dive homepage highlighted Estée Lauder’s channel expansion into Sephora stand-alone locations and Sephora at Kohl’s stores."
+            },
+            {
+                "store": "Target",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Target-specific item was visible on the Retail Dive homepage in this run window."
+            },
+            {
+                "store": "Walmart",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Walmart-specific item was visible on the Retail Dive homepage in this run window."
+            }
+        ],
+        "xTrends": [
+            { "name": "#SmackDown", "desc": "WWE Friday-night show highlights and fan discourse." },
+            { "name": "#njnbgusa", "desc": "Niche/noisy campaign-style signal with weak broad context." },
+            { "name": "#ThankYouTrump", "desc": "Political support messaging cycle." },
+            { "name": "#LoveYouTeacherSeries", "desc": "Fandom/series appreciation posting burst." },
+            { "name": "#OPLive", "desc": "Recurring On Patrol: Live watch-party chatter." },
+            { "name": "#DragRace", "desc": "Episode reaction and elimination commentary." },
+            { "name": "#WWEChamber", "desc": "WWE event reaction cluster around chamber matches." },
+            { "name": "#JesusComingAtRapture", "desc": "Faith-based devotional/end-times message chain." },
+            { "name": "#UFCMexico", "desc": "UFC Mexico fight-night highlights and result discussion." },
+            { "name": "#EliminationChamber", "desc": "Companion WWE premium-event hashtag momentum." }
+        ]
+    },
+
     "2026-02-28": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1B2SxJXPlxrpG4YXXmvWnDIj0IhuCPWWR",
         "trends": [
