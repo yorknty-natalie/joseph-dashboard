@@ -1085,5 +1085,6 @@
 10. #IndyCar — motorsport pre-race/team update momentum
 
 **Gemini/Drive status:**
-- x-trend-image subrun was still in progress at reporting time in this cron execution.
-- Prior available FILE_ID for 2026-03-02 continuity: `13R43P-CYPuHc8nA6v2utFYAHpzjFzP4A`.
+- x-trend-image completed successfully for run-summary `run-summary-20260302.txt`.
+- IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/xtrend-20260302.png`.
+- FILE_ID: `1qZqeavowqmgKMMPz_E_XzH34c7Rd3t5p`.
