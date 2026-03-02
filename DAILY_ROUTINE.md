@@ -329,3 +329,25 @@
 8. `#TokyoRevengers` — anime fandom episode/character discourse.
 9. `#NAACPImageAwards` — award-show winners and red-carpet discussion.
 10. `#IndyCar` — motorsport pre-race/team update momentum.
+
+## 2026-03-02 (11:22 Asia/Taipei cron run)
+
+### Google Trends US (latest momentum)
+- Google Trends native page remained cookie/consent-walled in this run window.
+- Fallback momentum signal from getdaytrends US Top Hashtags (24h longest): `#UFCMexico`, `#WWEChamber`, `#IranWar`, `#sundayvibes`, `#Toonami`, `#SendBarron`, `#INDvsWI`, `#TokyoRevengers`, `#NAACPImageAwards`, `#IndyCar`.
+
+### Retailer News (Retail Dive latest notable)
+- **Kohl's**: MAC Cosmetics entering Sephora US includes Sephora at Kohl’s stores (distribution expansion signal).
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update surfaced in this fetch window.
+
+### X Trends (Top 10 + short notes)
+1. `#UFCMexico` — UFC fight-night highlights and judging/result discussion.
+2. `#WWEChamber` — WWE chamber-event outcomes and fan reaction threads.
+3. `#IranWar` — geopolitical tension discourse and breaking-news amplification.
+4. `#sundayvibes` — recurring weekend lifestyle/community posting cycle.
+5. `#Toonami` — anime block nostalgia and schedule/clip chatter.
+6. `#SendBarron` — politically charged meme/partisan discussion burst.
+7. `#INDvsWI` — cricket match updates and performance reactions.
+8. `#TokyoRevengers` — anime fandom episode/character discourse.
+9. `#NAACPImageAwards` — award-show winners and red-carpet discussion.
+10. `#IndyCar` — motorsport pre-race/team update momentum.
