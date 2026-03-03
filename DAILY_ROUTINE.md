@@ -353,24 +353,35 @@
 10. `#IndyCar` — motorsport pre-race/team update momentum.
 
 
-## 2026-03-03 (Asia/Taipei)
+## 2026-03-03 (11:15 Asia/Taipei cron run)
 
-### Google Trends US (latest momentum)
-- Google Trends native page remained cookie/consent-walled in this run.
-- Fallback momentum signal (getdaytrends US 24h longest hashtags): `#ActorAwards`, `#IndustryHBO`, `#IranWar`, `#BaddiesUSA`, `#LingOrmDiorAW26APTLook`, `#RHOP`, `#MondayMotivation`, `#iranisraelwar`, `#WWEHOF`, `#LaSayonaPitiyanqui`.
+### US Retail (Google Trends + RetailDive)
+- Google Trends native category pages remained cookie-walled; fallback data source used (`trends-20260303.json`).
+- Fallback Top 10 momentum topics:
+- 1. `FRESH NEWS` (<10K, mixed)
+- 2. `PRESALE HAS NOW LAUNCHED` (<10K, shopping)
+- 3. `PRESALE IS OFFICIALLY LIVE` (<10K, shopping)
+- 4. `PRESALE IS NOW OPEN` (<10K, shopping)
+- 5. `Rubio` (<10K, news)
+- 6. `Real Madrid` (<10K, sports)
+- 7. `PRESALE HAS JUST GONE LIVE` (<10K, shopping)
+- 8. `Patty Hearst` (<10K, news)
+- 9. `Arbeloa` (<10K, sports)
+- 10. `Denzel` (<10K, entertainment)
 
-### Retailer News (Retail Dive latest notable)
-- **Kohl's**: “MAC Cosmetics to enter Sephora US” (includes Sephora at Kohl’s stores).
-- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update surfaced in this run window.
+### Retailer News (RetailDive)
+- **Kohl's**: MAC Cosmetics entering Sephora US includes Sephora at Kohl’s locations (RetailDive homepage highlight).
+- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: No clear fresh standalone (<24h) homepage update in this fetch window.
 
-### X Trends (Top 10 + short notes)
-1. `#ActorAwards` — awards-season actor recognition conversation.
-2. `#IndustryHBO` — episode/character discussion for HBO's Industry.
-3. `#IranWar` — geopolitical breaking-news amplification.
-4. `#BaddiesUSA` — reality TV fandom reaction cycle.
-5. `#LingOrmDiorAW26APTLook` — fashion campaign/look reveal buzz.
-6. `#RHOP` — Real Housewives discussion burst.
-7. `#MondayMotivation` — recurring weekly motivation trend.
-8. `#iranisraelwar` — conflict update discourse and opinion threads.
-9. `#WWEHOF` — wrestling Hall of Fame speculation/discussion.
-10. `#LaSayonaPitiyanqui` — niche/regional noisy trend cluster.
+### X Trends
+1. `#ActorAwards` — Awards-season conversation spikes around actor recognition and fan voting threads.
+2. `#IndustryHBO` — Viewers are discussing recent plot turns and character arcs from HBO's Industry.
+3. `#IranWar` — Geopolitical headlines and breaking-news reactions are driving rapid reposts and commentary.
+4. `#BaddiesUSA` — Reality-TV fandom chatter and episode reactions are clustering around cast moments.
+5. `#LingOrmDiorAW26APTLook` — Fashion fandom is amplifying look reveals and luxury styling content tied to Dior.
+6. `#RHOP` — Real Housewives discussion cycles are active with episode recaps and cast debates.
+7. `#MondayMotivation` — Recurring weekly motivation posts are creating a broad, routine social engagement wave.
+8. `#iranisraelwar` — Conflict updates and opinion threads are generating high-intensity cross-platform discussion.
+9. `#WWEHOF` — Wrestling fans are sharing Hall of Fame speculation, nominations, and legacy highlights.
+10. `#LaSayonaPitiyanqui` — The tag appears to be a niche or regional conversation cluster with mixed-context traction.
+
