@@ -1112,6 +1112,7 @@
 10. #LaSayonaPitiyanqui — niche/noisy regional trend signal
 
 **Gemini/Drive status:**
-- Fresh Gemini generation not completed in this run window.
-- Fallback: reused latest local generated image and uploaded as `xtrend-20260303-fallback.png`.
-- FILE_ID: `1xqbt6wv591Hv6cN7ypTK7nWj_snj0FN2`.
+- Fresh Gemini generation completed successfully from `run-summary-20260303.txt` merged_prompt (no fallback reuse).
+- Saved fresh local image: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/xtrend-20260303-091344.png`.
+- Uploaded to Drive folder `x trend photo` as `xtrend-20260303-091344.png`.
+- FILE_ID: `1vY47XmOrO-akRNFai3J-sLHQNW4Oz56A`.
