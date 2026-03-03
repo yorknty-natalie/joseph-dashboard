@@ -368,16 +368,16 @@
 8. `Patty Hearst` (<10K, news)
 9. `Arbeloa` (<10K, sports)
 10. `Denzel` (<10K, entertainment)
-- RetailDive: Kohl's (MAC entering Sephora US / Sephora at Kohl’s) was the only clear tracked-retailer homepage update in this window.
+- RetailDive: **Kohl's** — “MAC Cosmetics to enter Sephora US” (includes Sephora at Kohl’s stores). Other tracked retailers had no clear fresh homepage update in this run window.
 
 ### X Trends
-1. `#ActorAwards` — Awards-season conversation spikes around actor recognition and fan voting threads.
-2. `#IndustryHBO` — Viewers are discussing recent plot turns and character arcs from HBO's Industry.
-3. `#IranWar` — Geopolitical headlines and breaking-news reactions are driving rapid reposts and commentary.
-4. `#BaddiesUSA` — Reality-TV fandom chatter and episode reactions are clustering around cast moments.
-5. `#LingOrmDiorAW26APTLook` — Fashion fandom is amplifying look reveals and luxury styling content tied to Dior.
-6. `#RHOP` — Real Housewives discussion cycles are active with episode recaps and cast debates.
-7. `#MondayMotivation` — Recurring weekly motivation posts are creating a broad, routine social engagement wave.
-8. `#iranisraelwar` — Conflict updates and opinion threads are generating high-intensity cross-platform discussion.
-9. `#WWEHOF` — Wrestling fans are sharing Hall of Fame speculation, nominations, and legacy highlights.
-10. `#LaSayonaPitiyanqui` — The tag appears to be a niche or regional conversation cluster with mixed-context traction.
+1. `#iranisraelwar` — conflict updates and opinion threads drove heavy repost cycles.
+2. `#LingOrmDiorAW26APTLook` — Dior/fashion-fandom look amplification.
+3. `#WWERAW` — WWE RAW live match/storyline chatter.
+4. `#MondayMotivation` — recurring weekly motivation posting wave.
+5. `#Unrivaled` — women’s basketball highlights and player discussion.
+6. `#TheRookie` — episode reactions and cast commentary.
+7. `#RawOnNetflix` — streaming/distribution chatter tied to WWE Raw.
+8. `#RHONY` — reality-TV recap and cast debate cycle.
+9. `#WWEHOF` — Hall of Fame nomination/legacy speculation.
+10. `#IranWar` — companion conflict tag with rapid breaking-news amplification.

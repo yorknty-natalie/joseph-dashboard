@@ -1099,19 +1099,16 @@
 - **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone (<24h) homepage update in this run window.
 
 **X Trends (Top 10):**
-1. `#ActorAwards` — Awards-season conversation spikes around actor recognition and fan voting threads.
-2. `#IndustryHBO` — Viewers are discussing recent plot turns and character arcs from HBO's Industry.
-3. `#IranWar` — Geopolitical headlines and breaking-news reactions are driving rapid reposts and commentary.
-4. `#BaddiesUSA` — Reality-TV fandom chatter and episode reactions are clustering around cast moments.
-5. `#LingOrmDiorAW26APTLook` — Fashion fandom is amplifying look reveals and luxury styling content tied to Dior.
-6. `#RHOP` — Real Housewives discussion cycles are active with episode recaps and cast debates.
-7. `#MondayMotivation` — Recurring weekly motivation posts are creating a broad, routine social engagement wave.
-8. `#iranisraelwar` — Conflict updates and opinion threads are generating high-intensity cross-platform discussion.
-9. `#WWEHOF` — Wrestling fans are sharing Hall of Fame speculation, nominations, and legacy highlights.
-10. `#LaSayonaPitiyanqui` — The tag appears to be a niche or regional conversation cluster with mixed-context traction.
+1. `#iranisraelwar` — conflict updates and opinion-thread amplification
+2. `#LingOrmDiorAW26APTLook` — Dior/fashion fandom styling buzz
+3. `#WWERAW` — WWE RAW live-event chatter
+4. `#MondayMotivation` — recurring weekly motivation posting
+5. `#Unrivaled` — women’s basketball highlight conversation
+6. `#TheRookie` — TV episode and cast reaction cycle
+7. `#RawOnNetflix` — WWE Raw streaming availability chatter
+8. `#RHONY` — reality-TV recap and cast debate threads
+9. `#WWEHOF` — Hall of Fame nomination speculation
+10. `#IranWar` — companion geopolitics hashtag amplification
 
 **Gemini/Drive status:**
-- Fresh Gemini generation completed today from explicitly matched run-summary `run-summary-20260303.txt` (strict no-fallback).
-- IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/xtrend-20260303-091344.png`.
-- FILE_ID: `1vY47XmOrO-akRNFai3J-sLHQNW4Oz56A`.
-
+- Step 5 not completed in this run (fresh generation/upload required; no fallback used).
