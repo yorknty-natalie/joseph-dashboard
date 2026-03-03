@@ -1111,7 +1111,7 @@
 10. `#LaSayonaPitiyanqui` — The tag appears to be a niche or regional conversation cluster with mixed-context traction.
 
 **Gemini/Drive status:**
-- Fresh Gemini generation already completed today from `run-summary-20260303.txt` (no fallback reuse).
+- Fresh Gemini generation completed today from explicitly matched run-summary `run-summary-20260303.txt` (strict no-fallback).
 - IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/xtrend-20260303-091344.png`.
 - FILE_ID: `1vY47XmOrO-akRNFai3J-sLHQNW4Oz56A`.
 
