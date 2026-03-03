@@ -1,4 +1,51 @@
 const retailHistory = {
+    "2026-03-03": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1xqbt6wv591Hv6cN7ypTK7nWj_snj0FN2",
+        "trends": [
+            {
+                "title": "Google Trends UI remained cookie-walled",
+                "description": "Google Trends US page was not extractable in this run; fallback momentum came from getdaytrends US 24h longest hashtags."
+            },
+            {
+                "title": "Momentum skewed to awards, entertainment, geopolitics, and social cycles",
+                "description": "Top hashtag set was #ActorAwards, #IndustryHBO, #IranWar, #BaddiesUSA, #LingOrmDiorAW26APTLook, #RHOP, #MondayMotivation, #iranisraelwar, #WWEHOF, and #LaSayonaPitiyanqui."
+            },
+            {
+                "title": "Retail homepage signal remained narrow",
+                "description": "Retail Dive homepage signal was concentrated on MAC entering Sephora US including Sephora at Kohl’s, while other tracked retailers lacked clear fresh standalone homepage updates."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "MAC Cosmetics to enter Sephora US and Sephora at Kohl’s",
+                "summary": "Retail Dive homepage highlighted Estée Lauder’s channel expansion into Sephora stand-alone locations and Sephora at Kohl’s stores."
+            },
+            {
+                "store": "Target",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Target-specific item was visible on the Retail Dive homepage in this run window."
+            },
+            {
+                "store": "Walmart",
+                "headline": "No clear fresh standalone homepage update",
+                "summary": "No clearly new (<24h) Walmart-specific item was visible on the Retail Dive homepage in this run window."
+            }
+        ],
+        "xTrends": [
+            { "name": "#ActorAwards", "desc": "Awards-season actor recognition and fan voting chatter." },
+            { "name": "#IndustryHBO", "desc": "Episode and character-arc discussion around HBO's Industry." },
+            { "name": "#IranWar", "desc": "Geopolitical breaking-news and reaction thread amplification." },
+            { "name": "#BaddiesUSA", "desc": "Reality TV cast/episode reaction cycle." },
+            { "name": "#LingOrmDiorAW26APTLook", "desc": "Fashion look reveal and luxury styling buzz." },
+            { "name": "#RHOP", "desc": "Real Housewives discussion spike." },
+            { "name": "#MondayMotivation", "desc": "Recurring weekly motivation post cycle." },
+            { "name": "#iranisraelwar", "desc": "Conflict update discourse and opinion-thread momentum." },
+            { "name": "#WWEHOF", "desc": "Wrestling Hall of Fame speculation and legacy highlights." },
+            { "name": "#LaSayonaPitiyanqui", "desc": "Niche/regional trend cluster with mixed-context signal." }
+        ]
+    },
+
     "2026-03-02": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1qZqeavowqmgKMMPz_E_XzH34c7Rd3t5p",
         "trends": [
