@@ -353,11 +353,11 @@
 10. `#IndyCar` — motorsport pre-race/team update momentum.
 
 
-## 2026-03-03 (11:15 Asia/Taipei cron run)
+## 2026-03-03
 
 ### US Retail (Google Trends + RetailDive)
-- Google Trends native category pages remained cookie-walled; fallback data source used (`trends-20260303.json`).
-- Fallback Top 10 momentum topics:
+- Google Trends native category pages remained cookie-walled in this run.
+- Fallback top-10 momentum topics from trends-20260303.json:
 - 1. `FRESH NEWS` (<10K, mixed)
 - 2. `PRESALE HAS NOW LAUNCHED` (<10K, shopping)
 - 3. `PRESALE IS OFFICIALLY LIVE` (<10K, shopping)
@@ -368,10 +368,7 @@
 - 8. `Patty Hearst` (<10K, news)
 - 9. `Arbeloa` (<10K, sports)
 - 10. `Denzel` (<10K, entertainment)
-
-### Retailer News (RetailDive)
-- **Kohl's**: MAC Cosmetics entering Sephora US includes Sephora at Kohl’s locations (RetailDive homepage highlight).
-- **Target / Macy’s / Dillard’s / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: No clear fresh standalone (<24h) homepage update in this fetch window.
+- RetailDive: Kohl's (MAC entering Sephora US / Sephora at Kohl's) was the only clear tracked-retailer homepage update in this window.
 
 ### X Trends
 1. `#ActorAwards` — Awards-season conversation spikes around actor recognition and fan voting threads.

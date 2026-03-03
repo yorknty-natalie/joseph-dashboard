@@ -1089,10 +1089,10 @@
 - IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/xtrend-20260302.png`.
 - FILE_ID: `1qZqeavowqmgKMMPz_E_XzH34c7Rd3t5p`.
 
-### 2026-03-03 (11:15 Asia/Taipei cron run)
-**Google Trends US (Past 24h) — Top Hashtag Momentum:**
+### 2026-03-03
+**Google Trends US (Past 24h):**
 - Google Trends native category pages remained cookie/consent-walled in this run.
-- Fallback top-10 list used from `skills/us-retail-search/outputs/trends-20260303.json`: #ActorAwards, #IndustryHBO, #IranWar, #BaddiesUSA, #LingOrmDiorAW26APTLook, #RHOP, #MondayMotivation, #iranisraelwar, #WWEHOF, #LaSayonaPitiyanqui.
+- Fallback momentum from `skills/us-retail-search/outputs/trends-20260303.json`: FRESH NEWS, PRESALE HAS NOW LAUNCHED, PRESALE IS OFFICIALLY LIVE, PRESALE IS NOW OPEN, Rubio, Real Madrid, PRESALE HAS JUST GONE LIVE, Patty Hearst, Arbeloa, Denzel.
 
 **Retailer News Checks (RetailDive homepage):**
 - **Kohl's**: MAC Cosmetics to enter Sephora US, including Sephora at Kohl’s stores.
