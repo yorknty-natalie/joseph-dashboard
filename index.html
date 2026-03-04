@@ -618,6 +618,169 @@
         .hidden {
             display: none !important;
         }
+
+        /* ── Intel View Mode Toggle ── */
+        .intel-view-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 1.25rem;
+        }
+        .intel-view-btn {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            padding: 0.4rem 1.2rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .intel-view-btn.active {
+            background-color: var(--accent-color);
+            color: white;
+            border-color: var(--accent-color);
+        }
+
+        /* ── Weekly Calendar View ── */
+        .week-nav-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 1.25rem;
+            padding: 0.65rem 1.25rem;
+            background: var(--card-bg);
+            border-radius: 14px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .week-label {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            min-width: 180px;
+            text-align: center;
+        }
+        .week-strip {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 0.75rem;
+        }
+        .week-day-cell {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            position: relative;
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+        .week-day-cell:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+        .week-day-cell.empty {
+            cursor: default;
+            opacity: 0.4;
+        }
+        .week-day-cell.empty:hover {
+            transform: none;
+            box-shadow: var(--shadow);
+        }
+        .week-day-header {
+            padding: 0.5rem 0.5rem 0.3rem;
+            text-align: center;
+            background: var(--indicator-bg);
+            border-bottom: 1px solid var(--border-color);
+        }
+        .week-day-name {
+            font-size: 0.6rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--text-secondary);
+            letter-spacing: 0.05em;
+            display: block;
+        }
+        .week-day-date {
+            font-size: 0.85rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            display: block;
+            margin-top: 0.1rem;
+        }
+        .week-day-cell.today .week-day-header {
+            background: var(--accent-color);
+        }
+        .week-day-cell.today .week-day-name,
+        .week-day-cell.today .week-day-date {
+            color: white;
+        }
+        .week-day-img-wrap {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            overflow: hidden;
+            background: var(--indicator-bg);
+        }
+        .week-day-img {
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            object-fit: cover;
+        }
+        .week-day-no-img {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 1.25rem;
+            color: var(--border-color);
+            font-weight: 300;
+        }
+        .week-day-hover-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.85);
+            color: white;
+            padding: 0.6rem;
+            overflow-y: auto;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+        .week-day-cell:not(.empty):hover .week-day-hover-overlay {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .hover-section-title {
+            font-size: 0.55rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: rgba(255,255,255,0.45);
+            margin-bottom: 0.15rem;
+        }
+        .hover-trend-item {
+            font-size: 0.6rem;
+            font-weight: 700;
+            color: #86efac;
+            line-height: 1.3;
+            margin-bottom: 0.15rem;
+        }
+        .hover-buzz-item {
+            font-size: 0.6rem;
+            color: rgba(255,255,255,0.8);
+            line-height: 1.3;
+            margin-bottom: 0.1rem;
+        }
     </style>
 </head>
 <body>
@@ -707,55 +870,78 @@
 
         <!-- Intel & Trends View -->
         <div id="view-intel" class="hidden">
-            <!-- Intelligence Section Header -->
-            <div class="date-selector-container">
-                <div id="prev-date-btn" class="nav-btn" onclick="navigateDate(1)">‹</div>
-                <div class="current-date-display" id="intel-current-date">---</div>
-                <div id="next-date-btn" class="nav-btn" onclick="navigateDate(-1)">›</div>
+
+            <!-- View Mode Toggle -->
+            <div class="intel-view-toggle">
+                <button class="intel-view-btn active" id="intel-btn-detail" onclick="switchIntelMode('detail')">Detail</button>
+                <button class="intel-view-btn" id="intel-btn-week" onclick="switchIntelMode('week')">Week</button>
             </div>
 
-            <div class="view-grid">
-                <!-- Retail Intelligence Card -->
-                <div class="card" id="retail-intelligence-card">
-                    <div class="card-header">
-                        <span class="card-title">Retail Intelligence</span>
-                        <span class="indicator-date" id="retail-update-date">Feb 01</span>
-                    </div>
+            <!-- Detail View -->
+            <div id="intel-detail-view">
+                <!-- Intelligence Section Header -->
+                <div class="date-selector-container">
+                    <div id="prev-date-btn" class="nav-btn" onclick="navigateDate(1)">‹</div>
+                    <div class="current-date-display" id="intel-current-date">---</div>
+                    <div id="next-date-btn" class="nav-btn" onclick="navigateDate(-1)">›</div>
+                </div>
 
-                    <div style="margin-top: 1rem;">
-                        <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Market Trends Briefing</span>
-                        <div id="trends-container" class="trend-container">
-                            <!-- Trends will be injected here -->
+                <div class="view-grid">
+                    <!-- Retail Intelligence Card -->
+                    <div class="card" id="retail-intelligence-card">
+                        <div class="card-header">
+                            <span class="card-title">Retail Intelligence</span>
+                            <span class="indicator-date" id="retail-update-date">Feb 01</span>
+                        </div>
+
+                        <div style="margin-top: 1rem;">
+                            <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Market Trends Briefing</span>
+                            <div id="trends-container" class="trend-container">
+                                <!-- Trends will be injected here -->
+                            </div>
+                        </div>
+
+                        <div style="margin-top: 1.5rem;">
+                            <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Daily Retailer Reports</span>
+                            <ul class="news-list" id="news-container">
+                                <!-- News will be injected here -->
+                            </ul>
                         </div>
                     </div>
 
-                    <div style="margin-top: 1.5rem;">
-                        <span class="detail-label" style="display: block; margin-bottom: 0.5rem;">Daily Retailer Reports</span>
-                        <ul class="news-list" id="news-container">
-                            <!-- News will be injected here -->
+                    <!-- Social Buzz (X Trends) Card -->
+                    <div class="card" id="x-trends-card">
+                        <div class="card-header">
+                            <span class="card-title">Social Buzz (X Trends)</span>
+                            <span class="indicator-date">Last 48h</span>
+                        </div>
+                        <ul class="buzz-list" id="buzz-container">
+                            <!-- X Trends will be injected here -->
                         </ul>
-                    </div>
-                </div>
 
-                <!-- Social Buzz (X Trends) Card -->
-                <div class="card" id="x-trends-card">
-                    <div class="card-header">
-                        <span class="card-title">Social Buzz (X Trends)</span>
-                        <span class="indicator-date">Last 48h</span>
-                    </div>
-                    <ul class="buzz-list" id="buzz-container">
-                        <!-- X Trends will be injected here -->
-                    </ul>
-
-                    <!-- Daily Design Concept Section -->
-                    <div class="daily-image-container">
-                        <span class="daily-image-label">Daily Design Concept</span>
-                        <div id="daily-image-wrapper">
-                            <!-- Image will be injected here -->
+                        <!-- Daily Design Concept Section -->
+                        <div class="daily-image-container">
+                            <span class="daily-image-label">Daily Design Concept</span>
+                            <div id="daily-image-wrapper">
+                                <!-- Image will be injected here -->
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Week Calendar View -->
+            <div id="intel-week-view" class="hidden">
+                <div class="week-nav-container">
+                    <div class="nav-btn" id="week-prev-btn" onclick="navigateWeek(-1)">‹</div>
+                    <div class="week-label" id="week-range-label">---</div>
+                    <div class="nav-btn" id="week-next-btn" onclick="navigateWeek(1)">›</div>
+                </div>
+                <div class="week-strip" id="week-strip">
+                    <!-- 7 day cells injected by JS -->
+                </div>
+            </div>
+
         </div>
 
         <!-- Placeholder for future information -->
@@ -1160,6 +1346,145 @@
             if (Math.abs(diff) > swipeThreshold) {
                 navigateModal(diff > 0 ? -1 : 1);
             }
+        }
+
+        // ─── Weekly Calendar View ─────────────────────────────────────────────────
+        let currentWeekMonday = null;
+
+        function switchIntelMode(mode) {
+            const detailView = document.getElementById('intel-detail-view');
+            const weekView = document.getElementById('intel-week-view');
+            const detailBtn = document.getElementById('intel-btn-detail');
+            const weekBtn = document.getElementById('intel-btn-week');
+
+            if (mode === 'detail') {
+                detailView.classList.remove('hidden');
+                weekView.classList.add('hidden');
+                detailBtn.classList.add('active');
+                weekBtn.classList.remove('active');
+            } else {
+                detailView.classList.add('hidden');
+                weekView.classList.remove('hidden');
+                detailBtn.classList.remove('active');
+                weekBtn.classList.add('active');
+                if (!currentWeekMonday) {
+                    const seed = availableDates.length > 0 ? new Date(availableDates[0]) : new Date();
+                    currentWeekMonday = getMondayOfDate(seed);
+                }
+                renderWeekCalendar();
+            }
+        }
+
+        function getMondayOfDate(d) {
+            const day = d.getDay();
+            const diff = (day === 0) ? -6 : 1 - day;
+            const monday = new Date(d);
+            monday.setDate(d.getDate() + diff);
+            return monday;
+        }
+
+        function formatDateKey(d) {
+            const y = d.getFullYear();
+            const m = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            return `${y}-${m}-${day}`;
+        }
+
+        function formatShortDate(d) {
+            return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+        }
+
+        const DAY_NAMES = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+        function renderWeekCalendar() {
+            if (!currentWeekMonday) return;
+
+            const sunday = new Date(currentWeekMonday);
+            sunday.setDate(currentWeekMonday.getDate() + 6);
+            document.getElementById('week-range-label').textContent =
+                `${formatShortDate(currentWeekMonday)} – ${formatShortDate(sunday)}`;
+
+            const todayKey = formatDateKey(new Date());
+            const strip = document.getElementById('week-strip');
+            strip.innerHTML = '';
+
+            for (let i = 0; i < 7; i++) {
+                const dayDate = new Date(currentWeekMonday);
+                dayDate.setDate(currentWeekMonday.getDate() + i);
+                const dateKey = formatDateKey(dayDate);
+                const data = (typeof retailHistory !== 'undefined') ? retailHistory[dateKey] : null;
+                const isToday = (dateKey === todayKey);
+
+                const cell = document.createElement('div');
+                cell.className = 'week-day-cell' + (data ? '' : ' empty') + (isToday ? ' today' : '');
+
+                const header = document.createElement('div');
+                header.className = 'week-day-header';
+                header.innerHTML = `<span class="week-day-name">${DAY_NAMES[i]}</span><span class="week-day-date">${dayDate.getDate()}</span>`;
+                cell.appendChild(header);
+
+                const imgWrap = document.createElement('div');
+                imgWrap.className = 'week-day-img-wrap';
+
+                if (data && data.imageUrl) {
+                    const fileId = data.imageUrl.split('id=')[1] || data.imageUrl.split('/d/')[1];
+                    const thumbUrl = fileId
+                        ? `https://drive.google.com/thumbnail?id=${encodeURIComponent(fileId)}&sz=w400`
+                        : data.imageUrl;
+                    const fullResUrl = fileId
+                        ? `https://drive.google.com/thumbnail?id=${encodeURIComponent(fileId)}&sz=w4000`
+                        : data.imageUrl;
+
+                    const img = document.createElement('img');
+                    img.className = 'week-day-img';
+                    img.src = thumbUrl;
+                    img.alt = dateKey;
+                    imgWrap.appendChild(img);
+
+                    const overlay = document.createElement('div');
+                    overlay.className = 'week-day-hover-overlay';
+                    overlay.innerHTML = buildHoverContent(data);
+                    imgWrap.appendChild(overlay);
+
+                    cell.onclick = () => {
+                        currentDateIndex = availableDates.indexOf(dateKey);
+                        if (currentDateIndex < 0) currentDateIndex = 0;
+                        openModal(fullResUrl);
+                    };
+                } else {
+                    imgWrap.innerHTML = `<span class="week-day-no-img">—</span>`;
+                }
+
+                cell.appendChild(imgWrap);
+                strip.appendChild(cell);
+            }
+        }
+
+        function buildHoverContent(data) {
+            let html = '';
+            if (data.trends && data.trends.length > 0) {
+                html += `<div><div class="hover-section-title">Trends</div>`;
+                data.trends.slice(0, 3).forEach(t => {
+                    html += `<div class="hover-trend-item">${escapeHtml(t.title)}</div>`;
+                });
+                html += `</div>`;
+            }
+            if (data.xTrends && data.xTrends.length > 0) {
+                html += `<div><div class="hover-section-title">Buzz</div>`;
+                data.xTrends.slice(0, 5).forEach(t => {
+                    html += `<div class="hover-buzz-item">${escapeHtml(t.name)}</div>`;
+                });
+                html += `</div>`;
+            }
+            return html;
+        }
+
+        function navigateWeek(direction) {
+            if (!currentWeekMonday) return;
+            const next = new Date(currentWeekMonday);
+            next.setDate(currentWeekMonday.getDate() + direction * 7);
+            currentWeekMonday = next;
+            renderWeekCalendar();
         }
 
         // ─── Init ─────────────────────────────────────────────────────────────────
