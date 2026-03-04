@@ -1,4 +1,41 @@
 const retailHistory = {
+    "2026-03-04": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1kG7FYrJElbwrcHSYneOn87h1zEJnlHsN",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run."
+            },
+            {
+                "title": "Momentum skewed to WWE, fashion-week, TV fandom, and K-pop",
+                "description": "Top hashtag set was #WWERAW, #GrandDînerLouvre, #TheRookie, #OlandriaxPFW, #BTS_ARIRANG, #LingOrmDiorAW26, #DiorAW26, #GoAvsGo, #Unrivaled, and #BTS_SWIM."
+            },
+            {
+                "title": "Retail homepage signal remained sparse",
+                "description": "RetailDive snippets were limited in this run window and did not yield reliable per-retailer (<24h) extraction across the tracked 10 names."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's / Target / Macy's / Dillard's / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx",
+                "headline": "No reliable fresh per-retailer extraction",
+                "summary": "RetailDive homepage snippets were insufficient for robust per-retailer 24h validation in this run; treat retailer-specific signal as unavailable."
+            }
+        ],
+        "xTrends": [
+            { "name": "#WWERAW", "desc": "Live WWE Raw clips, match outcomes, and storyline reactions drove sustained fan chatter." },
+            { "name": "#GrandDînerLouvre", "desc": "Fashion and culture accounts shared gala looks and runway-adjacent coverage." },
+            { "name": "#TheRookie", "desc": "Episode-night recaps and cast-focused reactions pushed TV fandom momentum." },
+            { "name": "#OlandriaxPFW", "desc": "Paris Fashion Week fan edits and appearance clips were heavily reposted." },
+            { "name": "#BTS_ARIRANG", "desc": "BTS fandom amplified ARIRANG-related clips and edits." },
+            { "name": "#LingOrmDiorAW26", "desc": "Fan-fashion communities boosted LingOrm content tied to Dior AW26." },
+            { "name": "#DiorAW26", "desc": "Runway recaps and brand discussion spread across fashion-week posts." },
+            { "name": "#GoAvsGo", "desc": "Colorado Avalanche game-night updates and reactions sustained momentum." },
+            { "name": "#Unrivaled", "desc": "Women’s basketball highlights and league discussion drove engagement." },
+            { "name": "#BTS_SWIM", "desc": "BTS-themed fan edits and challenge posts circulated rapidly." }
+        ]
+    },
+
     "2026-03-03": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1vY47XmOrO-akRNFai3J-sLHQNW4Oz56A",
         "trends": [

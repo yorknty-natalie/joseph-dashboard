@@ -1133,4 +1133,7 @@
 10. `#BTS_SWIM` — BTS-themed fan edits and challenge posts circulated rapidly.
 
 **Gemini/Drive status:**
-- error — explicit run-summary path was used (`skills/x-trend/outputs/run-summary-20260304.txt`), but fresh Gemini generation failed at download detection (`No new image file in ~/Downloads after 30s`) on two attempts.
+- success — explicit run-summary path used: `skills/x-trend/outputs/run-summary-20260304.txt`.
+- IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/gemini-1772596436.png`.
+- FILE_ID: `1kG7FYrJElbwrcHSYneOn87h1zEJnlHsN`.
+
