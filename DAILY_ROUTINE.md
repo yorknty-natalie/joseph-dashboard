@@ -381,3 +381,20 @@
 8. `#RHONY` — reality-TV recap and cast debate cycle.
 9. `#WWEHOF` — Hall of Fame nomination/legacy speculation.
 10. `#IranWar` — companion conflict tag with rapid breaking-news amplification.
+
+## 2026-03-04
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 failed (Google Trends category pages are consent/cookie-walled in this run; RetailDive homepage only returned limited snippets).
+
+### X Trends
+1. `#WWERAW` — WWE RAW live-event reaction cycle.
+2. `#TheRookie` — episode and cast discussion momentum.
+3. `#BTS_ARIRANG` — K-pop fandom amplification cluster.
+4. `#Unrivaled` — women’s basketball highlights and debate.
+5. `#iranisraelwar` — geopolitics/breaking-news repost surge.
+6. `#GrandDînerLouvre` — fashion gala and runway visual sharing.
+7. `#LingOrmDiorAW26` — fandom + Dior AW26 style posts.
+8. `#DiorAW26` — fashion-week look recaps and brand chatter.
+9. `#GoAvsGo` — Avalanche game-night fan momentum.
+10. `#RawOnNetflix` — WWE streaming/distribution conversation.
