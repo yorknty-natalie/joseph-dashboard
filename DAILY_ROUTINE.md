@@ -399,3 +399,27 @@ unavailable — Step 1 failed (Google Trends category pages returned cookie/cons
 9. `#Unrivaled` — women’s basketball highlights and league discussion drove engagement.
 10. `#BTS_SWIM` — BTS-themed fan edits and challenge posts circulated rapidly.
 
+
+## 2026-03-05
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 failed (Google Trends category pages returned cookie/consent interstitials; structured trend rows unavailable in this run).
+
+RetailDive retailer scan (homepage snippets):
+- **Kohl's**: “Kohl’s launches apparel brand geared toward teens and tweens.”
+- **Macy's**: “Macy’s year of celebration starts with prom night.”
+- **Walmart**: “Walmart expands digital shelf labels to all US stores.”
+- **Target / Dillard's / Belk / Bealls / Ross / Burlington / TJ Maxx**: no clear fresh standalone homepage update surfaced in this run window.
+
+### X Trends
+1. `#WWENXT` — WWE NXT match clips and wrestler account activity drove steady wrestling-fandom engagement.
+2. `#WednesdayMotivation` — recurring midweek motivational posting from creators and brands.
+3. `#TexasPrimary` — U.S. primary-election commentary and vote-watch conversation.
+4. `#TheFutureIsTeal` — coordinated campaign/fandom slogan amplification.
+5. `#kubball` — niche basketball-community highlights and fan edits.
+6. `#BTSLiveonNetflix` — BTS live-performance streaming conversation and clip sharing.
+7. `#GFNWTheResetGala` — gala-event looks and influencer repost activity.
+8. `#LingOrmDiorAW26` — Dior AW26 fashion-fandom momentum.
+9. `#BHAARS` — Brighton vs Arsenal match chatter and highlights.
+10. `#btslive` — companion BTS hashtag with fancam/edit amplification.
+
