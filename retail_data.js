@@ -1,4 +1,51 @@
 const retailHistory = {
+    "2026-03-05": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1RwjowEVxnho6hud2JI73UTyn3uFWxElg",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run."
+            },
+            {
+                "title": "Momentum skewed to wrestling, politics, and fandom",
+                "description": "Top hashtag set: #WWENXT, #WednesdayMotivation, #TexasPrimary, #TheFutureIsTeal, #kubball, #BTSLiveonNetflix, #GFNWTheResetGala, #LingOrmDiorAW26, #BHAARS, #btslive."
+            },
+            {
+                "title": "Retail homepage signal concentrated in three names",
+                "description": "RetailDive homepage highlights centered on Kohl's, Macy's, and Walmart; other tracked retailers had no clear fresh standalone update in this run window."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's",
+                "headline": "Kohl’s launches apparel brand geared toward teens and tweens",
+                "summary": "Homepage coverage highlighted a new private-label youth apparel launch."
+            },
+            {
+                "store": "Macy’s",
+                "headline": "Macy’s year of celebration starts with prom night",
+                "summary": "Homepage coverage emphasized anniversary-year campaign kickoff tied to prom marketing."
+            },
+            {
+                "store": "Walmart",
+                "headline": "Walmart expands digital shelf labels to all US stores",
+                "summary": "Homepage coverage highlighted a full-network rollout of digital shelf labels."
+            }
+        ],
+        "xTrends": [
+            { "name": "#WWENXT", "desc": "WWE NXT match clips and wrestler account activity drove steady wrestling-fandom engagement." },
+            { "name": "#WednesdayMotivation", "desc": "Recurring midweek motivational posting from creators and brands." },
+            { "name": "#TexasPrimary", "desc": "U.S. primary-election commentary and vote-watch conversation." },
+            { "name": "#TheFutureIsTeal", "desc": "Coordinated campaign/fandom slogan amplification." },
+            { "name": "#kubball", "desc": "Niche basketball-community highlights and fan edits." },
+            { "name": "#BTSLiveonNetflix", "desc": "BTS live-performance streaming conversation and clip sharing." },
+            { "name": "#GFNWTheResetGala", "desc": "Gala-event looks and influencer repost activity." },
+            { "name": "#LingOrmDiorAW26", "desc": "Dior AW26 fashion-fandom momentum." },
+            { "name": "#BHAARS", "desc": "Brighton vs Arsenal match chatter and highlights." },
+            { "name": "#btslive", "desc": "Companion BTS hashtag with fancam/edit amplification." }
+        ]
+    },
+
     "2026-03-04": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1kG7FYrJElbwrcHSYneOn87h1zEJnlHsN",
         "trends": [
