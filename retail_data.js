@@ -1,6 +1,6 @@
 const retailHistory = {
     "2026-03-05": {
-        "imageUrl": "https://drive.google.com/uc?export=view&id=1RwjowEVxnho6hud2JI73UTyn3uFWxElg",
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1DI8dqRY_07azYslP7YZQ1QHb0IS9aQ41",
         "trends": [
             {
                 "title": "Google Trends category pages remained cookie-walled",

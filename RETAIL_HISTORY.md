@@ -1198,4 +1198,6 @@
 ```
 
 **Gemini/Drive status:**
-- error — fresh image generation failed during download step (`gateway timeout after 20000ms`).
+- success — explicit run-summary path used: `/Users/york/.openclaw/workspace/skills/x-trend/outputs/run-summary-20260306.txt`.
+- IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/gemini-1772763175-53560.png`.
+- FILE_ID: `1DI8dqRY_07azYslP7YZQ1QHb0IS9aQ41`.
