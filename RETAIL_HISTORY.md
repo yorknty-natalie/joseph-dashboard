@@ -1165,3 +1165,37 @@
 
 ---
 
+### 2026-03-06
+```json
+{
+  "retailHistory": {
+    "2026-03-06": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable — Step 1 failed",
+      "retailDiveNews": [
+        {
+          "retailer": "Target",
+          "headline": "Target’s earnings lag in the holiday quarter",
+          "summary": "The retailer's net sales declined again, with drops across multiple merchandise categories.",
+          "url": "https://www.retaildive.com/news/targets-holiday-earnings-sales-chief-brand-officer/813589/"
+        }
+      ],
+      "xTrends": [
+        {"rank": 1, "hashtag": "#Survivor50", "why_hot": "Survivor fandom discussed cast rumors, challenge outcomes, and franchise milestone speculation."},
+        {"rank": 2, "hashtag": "#AEWDynamite", "why_hot": "Live AEW Dynamite match clips and storyline reactions drove wrestling chatter."},
+        {"rank": 3, "hashtag": "#OneChicago", "why_hot": "NBC One Chicago episode-night reactions and character discussions clustered under this tag."},
+        {"rank": 4, "hashtag": "#thursdayvibes", "why_hot": "Recurring weekday social tag with broad lifestyle and meme posting."},
+        {"rank": 5, "hashtag": "#LittleMissDramaTour", "why_hot": "Pop-fandom posts amplified tour clips, fancams, and ticket conversation."},
+        {"rank": 6, "hashtag": "#WorldBaseballClassic", "why_hot": "International baseball roster/news speculation and nostalgia boosted posts."},
+        {"rank": 7, "hashtag": "#myfirstjob", "why_hot": "Personal-story trend where users shared first-job memories and career reflections."},
+        {"rank": 8, "hashtag": "#Unrivaled", "why_hot": "Women’s basketball highlights and league commentary continued to circulate."},
+        {"rank": 9, "hashtag": "#COYS", "why_hot": "Tottenham supporters used this for match reactions, lineups, and rivalry banter."},
+        {"rank": 10, "hashtag": "#TOTCRY", "why_hot": "Companion Spurs match hashtag tied to Tottenham vs Crystal Palace discussion."}
+      ]
+    }
+  }
+}
+```
+
+**Gemini/Drive status:**
+- error — fresh image generation failed during download step (`gateway timeout after 20000ms`).

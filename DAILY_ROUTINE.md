@@ -423,3 +423,23 @@ RetailDive retailer scan (homepage snippets):
 9. `#BHAARS` — Brighton vs Arsenal match chatter and highlights.
 10. `#btslive` — companion BTS hashtag with fancam/edit amplification.
 
+## 2026-03-06
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 failed
+
+RetailDive retailer scan (homepage snippets):
+- **Target**: “Target’s earnings lag in the holiday quarter” (updated March 3, 2026).
+- **Kohl's / Macy's / Dillard's / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: no clear fresh standalone homepage update surfaced in this run window.
+
+### X Trends
+1. `#Survivor50` — Survivor fandom discussed cast rumors, challenge outcomes, and franchise milestone speculation.
+2. `#AEWDynamite` — Live AEW Dynamite match clips and storyline reactions drove wrestling chatter.
+3. `#OneChicago` — NBC One Chicago episode-night reactions and character discussions clustered under this tag.
+4. `#thursdayvibes` — Recurring weekday social tag with broad lifestyle and meme posting.
+5. `#LittleMissDramaTour` — Pop-fandom posts amplified tour clips, fancams, and ticket conversation.
+6. `#WorldBaseballClassic` — International baseball roster/news speculation and nostalgia boosted posts.
+7. `#myfirstjob` — Personal-story trend where users shared first-job memories and career reflections.
+8. `#Unrivaled` — Women’s basketball highlights and league commentary continued to circulate.
+9. `#COYS` — Tottenham supporters used this for match reactions, lineups, and rivalry banter.
+10. `#TOTCRY` — Companion Spurs match hashtag tied to Tottenham vs Crystal Palace discussion.
