@@ -447,7 +447,20 @@ RetailDive retailer scan (homepage snippets):
 ## 2026-03-07
 
 ### US Retail (Google Trends + RetailDive)
-unavailable — Step 1 failed
+## Google Trends — Top 10 by Category (US, 24h)
+Unable to extract topic/volume rows from all 6 category pages via `web_fetch` (pages returned cookie/consent text only, no visible trend list).
+
+## Retailer News Check (24h)
+- Kohl's: No clear update in the last 24h on RetailDive homepage.
+- Target: [‘Target is not an everything store’: CEO](https://www.retaildive.com/news/targets-turnaround-plan-store-investment-beauty-home-shop-in-shops/813759/) — multiyear turnaround + $1B operational investment.
+- Macy's: [Macy’s year of celebration starts with prom night](https://www.retaildive.com/news/macys-celebration-year-events-prom-night-fourth-july-thanksgiving-parade/813481/) — milestone event marketing campaign.
+- Dillard's: No clear update in the last 24h on RetailDive homepage.
+- Belk: No clear update in the last 24h on RetailDive homepage.
+- Bealls: No clear update in the last 24h on RetailDive homepage.
+- Walmart: [Walmart expands digital shelf labels to all US stores](https://www.retaildive.com/news/walmart-expands-digital-shelf-labels-all-us-stores/813654/) — chainwide rollout to improve store operations.
+- Ross: No clear update in the last 24h on RetailDive homepage.
+- Burlington: No clear update in the last 24h on RetailDive homepage.
+- TJ Maxx: No clear update in the last 24h on RetailDive homepage.
 
 ### X Trends
 1. `#OnlyFriendsDreamOnEP` — Fan reactions, clips, and ship commentary for the latest episode drove engagement.

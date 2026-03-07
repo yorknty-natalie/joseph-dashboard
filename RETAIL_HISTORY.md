@@ -1207,10 +1207,20 @@
 {
   "retailHistory": {
     "2026-03-07": {
-      "googleTrends": null,
-      "googleTrendsNote": "unavailable — Step 1 failed",
-      "retailDiveNews": null,
-      "retailDiveNote": "unavailable — Step 1 failed",
+      "googleTrends": [],
+      "googleTrendsNote": "Unable to extract topic/volume rows from all 6 category pages (cookie/consent text only).",
+      "retailDiveNews": [
+        {"retailer": "Kohl's", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Target", "headline": "‘Target is not an everything store’: CEO", "summary": "Target outlined a multiyear turnaround plan including an additional $1B operational investment and private-label revamps.", "url": "https://www.retaildive.com/news/targets-turnaround-plan-store-investment-beauty-home-shop-in-shops/813759/"},
+        {"retailer": "Macy's", "headline": "Macy’s year of celebration starts with prom night", "summary": "Macy’s highlighted milestone-event marketing tied to its 100th Thanksgiving parade and 50th July 4 fireworks.", "url": "https://www.retaildive.com/news/macys-celebration-year-events-prom-night-fourth-july-thanksgiving-parade/813481/"},
+        {"retailer": "Dillard's", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Belk", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Bealls", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Walmart", "headline": "Walmart expands digital shelf labels to all US stores", "summary": "Walmart plans digital shelf labels across all U.S. stores by year-end to speed price changes, restocking, and online-order fulfillment.", "url": "https://www.retaildive.com/news/walmart-expands-digital-shelf-labels-all-us-stores/813654/"},
+        {"retailer": "Ross", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Burlington", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "TJ Maxx", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null}
+      ],
       "xTrends": [
         {"rank": 1, "hashtag": "#OnlyFriendsDreamOnEP", "why_hot": "Fan reactions, clips, and ship commentary for the latest episode drove engagement."},
         {"rank": 2, "hashtag": "#WorldBaseballClassic", "why_hot": "Live game discussion, highlights, and national-team debate drove momentum."},
