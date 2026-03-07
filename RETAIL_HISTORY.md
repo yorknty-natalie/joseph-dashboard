@@ -1201,3 +1201,35 @@
 - success — explicit run-summary path used: `/Users/york/.openclaw/workspace/skills/x-trend/outputs/run-summary-20260306.txt`.
 - IMAGE_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/images/gemini-1772763175-53560.png`.
 - FILE_ID: `1DI8dqRY_07azYslP7YZQ1QHb0IS9aQ41`.
+
+### 2026-03-07
+```json
+{
+  "retailHistory": {
+    "2026-03-07": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable — Step 1 failed",
+      "retailDiveNews": null,
+      "retailDiveNote": "unavailable — Step 1 failed",
+      "xTrends": [
+        {"rank": 1, "hashtag": "#OnlyFriendsDreamOnEP", "why_hot": "Fan reactions, clips, and ship commentary for the latest episode drove engagement."},
+        {"rank": 2, "hashtag": "#WorldBaseballClassic", "why_hot": "Live game discussion, highlights, and national-team debate drove momentum."},
+        {"rank": 3, "hashtag": "#FursuitFriday", "why_hot": "Weekly fandom photo/convention posting cycle was active."},
+        {"rank": 4, "hashtag": "#ThePitt", "why_hot": "Episode reactions and character analysis around high-intensity ER scenes."},
+        {"rank": 5, "hashtag": "#EmployeeAppreciationDay", "why_hot": "Workplace appreciation posts and staff spotlight campaigns."},
+        {"rank": 6, "hashtag": "#fridayvibes", "why_hot": "Routine Friday mood/meme/weekend-start posting lift."},
+        {"rank": 7, "hashtag": "#WWE2K26", "why_hot": "Wrestling/gaming discussion around rumors, roster wishlists, and expected reveals."},
+        {"rank": 8, "hashtag": "#IranIsraelUSWar", "why_hot": "Breaking-news reactions and debate on regional escalation and U.S. involvement."},
+        {"rank": 9, "hashtag": "#miwx", "why_hot": "Michigan weather/radar updates and storm warning chatter."},
+        {"rank": 10, "hashtag": "#hololivefesEXPO26_DAY1", "why_hot": "VTuber concert clips and Day-1 fan highlights."}
+      ]
+    }
+  }
+}
+```
+
+**Gemini/Drive status:**
+- partial success — x-trend summary generated, but fresh image generation/upload did not complete in this run.
+- RUN_SUMMARY_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/20260307_101223.json`.
+- IMAGE_PATH: unavailable.
+- FILE_ID: unavailable.

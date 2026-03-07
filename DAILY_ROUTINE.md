@@ -443,3 +443,20 @@ RetailDive retailer scan (homepage snippets):
 8. `#Unrivaled` — Women’s basketball highlights and league commentary continued to circulate.
 9. `#COYS` — Tottenham supporters used this for match reactions, lineups, and rivalry banter.
 10. `#TOTCRY` — Companion Spurs match hashtag tied to Tottenham vs Crystal Palace discussion.
+
+## 2026-03-07
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 failed
+
+### X Trends
+1. `#OnlyFriendsDreamOnEP` — Fan reactions, clips, and ship commentary for the latest episode drove engagement.
+2. `#WorldBaseballClassic` — Live game talk, highlights, and national-team debate drove sustained chatter.
+3. `#FursuitFriday` — Weekly fandom posting cycle with fresh fursuit photos and convention content.
+4. `#ThePitt` — Episode reactions and character analysis around high-intensity ER scenes.
+5. `#EmployeeAppreciationDay` — Workplace appreciation posts, staff spotlights, and campaign content.
+6. `#fridayvibes` — End-of-week mood posts, music/memes, and weekend-start energy.
+7. `#WWE2K26` — Wrestling + gaming discussion around rumors, roster wishlists, and expected reveals.
+8. `#IranIsraelUSWar` — Breaking-news reactions and debate on regional escalation and U.S. involvement.
+9. `#miwx` — Michigan weather/radar updates and storm-related warning chatter.
+10. `#hololivefesEXPO26_DAY1` — VTuber concert clips and live fan highlights from Day 1.
