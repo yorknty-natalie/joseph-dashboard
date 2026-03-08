@@ -473,3 +473,32 @@ Unable to extract topic/volume rows from all 6 category pages via `web_fetch` (p
 8. `#IranIsraelUSWar` — Breaking-news reactions and debate on regional escalation and U.S. involvement.
 9. `#miwx` — Michigan weather/radar updates and storm-related warning chatter.
 10. `#hololivefesEXPO26_DAY1` — VTuber concert clips and live fan highlights from Day 1.
+
+## 2026-03-08
+
+### US Retail (Google Trends + RetailDive)
+Google Trends category pages were unavailable in this run (cookie/consent wall via web_fetch), so structured top-10 trend rows are unavailable.
+
+RetailDive retailer scan (homepage):
+- Kohl's: No clear update in the last 24h on RetailDive homepage.
+- Target: “Target is not an everything store’: CEO” — multiyear turnaround with additional operational investment.
+- Macy's: “Macy’s year of celebration starts with prom night” — campaign tied to milestone parade/fireworks year.
+- Dillard's: No clear update in the last 24h on RetailDive homepage.
+- Belk: No clear update in the last 24h on RetailDive homepage.
+- Bealls: No clear update in the last 24h on RetailDive homepage.
+- Walmart: “Walmart expands digital shelf labels to all US stores” — chainwide rollout to improve pricing/restock/order operations.
+- Ross: No clear update in the last 24h on RetailDive homepage.
+- Burlington: No clear update in the last 24h on RetailDive homepage.
+- TJ Maxx: No clear update in the last 24h on RetailDive homepage.
+
+### X Trends
+1. `#SmackDown` — WWE Friday Night SmackDown live clips and match-result chatter.
+2. `#thelastdrivein` — Joe Bob Briggs watchalong/community horror commentary.
+3. `#hololivefesEXPO26_DAY2` — VTuber festival Day 2 performances and fan clips.
+4. `#UFC326` — fight-card/results reactions and MMA highlight discussion.
+5. `#Caturday` — recurring weekend cat-photo meme cycle.
+6. `#ด้วงกับเธอEP66` — Thai episode-reaction trend with fan scene clips.
+7. `#SaturdayVibes` — broad weekend mood/lifestyle posting wave.
+8. `#PSTimeStopperinVietnam` — localized fan-event/creator meetup buzz.
+9. `#MutantFam` — mixed-signal fandom chatter around mutant-themed content.
+10. `#AMPERSANDONETOUR` — tour updates/fancams/ticket chatter.

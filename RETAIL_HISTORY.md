@@ -1243,3 +1243,39 @@
 - RUN_SUMMARY_PATH: `/Users/york/.openclaw/workspace/skills/x-trend-image/outputs/20260307_101223.json`.
 - IMAGE_PATH: unavailable.
 - FILE_ID: unavailable.
+
+### 2026-03-08
+```json
+{
+  "retailHistory": {
+    "2026-03-08": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable — Google Trends category pages returned cookie/consent interstitials in this run.",
+      "retailDiveNews": [
+        {"retailer": "Kohl's", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Target", "headline": "‘Target is not an everything store’: CEO", "summary": "Target outlined a multiyear turnaround plan including additional operational investment and private-label revamps.", "url": "https://www.retaildive.com/news/targets-turnaround-plan-store-investment-beauty-home-shop-in-shops/813759/"},
+        {"retailer": "Macy's", "headline": "Macy’s year of celebration starts with prom night", "summary": "Macy’s highlighted anniversary-year event marketing tied to prom and milestone celebrations.", "url": "https://www.retaildive.com/news/macys-celebration-year-events-prom-night-fourth-july-thanksgiving-parade/813481/"},
+        {"retailer": "Dillard's", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Belk", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Bealls", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Walmart", "headline": "Walmart expands digital shelf labels to all US stores", "summary": "By year-end all locations will feature tags that speed price changes, restocking, and online-order fulfillment.", "url": "https://www.retaildive.com/news/walmart-expands-digital-shelf-labels-all-us-stores/813654/"},
+        {"retailer": "Ross", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "Burlington", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
+        {"retailer": "TJ Maxx", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null}
+      ],
+      "xTrends": [
+        {"rank": 1, "hashtag": "#SmackDown", "why_hot": "WWE fans are live-posting Friday Night SmackDown segments, match results, and clips."},
+        {"rank": 2, "hashtag": "#thelastdrivein", "why_hot": "Horror fans are discussing The Last Drive-In watchalong and Joe Bob Briggs commentary."},
+        {"rank": 3, "hashtag": "#hololivefesEXPO26_DAY2", "why_hot": "VTuber communities are posting performances and highlights from hololive fes EXPO Day 2."},
+        {"rank": 4, "hashtag": "#UFC326", "why_hot": "MMA audiences are reacting to UFC 326 card outcomes and highlights."},
+        {"rank": 5, "hashtag": "#Caturday", "why_hot": "Weekend pet communities are sharing cat photos and memes."},
+        {"rank": 6, "hashtag": "#ด้วงกับเธอEP66", "why_hot": "Thai fandom discussion around Episode 66 with live reactions and scene clips."},
+        {"rank": 7, "hashtag": "#SaturdayVibes", "why_hot": "Recurring weekend lifestyle trend with mood posts and social updates."},
+        {"rank": 8, "hashtag": "#PSTimeStopperinVietnam", "why_hot": "Likely fan-event or creator-appearance trend tied to Vietnam."},
+        {"rank": 9, "hashtag": "#MutantFam", "why_hot": "Mixed-signal fandom activity around mutant-themed media/communities."},
+        {"rank": 10, "hashtag": "#AMPERSANDONETOUR", "why_hot": "Music fandom posts around tour updates, fancams, and ticket chatter."}
+      ]
+    }
+  }
+}
+```
