@@ -1,4 +1,41 @@
 const retailHistory = {
+    "2026-03-10": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1WrV9DhuxEsGfvNehl0KZXHfsifUHvsJc",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run."
+            },
+            {
+                "title": "Momentum skewed to wrestling, baseball, NFL, and NBA",
+                "description": "Top visible X set from the latest trends24 US snapshot was #WWERaw, #RomanAnthony, #Raiders, #Weights, #AaronGordon, #PaulSkenes, #MagicCity, #AjayMitchell, #CalRaleigh, and #Bayley."
+            },
+            {
+                "title": "Retail homepage signal centered on Target",
+                "description": "Retail Dive homepage in this run surfaced a fresh Target earnings story; other tracked retailers had no clear fresh standalone homepage update."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Target’s earnings lag in the holiday quarter",
+                "summary": "Retail Dive homepage highlighted another quarter of net-sales declines across multiple merchandise categories, though management still guided to gains in fiscal 2026."
+            }
+        ],
+        "xTrends": [
+            { "name": "#WWERaw", "desc": "Monday-night WWE Raw drove live wrestling clips, storyline reactions, and wrestler-account chatter." },
+            { "name": "#RomanAnthony", "desc": "Baseball media amplified Roman Anthony's big Team USA World Baseball Classic highlight." },
+            { "name": "#Raiders", "desc": "NFL roster-move and free-agency reactions pushed Raiders discussion higher." },
+            { "name": "#Weights", "desc": "Mixed and noisy signal spread across workout and sports posting rather than one clear event." },
+            { "name": "#AaronGordon", "desc": "NBA game-night reactions and highlight talk around Aaron Gordon drove the spike." },
+            { "name": "#PaulSkenes", "desc": "Baseball-season chatter around Paul Skenes was active, though the search signal was somewhat noisy." },
+            { "name": "#MagicCity", "desc": "Noisy nightlife/pop-culture cluster with weaker single-event clarity." },
+            { "name": "#AjayMitchell", "desc": "Basketball reporters noted Ajay Mitchell returning to pregame warmups after a 20-game absence." },
+            { "name": "#CalRaleigh", "desc": "Mariners/baseball fandom kept Cal Raleigh trending with slugger-focused chatter." },
+            { "name": "#Bayley", "desc": "Bayley rode the same WWE Raw storyline and fan-reaction wave as #WWERaw." }
+        ]
+    },
+
     "2026-03-05": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1oTUupVWO-tvwblmDWEJ1wiaLvN5WqqRZ",
         "trends": [

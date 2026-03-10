@@ -1,5 +1,24 @@
 # Daily Retail & X Trends Routine
 
+## 2026-03-10
+
+### US Retail (Google Trends + RetailDive)
+- Google Trends category pages were unavailable in this run: all six US 24h category URLs returned only Google cookie/consent interstitial content.
+- **Target**: “Target’s earnings lag in the holiday quarter” (Retail Dive, updated March 3, 2026) — sales declined across multiple merchandise categories, though Target guided to gains in fiscal 2026.
+- **Kohl's / Macy's / Dillard's / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx**: No clear fresh last-24h homepage update surfaced in this fetch window.
+
+### X Trends
+1. `#WWERaw` — Monday night's WWE Raw was live, and the top search results were dominated by WWE accounts, wrestler profiles, and match-storyline discussion. The tag is riding the usual live-show reaction wave with clips, booking chatter, and fan commentary.
+2. `#RomanAnthony` — Roman Anthony surged because baseball posts were celebrating a big Team USA moment in the World Baseball Classic, including a three-run shot that pushed the U.S. lead wider. X search results were packed with baseball media accounts reposting the highlight.
+3. `#Raiders` — Raiders chatter is being driven by NFL roster-move and free-agency conversation, with top posts focusing on defensive additions and reactions from AFC West fan accounts. The trend reads like a signing-and-team-building spike rather than a generic evergreen team mention.
+4. `#Weights` — Signal is noisy; the search results were mixed and weak rather than clearly anchored to one dominant event. The term appears to be circulating across workout, sports, and stray unrelated posts, so this looks like a low-clarity trend.
+5. `#AaronGordon` — Aaron Gordon is trending off NBA game-night discussion, with basketball accounts and fans focusing on his performance and highlight plays. The search results point to live player-reaction momentum rather than off-court news.
+6. `#PaulSkenes` — Paul Skenes had active baseball chatter, but the top visible search signal was somewhat mixed, blending his official profile with fan and celebrity-adjacent posts. The overall context still points to baseball-season attention around Skenes, but the trend quality is noisier than the cleanest sports spikes today.
+7. `#MagicCity` — Magic City is trending with mixed context and a noisy signal, but the visible search results suggest a nightlife-and-pop-culture cluster rather than a single breaking-news event. It looks like one of the murkier trends in the set.
+8. `#AjayMitchell` — Ajay Mitchell is trending because basketball reporters were posting his return to pregame warmups after a 20-game absence. The top visible posts frame it as a comeback/availability update that caught NBA fan attention.
+9. `#CalRaleigh` — Cal Raleigh is showing up inside baseball chatter centered on Mariners fandom and his 'Big Dumper' slugger identity. The visible search results are saturated with baseball accounts and fan pages, signaling another MLB-driven trend.
+10. `#Bayley` — Bayley is riding the same WWE ecosystem surge as #WWERaw, with her verified profile and fan pages prominent in the top search results. The trend looks tied to Raw-related storyline reaction, wrestler discourse, and fan clips.
+
 ## 2026-02-25 (Asia/Taipei)
 
 ### Google Trends US (latest momentum)
