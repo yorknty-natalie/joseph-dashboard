@@ -1314,28 +1314,182 @@
       "googleTrends": null,
       "googleTrendsNote": "unavailable — Step 1 failed (Google Trends category pages returned cookie/consent interstitial text).",
       "retailDiveNews": [
-        {"retailer": "Kohl's", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
-        {"retailer": "Target", "headline": "‘Target is not an everything store’: CEO", "summary": "Target outlined a multiyear turnaround with additional operational investment and private-label updates.", "url": "https://www.retaildive.com/news/targets-turnaround-plan-store-investment-beauty-home-shop-in-shops/813759/"},
-        {"retailer": "Macy's", "headline": "Macy’s year of celebration starts with prom night", "summary": "Macy’s highlighted anniversary-year campaign activation tied to major milestone events.", "url": "https://www.retaildive.com/news/macys-celebration-year-events-prom-night-fourth-july-thanksgiving-parade/813481/"},
-        {"retailer": "Dillard's", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
-        {"retailer": "Belk", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
-        {"retailer": "Bealls", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
-        {"retailer": "Walmart", "headline": "Walmart expands digital shelf labels to all US stores", "summary": "Walmart is rolling digital shelf labels chainwide to speed price changes, restocking, and online-order fulfillment.", "url": "https://www.retaildive.com/news/walmart-expands-digital-shelf-labels-all-us-stores/813654/"},
-        {"retailer": "Ross", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
-        {"retailer": "Burlington", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null},
-        {"retailer": "TJ Maxx", "headline": null, "summary": "No clear update in the last 24h on RetailDive homepage.", "url": null}
+        {
+          "retailer": "Kohl's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Target",
+          "headline": "‘Target is not an everything store’: CEO",
+          "summary": "Target outlined a multiyear turnaround with additional operational investment and private-label updates.",
+          "url": "https://www.retaildive.com/news/targets-turnaround-plan-store-investment-beauty-home-shop-in-shops/813759/"
+        },
+        {
+          "retailer": "Macy's",
+          "headline": "Macy’s year of celebration starts with prom night",
+          "summary": "Macy’s highlighted anniversary-year campaign activation tied to major milestone events.",
+          "url": "https://www.retaildive.com/news/macys-celebration-year-events-prom-night-fourth-july-thanksgiving-parade/813481/"
+        },
+        {
+          "retailer": "Dillard's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Belk",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Bealls",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Walmart",
+          "headline": "Walmart expands digital shelf labels to all US stores",
+          "summary": "Walmart is rolling digital shelf labels chainwide to speed price changes, restocking, and online-order fulfillment.",
+          "url": "https://www.retaildive.com/news/walmart-expands-digital-shelf-labels-all-us-stores/813654/"
+        },
+        {
+          "retailer": "Ross",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Burlington",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "TJ Maxx",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        }
       ],
       "xTrends": [
-        {"rank": 1, "hashtag": "#InternationalWomensDay", "why_hot": "Global International Women’s Day celebration and advocacy posts surged across regions."},
-        {"rank": 2, "hashtag": "#UFC326", "why_hot": "Fight fans discussed UFC 326 matchups, predictions, and highlights."},
-        {"rank": 3, "hashtag": "#HappyBirthdaySUGA", "why_hot": "BTS fan communities coordinated birthday tributes, edits, and fan art."},
-        {"rank": 4, "hashtag": "#IWD2026", "why_hot": "International Women’s Day campaign recaps and organization posts drove engagement."},
-        {"rank": 5, "hashtag": "#AusGP", "why_hot": "Formula 1 Australian GP preview and race-week chatter increased."},
-        {"rank": 6, "hashtag": "#T20WorldCup2026final", "why_hot": "Cricket final-match reactions and standout moments sustained discussion."},
-        {"rank": 7, "hashtag": "#hololivefesEXPO26_DAY3", "why_hot": "VTuber festival Day 3 clips and fan reactions trended strongly."},
-        {"rank": 8, "hashtag": "#UFCWhiteHouse", "why_hot": "Meme-heavy UFC + political crossover posts produced fast but noisy engagement."},
-        {"rank": 9, "hashtag": "#NASCAR", "why_hot": "Race-day incidents, highlights, and driver updates fueled motorsport talk."},
-        {"rank": 10, "hashtag": "#DiaInternacionalDeLaMujer", "why_hot": "Spanish-language International Women’s Day discussion and solidarity content surged."}
+        {
+          "rank": 1,
+          "hashtag": "#InternationalWomensDay",
+          "why_hot": "Global International Women’s Day celebration and advocacy posts surged across regions."
+        },
+        {
+          "rank": 2,
+          "hashtag": "#UFC326",
+          "why_hot": "Fight fans discussed UFC 326 matchups, predictions, and highlights."
+        },
+        {
+          "rank": 3,
+          "hashtag": "#HappyBirthdaySUGA",
+          "why_hot": "BTS fan communities coordinated birthday tributes, edits, and fan art."
+        },
+        {
+          "rank": 4,
+          "hashtag": "#IWD2026",
+          "why_hot": "International Women’s Day campaign recaps and organization posts drove engagement."
+        },
+        {
+          "rank": 5,
+          "hashtag": "#AusGP",
+          "why_hot": "Formula 1 Australian GP preview and race-week chatter increased."
+        },
+        {
+          "rank": 6,
+          "hashtag": "#T20WorldCup2026final",
+          "why_hot": "Cricket final-match reactions and standout moments sustained discussion."
+        },
+        {
+          "rank": 7,
+          "hashtag": "#hololivefesEXPO26_DAY3",
+          "why_hot": "VTuber festival Day 3 clips and fan reactions trended strongly."
+        },
+        {
+          "rank": 8,
+          "hashtag": "#UFCWhiteHouse",
+          "why_hot": "Meme-heavy UFC + political crossover posts produced fast but noisy engagement."
+        },
+        {
+          "rank": 9,
+          "hashtag": "#NASCAR",
+          "why_hot": "Race-day incidents, highlights, and driver updates fueled motorsport talk."
+        },
+        {
+          "rank": 10,
+          "hashtag": "#DiaInternacionalDeLaMujer",
+          "why_hot": "Spanish-language International Women’s Day discussion and solidarity content surged."
+        }
+      ]
+    },
+    "2026-03-11": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable — Google Trends category pages returned cookie/consent interstitial content via web_fetch in this run.",
+      "retailDiveNews": [
+        {
+          "retailer": "Target",
+          "headline": "Target to open 2,000th store",
+          "summary": "The North Carolina location represents an elevated guest experience and is part of plan to open 30+ stores this year.",
+          "url": "https://www.retaildive.com/"
+        }
+      ],
+      "xTrends": [
+        {
+          "rank": 1,
+          "hashtag": "#Ravens",
+          "why_hot": "NFL trade chatter is dominating this trend, especially posts about the Ravens and a reported Maxx Crosby physical/trade update circulating from major sports accounts."
+        },
+        {
+          "rank": 2,
+          "hashtag": "#Crosby",
+          "why_hot": "Maxx Crosby is trending due to intense NFL rumor traffic around his status and potential movement, with fans and insiders reacting in real time."
+        },
+        {
+          "rank": 3,
+          "hashtag": "#Raiders",
+          "why_hot": "The Raiders are trending in tandem with the Crosby news cycle, with posts focused on roster implications and reactions to trade-related reports."
+        },
+        {
+          "rank": 4,
+          "hashtag": "#BamAdebayo",
+          "why_hot": "NBA fans are discussing Bam Adebayo after fresh game-performance commentary and highlight clips that pushed his name into top sports conversation."
+        },
+        {
+          "rank": 5,
+          "hashtag": "#Hendrickson",
+          "why_hot": "Trey Hendrickson is trending from NFL discussion around contract/trade expectations, with football media amplifying updates and speculation."
+        },
+        {
+          "rank": 6,
+          "hashtag": "#FRESHNEWS",
+          "why_hot": "This tag appears to be a broad engagement/news-promoter keyword rather than a single event; signal is noisy and likely mixed across topics."
+        },
+        {
+          "rank": 7,
+          "hashtag": "#PRESALEISNOWOPEN",
+          "why_hot": "This trend is largely driven by repeated launch-style promo posts for token/project presales; signal is noisy and likely coordinated marketing."
+        },
+        {
+          "rank": 8,
+          "hashtag": "#WWENXT",
+          "why_hot": "WWE NXT is trending from live-show reactions, match results, and wrestler storyline discussion during/after the latest broadcast."
+        },
+        {
+          "rank": 9,
+          "hashtag": "#PRESALEISOFFICIALLYLIVE",
+          "why_hot": "This appears to be another coordinated crypto/project launch phrase with many near-duplicate promotional posts; trend signal is mostly promotional noise."
+        },
+        {
+          "rank": 10,
+          "hashtag": "#PRESALEHASNOWLAUNCHED",
+          "why_hot": "This trend also reflects repeated presale marketing posts from multiple accounts, with weak organic conversation outside promo content."
+        }
       ]
     }
   }

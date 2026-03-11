@@ -550,3 +550,32 @@ RetailDive retailer scan (homepage):
 8. `#PSTimeStopperinVietnam` — localized fan-event/creator meetup buzz.
 9. `#MutantFam` — mixed-signal fandom chatter around mutant-themed content.
 10. `#AMPERSANDONETOUR` — tour updates/fancams/ticket chatter.
+
+## 2026-03-11
+
+### US Retail (Google Trends + RetailDive)
+Google Trends category pages were unavailable in this run (cookie/consent wall via web_fetch), so structured top-10 trend rows are unavailable.
+
+RetailDive retailer scan (homepage):
+- Kohl's: No clear update in the last 24h on RetailDive homepage.
+- Target: “Target to open 2,000th store” — expansion milestone and elevated guest-experience store format.
+- Macy's: No clear update in the last 24h on RetailDive homepage.
+- Dillard's: No clear update in the last 24h on RetailDive homepage.
+- Belk: No clear update in the last 24h on RetailDive homepage.
+- Bealls: No clear update in the last 24h on RetailDive homepage.
+- Walmart: No clear update in the last 24h on RetailDive homepage.
+- Ross: No clear update in the last 24h on RetailDive homepage.
+- Burlington: No clear update in the last 24h on RetailDive homepage.
+- TJ Maxx: No clear update in the last 24h on RetailDive homepage.
+
+### X Trends
+1. `#Ravens` — NFL trade chatter is dominating this trend, especially posts about the Ravens and a reported Maxx Crosby physical/trade update circulating from major sports accounts.
+2. `#Crosby` — Maxx Crosby is trending due to intense NFL rumor traffic around his status and potential movement, with fans and insiders reacting in real time.
+3. `#Raiders` — The Raiders are trending in tandem with the Crosby news cycle, with posts focused on roster implications and reactions to trade-related reports.
+4. `#BamAdebayo` — NBA fans are discussing Bam Adebayo after fresh game-performance commentary and highlight clips that pushed his name into top sports conversation.
+5. `#Hendrickson` — Trey Hendrickson is trending from NFL discussion around contract/trade expectations, with football media amplifying updates and speculation.
+6. `#FRESHNEWS` — This tag appears to be a broad engagement/news-promoter keyword rather than a single event; signal is noisy and likely mixed across topics.
+7. `#PRESALEISNOWOPEN` — This trend is largely driven by repeated launch-style promo posts for token/project presales; signal is noisy and likely coordinated marketing.
+8. `#WWENXT` — WWE NXT is trending from live-show reactions, match results, and wrestler storyline discussion during/after the latest broadcast.
+9. `#PRESALEISOFFICIALLYLIVE` — This appears to be another coordinated crypto/project launch phrase with many near-duplicate promotional posts; trend signal is mostly promotional noise.
+10. `#PRESALEHASNOWLAUNCHED` — This trend also reflects repeated presale marketing posts from multiple accounts, with weak organic conversation outside promo content.

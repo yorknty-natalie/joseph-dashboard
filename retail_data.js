@@ -1,4 +1,71 @@
 const retailHistory = {
+  "2026-03-11": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1wHMBIfHbgYUN2eYrqQzWTeit-tDVmU80",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run."
+            },
+            {
+                "title": "Momentum skewed to NFL, NBA, WWE, and crypto-presale promo tags",
+                "description": "Top visible X set from the latest run was #Ravens, #Crosby, #Raiders, #BamAdebayo, #Hendrickson, #FRESHNEWS, #PRESALEISNOWOPEN, #WWENXT, #PRESALEISOFFICIALLYLIVE, and #PRESALEHASNOWLAUNCHED."
+            },
+            {
+                "title": "Retail homepage signal centered on Target",
+                "description": "Retail Dive homepage in this run surfaced a fresh Target expansion headline; other tracked retailers had no clear fresh standalone homepage update."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Target to open 2,000th store",
+                "summary": "Retail Dive highlighted expansion milestone and elevated guest-experience format."
+            }
+        ],
+        "xTrends": [
+            {
+                "name": "#Ravens",
+                "desc": "NFL trade chatter is dominating this trend, especially posts about the Ravens and a reported Maxx Crosby physical/trade update circulating from major sports accounts."
+            },
+            {
+                "name": "#Crosby",
+                "desc": "Maxx Crosby is trending due to intense NFL rumor traffic around his status and potential movement, with fans and insiders reacting in real time."
+            },
+            {
+                "name": "#Raiders",
+                "desc": "The Raiders are trending in tandem with the Crosby news cycle, with posts focused on roster implications and reactions to trade-related reports."
+            },
+            {
+                "name": "#BamAdebayo",
+                "desc": "NBA fans are discussing Bam Adebayo after fresh game-performance commentary and highlight clips that pushed his name into top sports conversation."
+            },
+            {
+                "name": "#Hendrickson",
+                "desc": "Trey Hendrickson is trending from NFL discussion around contract/trade expectations, with football media amplifying updates and speculation."
+            },
+            {
+                "name": "#FRESHNEWS",
+                "desc": "This tag appears to be a broad engagement/news-promoter keyword rather than a single event; signal is noisy and likely mixed across topics."
+            },
+            {
+                "name": "#PRESALEISNOWOPEN",
+                "desc": "This trend is largely driven by repeated launch-style promo posts for token/project presales; signal is noisy and likely coordinated marketing."
+            },
+            {
+                "name": "#WWENXT",
+                "desc": "WWE NXT is trending from live-show reactions, match results, and wrestler storyline discussion during/after the latest broadcast."
+            },
+            {
+                "name": "#PRESALEISOFFICIALLYLIVE",
+                "desc": "This appears to be another coordinated crypto/project launch phrase with many near-duplicate promotional posts; trend signal is mostly promotional noise."
+            },
+            {
+                "name": "#PRESALEHASNOWLAUNCHED",
+                "desc": "This trend also reflects repeated presale marketing posts from multiple accounts, with weak organic conversation outside promo content."
+            }
+        ]
+    },
+
     "2026-03-10": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1WrV9DhuxEsGfvNehl0KZXHfsifUHvsJc",
         "trends": [
