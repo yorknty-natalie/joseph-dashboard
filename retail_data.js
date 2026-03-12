@@ -1,4 +1,41 @@
 const retailHistory = {
+  "2026-03-12": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1-dghKQLxthmC1jWG5_R_D890fycdtiOX",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run. Fallback momentum came from getdaytrends and trends24 snapshots."
+            },
+            {
+                "title": "Momentum skewed to TV, wrestling, basketball, and fight-adjacent chatter",
+                "description": "Top visible X set from trends24 US snapshot was #Survivor50, #AEWDynamite, #Italy, #iubb, #JakePaul, #Massie, #KyleFletcher, #loveisblindreunion, #Speedball, and #Vinnie."
+            },
+            {
+                "title": "Retail homepage signal remained sparse",
+                "description": "Retail Dive homepage in this run did not yield clear fresh standalone updates across the tracked 10 retailers."
+            }
+        ],
+        "news": [
+            {
+                "store": "Kohl's / Target / Macy's / Dillard's / Belk / Bealls / Walmart / Ross / Burlington / TJ Maxx",
+                "headline": "No clear fresh standalone homepage updates",
+                "summary": "Retail Dive homepage snippets in this run window did not provide robust <24h retailer-specific updates for the tracked set."
+            }
+        ],
+        "xTrends": [
+            { "name": "#Survivor50", "desc": "Fans are live-posting reactions to Survivor season 50 moments and eliminations." },
+            { "name": "#AEWDynamite", "desc": "AEW Dynamite aired with key match outcomes and storyline turns, generating real-time commentary." },
+            { "name": "#Italy", "desc": "A mixed international cluster (sports, travel, and news mentions) pushed Italy into trends." },
+            { "name": "#iubb", "desc": "Indiana University basketball discussion spiked around game results and coaching chatter." },
+            { "name": "#JakePaul", "desc": "Fight speculation and boxing-event hype amplified Jake Paul conversation." },
+            { "name": "#Massie", "desc": "Political threads around current U.S. legislative debates drove mentions." },
+            { "name": "#KyleFletcher", "desc": "Pro-wrestling performance highlights and fan reactions drove momentum." },
+            { "name": "#loveisblindreunion", "desc": "Love Is Blind reunion fallout and cast reactions fueled social posting." },
+            { "name": "#Speedball", "desc": "Combat-sports and wrestling communities boosted match-performance clips." },
+            { "name": "#Vinnie", "desc": "Overlapping entertainment and sports mentions created a broad, fan-driven trend signal." }
+        ]
+    },
+
   "2026-03-11": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1wHMBIfHbgYUN2eYrqQzWTeit-tDVmU80",
         "trends": [
