@@ -1,3 +1,32 @@
+## 2026-03-13
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 partial failure (Google Trends category pages returned cookie/consent interstitial text; structured top-10 unavailable).
+
+RetailDive retailer scan (homepage):
+- Kohl's: [Kohl’s rules out major store closures despite disappointing Q4](https://www.retaildive.com/news/kohls-rules-out-major-store-closures-disappointing-q4/814282/) — simplifying promotions and adding value-priced assortment.
+- Target: [Target reduces prices on 3K products to draw in busy families](https://www.retaildive.com/news/target-spring-price-reductions-busy-families/814423/) — seasonal cuts, including baby products.
+- Macy's: No clear update in the last 24h on RetailDive homepage.
+- Dillard's: [Petal & Pup eyes launch with Dillard’s, Von Maur](https://www.retaildive.com/news/petal-pup-launch-dillards-von-maur/814245/) — partner-brand launch context.
+- Belk: [Belk adds Michael Strahan’s brand to menswear assortment](https://www.retaildive.com/news/belk-michael-strahan-brand-stores-online/814035/) — menswear assortment expansion.
+- Bealls: No clear update in the last 24h on RetailDive homepage.
+- Walmart: No clear update in the last 24h on RetailDive homepage.
+- Ross: [Ross opens 17 stores, pushing forward with brick-and-mortar expansion](https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/).
+- Burlington: [Could off-price retailers start grabbing market share from each other?](https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/) — off-price expansion theme including Burlington.
+- TJ Maxx: [Could off-price retailers start grabbing market share from each other?](https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/) — off-price expansion theme including TJX.
+
+### X Trends
+1. `#911onABC` — Fans are live-reacting to a new 9-1-1 episode, with Buck/Eddie relationship moments and emotional Bobby storyline clips driving heavy quote-tweets.
+2. `#ROTC` — The tag surged after posts about a deadly incident tied to Old Dominion University’s ROTC program, with users amplifying breaking details and reactions.
+3. `#Kyler` — NFL chatter is spiking around Kyler Murray and the Vikings, including signing rumors, fan reactions, and debate over QB competition with J.J. McCarthy.
+4. `#KyraMachida` — Signal is noisy; top posts are multilingual and mixed with unrelated geopolitics/viral terms, suggesting a weak or cross-network trend rather than one clear event.
+5. `#KC-135` — Posts are focused on claims of a U.S. KC-135 tanker crash in Iraq during Iran-related operations, driving intense wartime speculation and rapid reposting.
+6. `#Vikings` — The Vikings trend is tied to the same QB news cycle, with memes and clips about Kyler Murray potentially joining Minnesota and what it means for the offense.
+7. `#Auburn` — College basketball discourse is driving this trend after Auburn’s late-game collapse, coaching technicals, and postgame comments sparked major SEC debate.
+8. `#Brisker` — NFL free-agency chatter pushed Brisker up as fans discussed Jaquan Brisker-related move rumors and broader defensive back signings across teams.
+9. `#Megyn` — Megyn Kelly is trending over clips criticizing media narratives and a separate flare-up over conservative-media personalities, generating strong quote-post engagement.
+10. `#ISIS` — The topic is being amplified in posts linking the Old Dominion suspect and other inflammatory clips, mixing breaking-news claims with political outrage.
+
 # Daily Retail & X Trends Routine
 
 ## 2026-03-10

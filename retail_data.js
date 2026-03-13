@@ -1,4 +1,46 @@
 const retailHistory = {
+  "2026-03-13": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=19cVwIVMC-5OxtVrq019K8UThsstncJ0_",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run."
+            },
+            {
+                "title": "Momentum skewed to TV, military/news, and NFL/college sports",
+                "description": "Top visible X set from the latest run was #911onABC, #ROTC, #Kyler, #KyraMachida, #KC-135, #Vikings, #Auburn, #Brisker, #Megyn, and #ISIS."
+            },
+            {
+                "title": "Retail homepage signal was mixed across off-price and department stores",
+                "description": "Retail Dive surfaced fresh stories for Kohl's, Target, Ross, Belk, and Dillard's-linked coverage; others had no clear fresh standalone update."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "Target reduces prices on 3K products to draw in busy families",
+                "summary": "Seasonal reductions include baby products as Target tries to recover family traffic."
+            },
+            {
+                "store": "Ross",
+                "headline": "Ross opens 17 stores, pushing forward with brick-and-mortar expansion",
+                "summary": "Off-price expansion remains active amid broader category competition."
+            }
+        ],
+        "xTrends": [
+            { "name": "#911onABC", "desc": "Fans are live-reacting to a new 9-1-1 episode, with Buck/Eddie relationship moments and emotional Bobby storyline clips driving heavy quote-tweets." },
+            { "name": "#ROTC", "desc": "The tag surged after posts about a deadly incident tied to Old Dominion University’s ROTC program, with users amplifying breaking details and reactions." },
+            { "name": "#Kyler", "desc": "NFL chatter is spiking around Kyler Murray and the Vikings, including signing rumors, fan reactions, and debate over QB competition with J.J. McCarthy." },
+            { "name": "#KyraMachida", "desc": "Signal is noisy; top posts are multilingual and mixed with unrelated geopolitics/viral terms, suggesting a weak or cross-network trend rather than one clear event." },
+            { "name": "#KC-135", "desc": "Posts are focused on claims of a U.S. KC-135 tanker crash in Iraq during Iran-related operations, driving intense wartime speculation and rapid reposting." },
+            { "name": "#Vikings", "desc": "The Vikings trend is tied to the same QB news cycle, with memes and clips about Kyler Murray potentially joining Minnesota and what it means for the offense." },
+            { "name": "#Auburn", "desc": "College basketball discourse is driving this trend after Auburn’s late-game collapse, coaching technicals, and postgame comments sparked major SEC debate." },
+            { "name": "#Brisker", "desc": "NFL free-agency chatter pushed Brisker up as fans discussed Jaquan Brisker-related move rumors and broader defensive back signings across teams." },
+            { "name": "#Megyn", "desc": "Megyn Kelly is trending over clips criticizing media narratives and a separate flare-up over conservative-media personalities, generating strong quote-post engagement." },
+            { "name": "#ISIS", "desc": "The topic is being amplified in posts linking the Old Dominion suspect and other inflammatory clips, mixing breaking-news claims with political outrage." }
+        ]
+    },
+
   "2026-03-12": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=1-dghKQLxthmC1jWG5_R_D890fycdtiOX",
         "trends": [
