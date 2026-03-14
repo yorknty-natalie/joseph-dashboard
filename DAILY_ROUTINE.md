@@ -628,3 +628,28 @@ RetailDive retailer scan (homepage):
 8. `#loveisblindreunion` — Reunion episode fallout and cast discourse.
 9. `#Speedball` — Combat-sports clip sharing and performance talk.
 10. `#Vinnie` — Mixed entertainment/sports fan chatter.
+
+## 2026-03-14
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 partial failure (Google Trends category pages returned cookie/consent interstitial text; structured top-10 unavailable).
+
+RetailDive retailer scan (homepage):
+- Kohl's: [Kohl’s rules out major store closures despite disappointing Q4](https://www.retaildive.com/news/kohls-rules-out-major-store-closures-disappointing-q4/814282/) — simplifying promotions and adding value-priced assortment.
+- Target: [Target reduces prices on 3K products to draw in busy families](https://www.retaildive.com/news/target-spring-price-reductions-busy-families/814423/) — seasonal cuts, including baby products.
+- Macy's: No clear update in the last 24h on RetailDive homepage.
+- Dillard's: [Petal & Pup eyes launch with Dillard’s, Von Maur](https://www.retaildive.com/news/petal-pup-launch-dillards-von-maur/814245/) — partner-brand launch context.
+- Belk: No clear update in the last 24h on RetailDive homepage.
+- Bealls: No clear update in the last 24h on RetailDive homepage.
+- Walmart: No clear update in the last 24h on RetailDive homepage.
+- Ross: [Ross opens 17 stores, pushing forward with brick-and-mortar expansion](https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/) — store growth push.
+- Burlington: [Could off-price retailers start grabbing market share from each other?](https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/) — off-price expansion theme including Burlington.
+- TJ Maxx: [Could off-price retailers start grabbing market share from each other?](https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/) — off-price expansion theme including TJX.
+
+### X Trends
+1. `#Friday the 13th` — Top posts are full of Friday-the-13th jokes, horror references, and date-themed memes; trend is calendar-event driven.
+2. `#Christ is King` — Mostly devotional declarations, faith graphics, and reposted religious affirmations.
+3. `#Jack Harlow` — Birthday shout-outs and fan debate around his music style drove the spike.
+4. `#Boasberg` — Politically charged posts about Judge James Boasberg, legal powers, and impeachment rhetoric.
+5. `#Sneed` — Signal is noisy and mixed (crypto/sports/legacy chatter), likely a weak multi-context trend.
+

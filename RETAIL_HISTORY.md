@@ -1555,3 +1555,104 @@
   }
 }
 ```
+
+### 2026-03-14
+```json
+{
+  "retailHistory": {
+    "2026-03-14": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable — Step 1 partial failure (Google Trends cookie/consent interstitial).",
+      "retailDiveNews": [
+        {
+          "retailer": "Kohl's",
+          "headline": "Kohl’s rules out major store closures despite disappointing Q4",
+          "summary": "Simplifying promotions and adding value-priced assortment.",
+          "url": "https://www.retaildive.com/news/kohls-rules-out-major-store-closures-disappointing-q4/814282/"
+        },
+        {
+          "retailer": "Target",
+          "headline": "Target reduces prices on 3K products to draw in busy families",
+          "summary": "Seasonal cuts include baby products.",
+          "url": "https://www.retaildive.com/news/target-spring-price-reductions-busy-families/814423/"
+        },
+        {
+          "retailer": "Macy's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Dillard's",
+          "headline": "Petal & Pup eyes launch with Dillard’s, Von Maur",
+          "summary": "Partner-brand launch context.",
+          "url": "https://www.retaildive.com/news/petal-pup-launch-dillards-von-maur/814245/"
+        },
+        {
+          "retailer": "Belk",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Bealls",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Walmart",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Ross",
+          "headline": "Ross opens 17 stores, pushing forward with brick-and-mortar expansion",
+          "summary": "Store growth push across banners.",
+          "url": "https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/"
+        },
+        {
+          "retailer": "Burlington",
+          "headline": "Could off-price retailers start grabbing market share from each other?",
+          "summary": "Off-price expansion theme featuring TJX/Ross/Burlington.",
+          "url": "https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/"
+        },
+        {
+          "retailer": "TJ Maxx",
+          "headline": "Could off-price retailers start grabbing market share from each other?",
+          "summary": "Off-price expansion theme featuring TJX/Ross/Burlington.",
+          "url": "https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/"
+        }
+      ],
+      "xTrends": [
+        {
+          "rank": 1,
+          "hashtag": "#Friday the 13th",
+          "why_hot": "Friday-the-13th jokes, horror references, and date-themed memes dominated top posts."
+        },
+        {
+          "rank": 2,
+          "hashtag": "#Christ is King",
+          "why_hot": "Devotional declarations and faith-community reposts drove momentum."
+        },
+        {
+          "rank": 3,
+          "hashtag": "#Jack Harlow",
+          "why_hot": "Birthday shout-outs and music-style debate from fan communities."
+        },
+        {
+          "rank": 4,
+          "hashtag": "#Boasberg",
+          "why_hot": "Partisan legal-politics discourse referencing Judge James Boasberg."
+        },
+        {
+          "rank": 5,
+          "hashtag": "#Sneed",
+          "why_hot": "Noisy mixed signal across crypto/sports and legacy posts."
+        }
+      ]
+    }
+  }
+}
+```
