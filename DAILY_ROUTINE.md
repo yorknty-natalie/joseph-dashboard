@@ -653,3 +653,24 @@ RetailDive retailer scan (homepage):
 4. `#Boasberg` — Politically charged posts about Judge James Boasberg, legal powers, and impeachment rhetoric.
 5. `#Sneed` — Signal is noisy and mixed (crypto/sports/legacy chatter), likely a weak multi-context trend.
 
+
+## 2026-03-15
+
+### US Retail (Google Trends + RetailDive)
+Google Trends: unavailable — Step 1 failed (category pages returned consent wall, no trend rows extractable in this run).
+
+RetailDive highlights (source: https://www.retaildive.com/):
+- Kohl's: "Kohl’s rules out major store closures despite disappointing Q4."
+- Target: "Target reduces prices on 3K products to draw in busy families."
+- Ross: "Ross opens 17 stores, pushing forward with brick-and-mortar expansion."
+- Burlington/TJX: RetailDive asks whether off-price retailers are taking share from each other.
+- Dillard’s: Petal & Pup plans launch with Dillard’s (partnership mention).
+- Walmart, Macy’s, Belk, Bealls: no clear fresh homepage update found in this run.
+
+### X Trends
+1. #UFCVegas114 — UFC Vegas 114 appears to be trending from live fight-night chatter, round-by-round reactions, and clips from standout moments. The trend pattern on Trends24 is consistent with an active sports event spike.
+2. #St. John — St. John is likely tied to college basketball buzz, with fans discussing game results, ranking implications, and tournament momentum. Signal is somewhat noisy due overlapping school/team mentions.
+3. #Uconn — UConn is trending from concentrated NCAA basketball discussion, likely around game outcomes, standout players, and postseason seeding talk. The trend aligns with overlapping college hoops topics appearing in the same period.
+4. #Charles Johnson — Charles Johnson is trending but the topical signal is mixed, suggesting multiple people with the same name being discussed at once. Signal is noisy; likely mixed/weak trend without a single dominant story.
+5. #AEWCollision — #AEWCollision is trending from wrestling fans reacting to match outcomes, promos, and storyline turns from the latest show. The tag’s placement among new trends indicates an active broadcast-driven spike.
+
