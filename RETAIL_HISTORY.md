@@ -120,6 +120,101 @@
           "why_hot": "#AEWCollision is trending from wrestling fans reacting to match outcomes, promos, and storyline turns from the latest show. The tag’s placement among new trends indicates an active broadcast-driven spike."
         }
       ]
+    },
+    "2026-03-16": {
+      "googleTrends": {
+        "data": null,
+        "note": "Step 1 failed: Google Trends category pages returned cookie/consent wall; no extractable trend rows."
+      },
+      "retailDiveNews": [
+        {
+          "retailer": "Kohl's",
+          "headline": "Kohl’s rules out major store closures despite disappointing Q4",
+          "summary": "Simplifying promotions and adding value-priced assortment.",
+          "url": "https://www.retaildive.com/news/kohls-rules-out-major-store-closures-disappointing-q4/814282/"
+        },
+        {
+          "retailer": "Target",
+          "headline": "Target reduces prices on 3K products to draw in busy families",
+          "summary": "Seasonal cuts include baby products to win back families.",
+          "url": "https://www.retaildive.com/news/target-spring-price-reductions-busy-families/814423/"
+        },
+        {
+          "retailer": "Macy's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Dillard's",
+          "headline": "Petal & Pup eyes launch with Dillard’s, Von Maur",
+          "summary": "Partner-brand launch context.",
+          "url": "https://www.retaildive.com/news/petal-pup-launch-dillards-von-maur/814245/"
+        },
+        {
+          "retailer": "Belk",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Bealls",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Walmart",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Ross",
+          "headline": "Ross opens 17 stores, pushing forward with brick-and-mortar expansion",
+          "summary": "Store growth push across Ross/DD’s banners.",
+          "url": "https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/"
+        },
+        {
+          "retailer": "Burlington",
+          "headline": "Could off-price retailers start grabbing market share from each other?",
+          "summary": "Off-price expansion theme includes Burlington.",
+          "url": "https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/"
+        },
+        {
+          "retailer": "TJ Maxx",
+          "headline": "Could off-price retailers start grabbing market share from each other?",
+          "summary": "Off-price expansion theme includes TJX.",
+          "url": "https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/"
+        }
+      ],
+      "xTrends": [
+        {
+          "rank": 1,
+          "hashtag": "#Tucker",
+          "why_hot": "Top posts are dominated by Tucker Carlson clips, especially a viral video post alleging CIA surveillance that drew very high engagement. A major SNL sketch featuring Tucker also amplified discussion and meme traffic."
+        },
+        {
+          "rank": 2,
+          "hashtag": "#Selection Sunday",
+          "why_hot": "Conversation centers on NCAA March Madness bracket reveal day, with basketball accounts posting hype clips and bracket reactions. Some search results are stale or mixed, but current posts confirm active tournament-selection chatter."
+        },
+        {
+          "rank": 3,
+          "hashtag": "#Oscars",
+          "why_hot": "Users are reacting live to the 2026 Oscars broadcast, including acceptance-speech moments and controversial mic-cut incidents. Posts tied to performances and award outcomes are driving rapid repost and comment volume."
+        },
+        {
+          "rank": 4,
+          "hashtag": "#Purdue",
+          "why_hot": "Top posts focus on Purdue basketball game discourse, especially heated referee/foul-call arguments during a matchup involving Michigan. Engagement is concentrated in real-time fan reactions and clip commentary."
+        },
+        {
+          "rank": 5,
+          "hashtag": "#Sinners",
+          "why_hot": "The trend is tied to Oscars-night reactions around the film Sinners, including performance praise and frustration over specific award results. Posts show strong fan sentiment and cross-link heavily with #Oscars."
+        }
+      ]
     }
   }
 }

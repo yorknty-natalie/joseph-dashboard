@@ -674,3 +674,27 @@ RetailDive highlights (source: https://www.retaildive.com/):
 4. #Charles Johnson — Charles Johnson is trending but the topical signal is mixed, suggesting multiple people with the same name being discussed at once. Signal is noisy; likely mixed/weak trend without a single dominant story.
 5. #AEWCollision — #AEWCollision is trending from wrestling fans reacting to match outcomes, promos, and storyline turns from the latest show. The tag’s placement among new trends indicates an active broadcast-driven spike.
 
+
+## 2026-03-16
+
+### US Retail (Google Trends + RetailDive)
+Google Trends: unavailable — Step 1 failed (all six category pages returned cookie/consent wall, no trend rows extractable in this run).
+
+RetailDive retailer scan (homepage):
+- Kohl's: [Kohl’s rules out major store closures despite disappointing Q4](https://www.retaildive.com/news/kohls-rules-out-major-store-closures-disappointing-q4/814282/) — simplifying promotions and adding value-priced assortment.
+- Target: [Target reduces prices on 3K products to draw in busy families](https://www.retaildive.com/news/target-spring-price-reductions-busy-families/814423/) — seasonal cuts, including baby products.
+- Macy's: No clear update in the last 24h on RetailDive homepage.
+- Dillard's: [Petal & Pup eyes launch with Dillard’s, Von Maur](https://www.retaildive.com/news/petal-pup-launch-dillards-von-maur/814245/) — partner-brand launch context.
+- Belk: No clear update in the last 24h on RetailDive homepage.
+- Bealls: No clear update in the last 24h on RetailDive homepage.
+- Walmart: No clear update in the last 24h on RetailDive homepage.
+- Ross: [Ross opens 17 stores, pushing forward with brick-and-mortar expansion](https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/) — store growth push.
+- Burlington: [Could off-price retailers start grabbing market share from each other?](https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/) — off-price expansion theme including Burlington.
+- TJ Maxx: [Could off-price retailers start grabbing market share from each other?](https://www.retaildive.com/news/off-price-retailers-take-market-share-tjx-ross-burlington/813868/) — off-price expansion theme including TJX.
+
+### X Trends
+1. `#Tucker` — Top posts are dominated by Tucker Carlson clips, especially a viral video post alleging CIA surveillance that drew very high engagement. A major SNL sketch featuring Tucker also amplified discussion and meme traffic.
+2. `#Selection Sunday` — Conversation centers on NCAA March Madness bracket reveal day, with basketball accounts posting hype clips and bracket reactions. Some search results are stale or mixed, but current posts confirm active tournament-selection chatter.
+3. `#Oscars` — Users are reacting live to the 2026 Oscars broadcast, including acceptance-speech moments and controversial mic-cut incidents. Posts tied to performances and award outcomes are driving rapid repost and comment volume.
+4. `#Purdue` — Top posts focus on Purdue basketball game discourse, especially heated referee/foul-call arguments during a matchup involving Michigan. Engagement is concentrated in real-time fan reactions and clip commentary.
+5. `#Sinners` — The trend is tied to Oscars-night reactions around the film Sinners, including performance praise and frustration over specific award results. Posts show strong fan sentiment and cross-link heavily with #Oscars.
