@@ -698,3 +698,16 @@ RetailDive retailer scan (homepage):
 3. `#Oscars` — Users are reacting live to the 2026 Oscars broadcast, including acceptance-speech moments and controversial mic-cut incidents. Posts tied to performances and award outcomes are driving rapid repost and comment volume.
 4. `#Purdue` — Top posts focus on Purdue basketball game discourse, especially heated referee/foul-call arguments during a matchup involving Michigan. Engagement is concentrated in real-time fan reactions and clip commentary.
 5. `#Sinners` — The trend is tied to Oscars-night reactions around the film Sinners, including performance praise and frustration over specific award results. Posts show strong fan sentiment and cross-link heavily with #Oscars.
+
+## 2026-03-17
+
+### US Retail (Google Trends + RetailDive)
+unavailable — Step 1 failed
+
+### X Trends
+1. `#NATO` — #NATO is drawing heavy discussion around alliance military posture, defense spending, and war-related updates across Europe, with rapid reposts from political and security accounts. On X Top feed, signal is mixed with news clips and opinion threads rather than a single viral post.
+2. `#DLSS 5` — #DLSS 5 is trending after NVIDIA-related AI graphics announcements and gaming benchmarks circulated widely, triggering debate between visual-quality enthusiasts and competitive-performance players. Top posts center on side-by-side comparison clips and launch speculation.
+3. `#316Day` — #316Day is trending from pro-wrestling fandom celebrating Stone Cold’s iconic 3:16 legacy, with tribute videos, catchphrases, and throwback match highlights driving engagement spikes. WWE-adjacent communities are posting synchronized celebratory content.
+4. `#Sonics` — #Sonics is active due to ongoing NBA expansion speculation and fan campaigns for Seattle’s franchise return, amplified by highlight edits and nostalgic team-era clips. Conversation blends rumor tracking with city-pride momentum.
+5. `#Susie` — #Susie appears in fragmented bursts tied to multiple unrelated posts and personalities, without a single dominant event in the visible Top feed. Signal is noisy; likely mixed/weak trend driven by overlapping conversations.
+

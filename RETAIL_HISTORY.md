@@ -215,6 +215,40 @@
           "why_hot": "The trend is tied to Oscars-night reactions around the film Sinners, including performance praise and frustration over specific award results. Posts show strong fan sentiment and cross-link heavily with #Oscars."
         }
       ]
+    },
+    "2026-03-17": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable — Step 1 failed",
+      "retailDiveNews": null,
+      "retailDiveNewsNote": "unavailable — Step 1 failed",
+      "xTrends": [
+        {
+          "rank": 1,
+          "hashtag": "#NATO",
+          "why_hot": "#NATO is drawing heavy discussion around alliance military posture, defense spending, and war-related updates across Europe, with rapid reposts from political and security accounts. On X Top feed, signal is mixed with news clips and opinion threads rather than a single viral post."
+        },
+        {
+          "rank": 2,
+          "hashtag": "#DLSS 5",
+          "why_hot": "#DLSS 5 is trending after NVIDIA-related AI graphics announcements and gaming benchmarks circulated widely, triggering debate between visual-quality enthusiasts and competitive-performance players. Top posts center on side-by-side comparison clips and launch speculation."
+        },
+        {
+          "rank": 3,
+          "hashtag": "#316Day",
+          "why_hot": "#316Day is trending from pro-wrestling fandom celebrating Stone Cold’s iconic 3:16 legacy, with tribute videos, catchphrases, and throwback match highlights driving engagement spikes. WWE-adjacent communities are posting synchronized celebratory content."
+        },
+        {
+          "rank": 4,
+          "hashtag": "#Sonics",
+          "why_hot": "#Sonics is active due to ongoing NBA expansion speculation and fan campaigns for Seattle’s franchise return, amplified by highlight edits and nostalgic team-era clips. Conversation blends rumor tracking with city-pride momentum."
+        },
+        {
+          "rank": 5,
+          "hashtag": "#Susie",
+          "why_hot": "#Susie appears in fragmented bursts tied to multiple unrelated posts and personalities, without a single dominant event in the visible Top feed. Signal is noisy; likely mixed/weak trend driven by overlapping conversations."
+        }
+      ],
+      "xTrendsNote": null
     }
   }
 }
