@@ -711,3 +711,28 @@ unavailable — Step 1 failed
 4. `#Sonics` — #Sonics is active due to ongoing NBA expansion speculation and fan campaigns for Seattle’s franchise return, amplified by highlight edits and nostalgic team-era clips. Conversation blends rumor tracking with city-pride momentum.
 5. `#Susie` — #Susie appears in fragmented bursts tied to multiple unrelated posts and personalities, without a single dominant event in the visible Top feed. Signal is noisy; likely mixed/weak trend driven by overlapping conversations.
 
+
+## 2026-03-18
+
+### US Retail (Google Trends + RetailDive)
+Google Trends: unavailable — category pages returned consent/interstitial content in this run.
+
+RetailDive retailer scan (homepage):
+- Kohl's: None — No clear update in the last 24h on RetailDive homepage.
+- Target: An Informa TechTarget Publication — Matched on RetailDive homepage headline mention. (https://www.informatechtarget.com/)
+- Macy's: None — No clear update in the last 24h on RetailDive homepage.
+- Dillard's: None — No clear update in the last 24h on RetailDive homepage.
+- Belk: None — No clear update in the last 24h on RetailDive homepage.
+- Bealls: None — No clear update in the last 24h on RetailDive homepage.
+- Walmart: None — No clear update in the last 24h on RetailDive homepage.
+- Ross: Ross opens 17 stores, pushing forward with brick-and-mortar expansion — Matched on RetailDive homepage headline mention. (https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/)
+- Burlington: None — No clear update in the last 24h on RetailDive homepage.
+- TJ Maxx: None — No clear update in the last 24h on RetailDive homepage.
+
+### X Trends
+1. `#McLean` — Top X posts are dominated by World Baseball Classic coverage, especially a viral clip of Wilyer Abreu's home run from @WBCBaseball. The keyword appears to be pulled into a baseball-heavy trend cluster rather than a standalone non-sports event.
+2. `#WWENXT` — The top post thread centers on WWE NXT results, with strong fan reaction to Jacy Jayne retaining the NXT Women's Championship and discussion of the match finish. The hashtag is being pushed by live-show commentary and replay clips.
+3. `#Howard` — Top results include viral discussion about representation in BTS animation scenes that reference Howard University, with users criticizing how Black students were depicted. The conversation is culture- and identity-focused rather than a single breaking-news event.
+4. `#Eduardo Rodriguez` — Search results are led by World Baseball Classic highlights praising Eduardo Rodriguez's scoreless outing, alongside related game clips and engagement spikes. The trend is tied to ongoing international baseball semifinal buzz.
+5. `#BEISBOLxTELEVEN` — Top posts from @Canal_Televen promote Venezuela vs Italy semifinal baseball coverage with on-air commentary and match highlights. The hashtag is being amplified by live broadcast momentum and fan watch-party chatter.
+

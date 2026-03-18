@@ -249,6 +249,100 @@
         }
       ],
       "xTrendsNote": null
+    },
+    "2026-03-18": {
+      "googleTrends": null,
+      "googleTrendsNote": "unavailable",
+      "retailDiveNews": [
+        {
+          "retailer": "Kohl's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Target",
+          "headline": "An Informa TechTarget Publication",
+          "summary": "Matched on RetailDive homepage headline mention.",
+          "url": "https://www.informatechtarget.com/"
+        },
+        {
+          "retailer": "Macy's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Dillard's",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Belk",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Bealls",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Walmart",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "Ross",
+          "headline": "Ross opens 17 stores, pushing forward with brick-and-mortar expansion",
+          "summary": "Matched on RetailDive homepage headline mention.",
+          "url": "https://www.retaildive.com/news/ross-opens-17-stores-brick-and-mortar-expansion/814522/"
+        },
+        {
+          "retailer": "Burlington",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        },
+        {
+          "retailer": "TJ Maxx",
+          "headline": null,
+          "summary": "No clear update in the last 24h on RetailDive homepage.",
+          "url": null
+        }
+      ],
+      "xTrends": [
+        {
+          "rank": 1,
+          "hashtag": "#McLean",
+          "why_hot": "Top X posts are dominated by World Baseball Classic coverage, especially a viral clip of Wilyer Abreu's home run from @WBCBaseball. The keyword appears to be pulled into a baseball-heavy trend cluster rather than a standalone non-sports event."
+        },
+        {
+          "rank": 2,
+          "hashtag": "#WWENXT",
+          "why_hot": "The top post thread centers on WWE NXT results, with strong fan reaction to Jacy Jayne retaining the NXT Women's Championship and discussion of the match finish. The hashtag is being pushed by live-show commentary and replay clips."
+        },
+        {
+          "rank": 3,
+          "hashtag": "#Howard",
+          "why_hot": "Top results include viral discussion about representation in BTS animation scenes that reference Howard University, with users criticizing how Black students were depicted. The conversation is culture- and identity-focused rather than a single breaking-news event."
+        },
+        {
+          "rank": 4,
+          "hashtag": "#Eduardo Rodriguez",
+          "why_hot": "Search results are led by World Baseball Classic highlights praising Eduardo Rodriguez's scoreless outing, alongside related game clips and engagement spikes. The trend is tied to ongoing international baseball semifinal buzz."
+        },
+        {
+          "rank": 5,
+          "hashtag": "#BEISBOLxTELEVEN",
+          "why_hot": "Top posts from @Canal_Televen promote Venezuela vs Italy semifinal baseball coverage with on-air commentary and match highlights. The hashtag is being amplified by live broadcast momentum and fan watch-party chatter."
+        }
+      ],
+      "xTrendsNote": null
     }
   }
 }

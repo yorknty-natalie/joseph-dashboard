@@ -1,4 +1,55 @@
 const retailHistory = {
+    "2026-03-18": {
+        "imageUrl": "https://drive.google.com/uc?export=view&id=1wARrtQ2uTk09n-62WErtjNtg0gh8BwdO",
+        "trends": [
+            {
+                "title": "Google Trends category pages remained cookie-walled",
+                "description": "All six category URLs returned consent/interstitial content only; structured top-10 rows were unavailable in this run."
+            },
+            {
+                "title": "X trend momentum captured from latest run summary",
+                "description": "Top 5 hashtags were analyzed with why-hot context from the 2026-03-18 run."
+            },
+            {
+                "title": "Retail homepage signal remained selective",
+                "description": "RetailDive homepage produced limited retailer-specific fresh mentions in this run window."
+            }
+        ],
+        "news": [
+            {
+                "store": "Target",
+                "headline": "An Informa TechTarget Publication",
+                "summary": "Matched on RetailDive homepage headline mention."
+            },
+            {
+                "store": "Ross",
+                "headline": "Ross opens 17 stores, pushing forward with brick-and-mortar expansion",
+                "summary": "Matched on RetailDive homepage headline mention."
+            }
+        ],
+        "xTrends": [
+            {
+                "name": "#McLean",
+                "desc": "Top X posts are dominated by World Baseball Classic coverage, especially a viral clip of Wilyer Abreu's home run from @WBCBaseball. The keyword appears to be pulled into a baseball-heavy trend cluster rather than a standalone non-sports event."
+            },
+            {
+                "name": "#WWENXT",
+                "desc": "The top post thread centers on WWE NXT results, with strong fan reaction to Jacy Jayne retaining the NXT Women's Championship and discussion of the match finish. The hashtag is being pushed by live-show commentary and replay clips."
+            },
+            {
+                "name": "#Howard",
+                "desc": "Top results include viral discussion about representation in BTS animation scenes that reference Howard University, with users criticizing how Black students were depicted. The conversation is culture- and identity-focused rather than a single breaking-news event."
+            },
+            {
+                "name": "#Eduardo Rodriguez",
+                "desc": "Search results are led by World Baseball Classic highlights praising Eduardo Rodriguez's scoreless outing, alongside related game clips and engagement spikes. The trend is tied to ongoing international baseball semifinal buzz."
+            },
+            {
+                "name": "#BEISBOLxTELEVEN",
+                "desc": "Top posts from @Canal_Televen promote Venezuela vs Italy semifinal baseball coverage with on-air commentary and match highlights. The hashtag is being amplified by live broadcast momentum and fan watch-party chatter."
+            }
+        ]
+    },
   "2026-03-13": {
         "imageUrl": "https://drive.google.com/uc?export=view&id=19cVwIVMC-5OxtVrq019K8UThsstncJ0_",
         "trends": [
